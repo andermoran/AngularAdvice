@@ -94,16 +94,16 @@ html[app.component.html] -- $event --> ts[app.component.ts]
 #### [Example](https://stackblitz.com/edit/angular-pkgmpx)
 > *Note: ngModel is a directive but you don't need to know what that is right now*
 
-> Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`.  In the previous example, if  the value `userInput` is changed in the typescript code, then the value in the input field does not change. Why? Remember, the previous example was a *one* direction data binding so the value o
+> Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`.  In the previous example, if  the value `userInput` is changed in the typescript code, then the value in the input field does not change. Why? Remember, the previous example was a *one* direction data binding so the value of the input field changed the value of  `userInput`; however, if the value of  `userInput` was changed outside of the input field, then the input field would not update. This is because the input field's value can only be changed if
 ```mermaid
 graph LR
 html[app.component.html] -- TypeScript variable --> ts[app.component.ts]
 ts[app.component.ts] -- TypeScript variable --> html[app.component.html]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MzQyMjkyOSwtMTgxNjY3NDY0NSwtMT
-MwODg1OTI3MywtOTUzNzE3MDQ3LDI2OTgwNzYyMyw3ODMwMTM5
-ODMsLTE2Njc2NjE4MDMsLTE2OTk2NTQyMTEsLTE3Mzc0MDQxNz
-QsLTE2NDA5NjY4OTksOTYyNjAwODk4LDEzNjUzMzc0MjUsLTE1
-ODc2NDAzODYsLTExNDQ2NDY3MTldfQ==
+eyJoaXN0b3J5IjpbNzA1NTgxNzMsLTE4MTY2NzQ2NDUsLTEzMD
+g4NTkyNzMsLTk1MzcxNzA0NywyNjk4MDc2MjMsNzgzMDEzOTgz
+LC0xNjY3NjYxODAzLC0xNjk5NjU0MjExLC0xNzM3NDA0MTc0LC
+0xNjQwOTY2ODk5LDk2MjYwMDg5OCwxMzY1MzM3NDI1LC0xNTg3
+NjQwMzg2LC0xMTQ0NjQ2NzE5XX0=
 -->
