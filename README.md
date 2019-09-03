@@ -77,7 +77,7 @@ inputUpdated(event: Event) {
 > Notice how `(input)="inputUpdated($event)"` takes `$event` as a parameter, allowing `app.component.ts` to get information from `app.component.html`. Here we are passing information stored in `$event` in one direction (from `app.component.html` to `app.component.ts`) and logging  it in `app.component.ts` via the `inputUpdated` method
 ```mermaid
 graph LR
-html[app.component.html] -- $event --> ts[app.component.ts]
+html[input field - app.component.html] -- $event --> ts[app.component.ts]
 ```
 
 ### Two-Way Databinding
@@ -94,14 +94,14 @@ html[app.component.html] -- $event --> ts[app.component.ts]
 #### [Example](https://stackblitz.com/edit/angular-pkgmpx)
 > *Note: ngModel is a directive but you don't need to know what that is right now*
 
-> Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`.  In the previous example, if the value `userInput` is changed in the typescript code, then the value in the input field does not change. Why? Remember, the previous example was a *one* direction data binding so the value of the input field changed the value of  `userInput`; however, if the value of  `userInput` was changed outside of the input field, then the input field would not update. This is because the input field's value can only be changed if the user types keystrokes into it (like how it would normally work). In our *two* directional example, the value of the input field is tied to the value of  `userInput`. So if `userInput` ch
+> Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`.  In the previous example, if the value `userInput` is changed in the typescript code, then the value in the input field does not change. Why? Remember, the previous example was a *one* direction data binding so the value of the input field changed the value of  `userInput`; however, if the value of  `userInput` was changed outside of the input field, then the input field would not update. This is because the input field's value can only be changed if the user types keystrokes into it (like how it would normally work). In our *two* directional example, the value of the input field is tied to the value of  `userInput`. So if `userInput` changes, then the value inside the text field changes and vice versa.
 ```mermaid
 graph LR
 html[app.component.html] -- TypeScript variable --> ts[app.component.ts]
 ts[app.component.ts] -- TypeScript variable --> html[app.component.html]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyOTM5ODI0MSwtMTgxNjY3NDY0NSwtMT
+eyJoaXN0b3J5IjpbMTQ3MTE1NTE2NSwtMTgxNjY3NDY0NSwtMT
 MwODg1OTI3MywtOTUzNzE3MDQ3LDI2OTgwNzYyMyw3ODMwMTM5
 ODMsLTE2Njc2NjE4MDMsLTE2OTk2NTQyMTEsLTE3Mzc0MDQxNz
 QsLTE2NDA5NjY4OTksOTYyNjAwODk4LDEzNjUzMzc0MjUsLTE1
