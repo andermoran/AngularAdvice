@@ -66,13 +66,13 @@ inputUpdated(event: Event) {
 	this.myVar = (<HTMLInputElement>event.target).value;
 }
 ```
-> Now TypeSript knows that we know that the type of the `HTMLElement` of the event is `HTMLInputElement`
+> Now TypeScript knows that we know that the type of the `HTMLElement` of the event is `HTMLInputElement`
 
 ![TypeScript no longer complaining with variable and is now happy](https://github.com/andermoran/AngularAdvice/blob/master/images/event_error_fixed_explicit.png)
 > Notice how `value` is no longer red underlined
 #### [Example](https://stackblitz.com/edit/angular-9waen7)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzc0MDQxNzQsLTE2NDA5NjY4OTksOT
-YyNjAwODk4LDEzNjUzMzc0MjUsLTE1ODc2NDAzODYsLTExNDQ2
-NDY3MTldfQ==
+eyJoaXN0b3J5IjpbLTE2OTk2NTQyMTEsLTE3Mzc0MDQxNzQsLT
+E2NDA5NjY4OTksOTYyNjAwODk4LDEzNjUzMzc0MjUsLTE1ODc2
+NDAzODYsLTExNDQ2NDY3MTldfQ==
 -->
