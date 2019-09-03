@@ -19,7 +19,7 @@
 ```
 - Where `name` is a variable in the corresponding TypeScript code
 - The variable being interpolated into a string can be a `string`, `number`, `boolean`, etc. as long as it can be represented as a `string` in the end
-- [Example](https://stackblitz.com/edit/angular-cau2tt)
+#### [Example](https://stackblitz.com/edit/angular-cau2tt)
 > Notice the `name` variable in `app.component.ts` and the `{{ name }}` in `app.component.html` 
 
 ### Property Binding
@@ -29,7 +29,7 @@
 ```
 - Where `buttonDisabled` is a variable in a component file
 - If `buttonDisabled` is `true`, then the button is disabled, if it is `false`, then the button is enabled
-- [Example](https://stackblitz.com/edit/angular-2knkts)
+#### [Example](https://stackblitz.com/edit/angular-2knkts)
 > Notice the `buttonDisabled` variable in `app.component.ts` and the `[disabled]="buttonDisabled"` in `app.component.html` . Try changing the value of `buttonDisabled` from `false` to `true`
 
 ### Event Binding
@@ -39,9 +39,9 @@
 ```
 - Where `onButtonClick()` is a method in a component file
 - So whenever `click()` fires, it triggers `onButtonClick()`
-- [Example](https://stackblitz.com/edit/angular-2knkts)
+#### [Example](https://stackblitz.com/edit/angular-2knkts)
 > Notice the `onButtonClick()` method in `app.component.ts` and the `(click)="onButtonClick()"` in `app.component.html` 
-- Can pass data with event by using the reserved `$event` keyword
+- Data can be passed with event by using the reserved `$event` keyword
 - `$event` can be passed to the component method through the parameter in the HTML template
  ```html
  <input type="text" class="form-control" (input)="inputUpdated($event)"/>
@@ -66,7 +66,7 @@ inputUpdated(event: Event) {
 
 ![TypeScript no longer complaining with variable and is now happy](https://github.com/andermoran/AngularAdvice/blob/master/images/event_error_fixed_explicit.png)
 > Notice how `value` is no longer red underlined
-- [Example](https://stackblitz.com/edit/angular-9waen7)
+#### [Example](https://stackblitz.com/edit/angular-9waen7)
 
 
 
@@ -75,6 +75,6 @@ inputUpdated(event: Event) {
 > **Important**: For events, you don't bind to onclick but only to click (=> (click))
 > The MDN (Mozilla Developer Network) offers nice lists of all properties and events of the element you're interested in. Googling for  `YOUR_ELEMENT properties` or  `YOUR_ELEMENT events` should yield nice results
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4OTI5MzY5Myw5NjI2MDA4OTgsMTM2NT
-MzNzQyNSwtMTU4NzY0MDM4NiwtMTE0NDY0NjcxOV19
+eyJoaXN0b3J5IjpbLTE2NDA5NjY4OTksOTYyNjAwODk4LDEzNj
+UzMzc0MjUsLTE1ODc2NDAzODYsLTExNDQ2NDY3MTldfQ==
 -->
