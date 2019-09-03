@@ -42,7 +42,7 @@
 - Can pass data with event by using the reserved `$event` keyword
 - `$event` can be passed to the component method through the parameter in the HTML template
  ```html
- <input type="text" class="form-control" (input)=“inputUpdated($event)”/>
+ <input type="text" class="form-control" (input)="inputUpdated($event)"/>
  ```
 - In our TypeScript code, we can reference this via 
 ```typescript
@@ -59,5 +59,5 @@ inputUpdated(event: Event) {
 > Now TypeSript knows that we know that the type of the `HTMLElement` of the event is `HTMLInputElement`
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDQ2NDY3MTldfQ==
+eyJoaXN0b3J5IjpbMjQ5MTg3NjE0LC0xMTQ0NjQ2NzE5XX0=
 -->
