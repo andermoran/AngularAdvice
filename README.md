@@ -25,7 +25,7 @@
 > Notice the `name` variable in `app.component.ts` and the `{{ name }}` in `app.component.html` 
 
 ### Property Binding
-- Bind HTML attributes to TypeScript variables using `[`  and `]`
+- Bind HTML attributes to TypeScript variables using `[` and `]`
 ```html
 <button [disabled]="buttonDisabled">Click me</button>
 ```
@@ -47,9 +47,9 @@
 #### [Example](https://stackblitz.com/edit/angular-2knkts)
 > Notice the `onButtonClick()` method in `app.component.ts` and the `(click)="onButtonClick()"` in `app.component.html` 
 - *Note from [Maximilian Schwarzmüller](https://twitter.com/maxedapps):*
->  How do you know to which Properties or Events of HTML Elements you may bind? You can basically bind to all Properties and Events - a good idea is to  `console.log()` the element you're interested in to see which properties and events it offers
+>  How do you know to which Properties or Events of HTML Elements you may bind? You can basically bind to all Properties and Events - a good idea is to `console.log()` the element you're interested in to see which properties and events it offers
 > **Important**: For events, you don't bind to onclick but only to click (=> (click))
-> The MDN (Mozilla Developer Network) offers nice lists of all properties and events of the element you're interested in. Googling for  `YOUR_ELEMENT properties` or  `YOUR_ELEMENT events` should yield nice results
+> The MDN (Mozilla Developer Network) offers nice lists of all properties and events of the element you're interested in. Googling for `YOUR_ELEMENT properties` or `YOUR_ELEMENT events` should yield nice results
 - Data can be passed with event by using the reserved `$event` keyword
 - `$event` can be passed to the component method through the parameter in the HTML template
  ```html
@@ -79,7 +79,7 @@ inputUpdated(event: Event) {
 > Try typing into the input field and looking at the console:
 
 ![Console showing "Hello" being logged](https://github.com/andermoran/AngularAdvice/blob/master/images/Screen%20Shot%202019-09-03%20at%2011.24.21%20AM.png)
-> Notice how `(input)="inputUpdated($event)"` takes `$event` as a parameter, allowing `app.component.ts` to get information from `app.component.html`. Here we are passing information stored in `$event` in one direction (from `app.component.html` to `app.component.ts`) and logging  it in `app.component.ts` via the `inputUpdated` method
+> Notice how `(input)="inputUpdated($event)"` takes `$event` as a parameter, allowing `app.component.ts` to get information from `app.component.html`. Here we are passing information stored in `$event` in one direction (from `app.component.html` to `app.component.ts`) and logging it in `app.component.ts` via the `inputUpdated` method
 ```mermaid
 graph LR
 html["input field value (app.component.html)"] -- $event --> ts["handler method (app.component.ts)"]
@@ -90,16 +90,16 @@ html["input field value (app.component.html)"] -- $event --> ts["handler method 
 
 > *Note from [Maximilian Schwarzmüller](https://twitter.com/maxedapps):*
 > #### Important: FormsModule is Required for Two-Way-Binding!
-> Important: For Two-Way-Binding to work, you need to enable the  `ngModel` directive. This is done by adding the  `FormsModule` to the  `imports[]` array in the AppModule. 
+> Important: For Two-Way-Binding to work, you need to enable the `ngModel` directive. This is done by adding the `FormsModule` to the `imports[]` array in the AppModule. 
 > 
-> You then also need to add the import from  `@angular/forms` in the app.module.ts file:
+> You then also need to add the import from `@angular/forms` in the app.module.ts file:
 > 
 > `import { FormsModule } from '@angular/forms';`
 - With two-way data binding, information is sent in *both* directions instead of only one
 #### [Example](https://stackblitz.com/edit/angular-pkgmpx)
 > *Note: ngModel is a directive but you don't need to know what that is right now*
 
-> Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`.  In the previous example, if the value `userInput` is changed in the typescript code, then the value in the input field does not change. Why? Remember, the previous example was a *one* direction data binding so the value of the input field changed the value of  `userInput`; however, if the value of  `userInput` was changed outside of the input field, then the input field would not update. This is because the input field's value can only be changed if the user types keystrokes into it (like how it would normally work). In our *two* directional example, the value of the input field is tied to the value of  `userInput`. So if `userInput` changes, then the value inside the text field changes and vice versa. Try changing the value of the textfield by typing into it, this changed the value of `userInput`. Now click the `Set to "Hello, World!" button` and see how the value of the input field changed to "Hello, World!". When this button is clicked, TypeScript code is run that sets the value of `userInput` to "Hello, World!". Since `userInput` is bound to the input field value, the value of the input field is then set to "Hello, World!".
+> Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`. In the previous example, if the value `userInput` is changed in the typescript code, then the value in the input field does not change. Why? Remember, the previous example was a *one* direction data binding so the value of the input field changed the value of `userInput`; however, if the value of  `userInput` was changed outside of the input field, then the input field would not update. This is because the input field's value can only be changed if the user types keystrokes into it (like how it would normally work). In our *two* directional example, the value of the input field is tied to the value of  `userInput`. So if `userInput` changes, then the value inside the text field changes and vice versa. Try changing the value of the textfield by typing into it, this changed the value of `userInput`. Now click the `Set to "Hello, World!" button` and see how the value of the input field changed to "Hello, World!". When this button is clicked, TypeScript code is run that sets the value of `userInput` to "Hello, World!". Since `userInput` is bound to the input field value, the value of the input field is then set to "Hello, World!".
 ```mermaid
 graph LR
 html["input field value (app.component.html)"] --> ts["variable (app.component.ts)"]
@@ -114,10 +114,10 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 <p appTurnGreen>Receives a green background!</p>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzU0NTkxOTEsMTU2MjA0NDYwMywtMT
-U4NjcxNzg3OSwtMTgxNjY3NDY0NSwtMTMwODg1OTI3MywtOTUz
-NzE3MDQ3LDI2OTgwNzYyMyw3ODMwMTM5ODMsLTE2Njc2NjE4MD
-MsLTE2OTk2NTQyMTEsLTE3Mzc0MDQxNzQsLTE2NDA5NjY4OTks
-OTYyNjAwODk4LDEzNjUzMzc0MjUsLTE1ODc2NDAzODYsLTExND
-Q2NDY3MTldfQ==
+eyJoaXN0b3J5IjpbMjAzMzUyMjExNSwxNTYyMDQ0NjAzLC0xNT
+g2NzE3ODc5LC0xODE2Njc0NjQ1LC0xMzA4ODU5MjczLC05NTM3
+MTcwNDcsMjY5ODA3NjIzLDc4MzAxMzk4MywtMTY2NzY2MTgwMy
+wtMTY5OTY1NDIxMSwtMTczNzQwNDE3NCwtMTY0MDk2Njg5OSw5
+NjI2MDA4OTgsMTM2NTMzNzQyNSwtMTU4NzY0MDM4NiwtMTE0ND
+Y0NjcxOV19
 -->
