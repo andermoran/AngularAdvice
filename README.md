@@ -1,5 +1,7 @@
 
 # Ander's Angular Adivce
+## Table of Contents
+### Will do once finished
 
 ## Basics
 - Angular (currently on Angular 8) is a framework that allows for dynamic, reactive web applications as well as native mobile applications
@@ -102,7 +104,7 @@ ts["variable (app.component.ts)"] -- ngModel --> html["input field value (app.co
 ```
 - Looking at the diagram above, you can see that a change to either the input field value *or* the variable associated with `ngModel` will change the other.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjY4NTIzOSwtMTgxNjY3NDY0NSwtMT
+eyJoaXN0b3J5IjpbMjAyNjU5NzEzMSwtMTgxNjY3NDY0NSwtMT
 MwODg1OTI3MywtOTUzNzE3MDQ3LDI2OTgwNzYyMyw3ODMwMTM5
 ODMsLTE2Njc2NjE4MDMsLTE2OTk2NTQyMTEsLTE3Mzc0MDQxNz
 QsLTE2NDA5NjY4OTksOTYyNjAwODk4LDEzNjUzMzc0MjUsLTE1
