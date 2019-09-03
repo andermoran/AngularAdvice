@@ -52,6 +52,7 @@ inputUpdated(event: Event) {
 	this.myVar = event.target.value;
 }
 ```
+
 - TypeScript might complain about this syntax because it does not explicitly know that the event has properties we are assuming it to have. To fix this, we canbe more explicit and type
 ```typescript
 inputUpdated(event: Event) {
@@ -59,6 +60,7 @@ inputUpdated(event: Event) {
 }
 ```
 > Now TypeSript knows that we know that the type of the `HTMLElement` of the event is `HTMLInputElement`
+- [Example](https://stackblitz.com/edit/angular-9waen7)
 
 
 
@@ -67,6 +69,6 @@ inputUpdated(event: Event) {
 > **Important**: For events, you don't bind to onclick but only to click (=> (click))
 > The MDN (Mozilla Developer Network) offers nice lists of all properties and events of the element you're interested in. Googling for  `YOUR_ELEMENT properties` or  `YOUR_ELEMENT events` should yield nice results
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODc2NDAzODYsLTExNDQ2NDY3MTldfQ
-==
+eyJoaXN0b3J5IjpbMTM2NTMzNzQyNSwtMTU4NzY0MDM4NiwtMT
+E0NDY0NjcxOV19
 -->
