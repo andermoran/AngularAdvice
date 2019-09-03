@@ -71,7 +71,8 @@ inputUpdated(event: Event) {
 ![TypeScript no longer complaining with variable and is now happy](https://github.com/andermoran/AngularAdvice/blob/master/images/event_error_fixed_explicit.png)
 > Notice how `value` is no longer red underlined
 #### [Example](https://stackblitz.com/edit/angular-9waen7)
-> Notice how `(input)="inputUpdated($event)"` takes `$event` as a parameter, allowing 
+> Notice how `(input)="inputUpdated($event)"` takes `$event` as a parameter, allowing `app.component.ts` to get information from `app.component.html`. Here we are passing information in one direction (from `app.component.ts` to `app.component.html`). Try typing into the input field
+> 
 ### Two-Way Databinding
 - *Note from [Maximilian Schwarzmüller](https://twitter.com/maxedapps):*
 > #### Important: FormsModule is Required for Two-Way-Binding!
@@ -83,8 +84,8 @@ inputUpdated(event: Event) {
 #### [Example](https://stackblitz.com/edit/angular-pkgmpx)
 > Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`. Try typing 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MTE3MTgsLTE2Njc2NjE4MDMsLTE2OT
-k2NTQyMTEsLTE3Mzc0MDQxNzQsLTE2NDA5NjY4OTksOTYyNjAw
-ODk4LDEzNjUzMzc0MjUsLTE1ODc2NDAzODYsLTExNDQ2NDY3MT
-ldfQ==
+eyJoaXN0b3J5IjpbLTk1MDE0Nzk4MywtMTY2NzY2MTgwMywtMT
+Y5OTY1NDIxMSwtMTczNzQwNDE3NCwtMTY0MDk2Njg5OSw5NjI2
+MDA4OTgsMTM2NTMzNzQyNSwtMTU4NzY0MDM4NiwtMTE0NDY0Nj
+cxOV19
 -->
