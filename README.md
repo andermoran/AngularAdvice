@@ -53,7 +53,7 @@
 - In our TypeScript code, we can reference this via 
 ```typescript
 inputUpdated(event: Event) {
-	this.myVar = event.target.value;
+	console.log(event.target.value);
 }
 ```
 > TypeScript might complain about this syntax because it does not explicitly know that the event has properties we are assuming it to have. All TypeScript knows is that it is an event, not necessarily what kind
@@ -63,7 +63,7 @@ inputUpdated(event: Event) {
 > To fix this, we can be more explicit and type
 ```typescript
 inputUpdated(event: Event) {
-	this.myVar = (<HTMLInputElement>event.target).value;
+	console.log((<HTMLInputElement>event.target).value);
 }
 ```
 > Now TypeScript knows that we know that the type of the `HTMLElement` of the event is `HTMLInputElement`
@@ -97,8 +97,8 @@ inputUpdated(event: Event)  {
 
 > Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`. Try typing into the input box. It appears to work the same way as the previous method of getting a user's input but in this case
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgzMDEzOTgzLC0xNjY3NjYxODAzLC0xNj
-k5NjU0MjExLC0xNzM3NDA0MTc0LC0xNjQwOTY2ODk5LDk2MjYw
-MDg5OCwxMzY1MzM3NDI1LC0xNTg3NjQwMzg2LC0xMTQ0NjQ2Nz
-E5XX0=
+eyJoaXN0b3J5IjpbMjY5ODA3NjIzLDc4MzAxMzk4MywtMTY2Nz
+Y2MTgwMywtMTY5OTY1NDIxMSwtMTczNzQwNDE3NCwtMTY0MDk2
+Njg5OSw5NjI2MDA4OTgsMTM2NTMzNzQyNSwtMTU4NzY0MDM4Ni
+wtMTE0NDY0NjcxOV19
 -->
