@@ -88,6 +88,7 @@ html[app.component.html] -- $event --> ts[app.component.ts]
 > Important: For Two-Way-Binding to work, you need to enable the  `ngModel` directive. This is done by adding the  `FormsModule` to the  `imports[]` array in the AppModule. 
 > 
 > You then also need to add the import from  `@angular/forms` in the app.module.ts file:
+> 
 > `import { FormsModule } from '@angular/forms';`
 - With two-way databinding, information is sent in *both* directions instead of only one
 #### [Example](https://stackblitz.com/edit/angular-pkgmpx)
@@ -95,9 +96,9 @@ html[app.component.html] -- $event --> ts[app.component.ts]
 
 > Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`. Try typing into the input box. FINISH THIS PART WHEN I COME BACK FROM LUNCH
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDg4NTkyNzMsLTk1MzcxNzA0NywyNj
-k4MDc2MjMsNzgzMDEzOTgzLC0xNjY3NjYxODAzLC0xNjk5NjU0
-MjExLC0xNzM3NDA0MTc0LC0xNjQwOTY2ODk5LDk2MjYwMDg5OC
-wxMzY1MzM3NDI1LC0xNTg3NjQwMzg2LC0xMTQ0NjQ2NzE5XX0=
-
+eyJoaXN0b3J5IjpbLTE4MTY2NzQ2NDUsLTEzMDg4NTkyNzMsLT
+k1MzcxNzA0NywyNjk4MDc2MjMsNzgzMDEzOTgzLC0xNjY3NjYx
+ODAzLC0xNjk5NjU0MjExLC0xNzM3NDA0MTc0LC0xNjQwOTY2OD
+k5LDk2MjYwMDg5OCwxMzY1MzM3NDI1LC0xNTg3NjQwMzg2LC0x
+MTQ0NjQ2NzE5XX0=
 -->
