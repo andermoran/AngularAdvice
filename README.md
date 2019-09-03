@@ -61,7 +61,7 @@ inputUpdated(event: Event) {
 }
 ```
 > Now TypeSript knows that we know that the type of the `HTMLElement` of the event is `HTMLInputElement`
-> ![TypeScript no longer complaining with variable and is now happy](https://github.com/andermoran/AngularAdvice/blob/master/images/event_error_fixed_explicit.png)
+![TypeScript no longer complaining with variable and is now happy](https://github.com/andermoran/AngularAdvice/blob/master/images/event_error_fixed_explicit.png)
 - [Example](https://stackblitz.com/edit/angular-9waen7)
 
 
@@ -71,6 +71,6 @@ inputUpdated(event: Event) {
 > **Important**: For events, you don't bind to onclick but only to click (=> (click))
 > The MDN (Mozilla Developer Network) offers nice lists of all properties and events of the element you're interested in. Googling for  `YOUR_ELEMENT properties` or  `YOUR_ELEMENT events` should yield nice results
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDg4NzM5MjUsOTYyNjAwODk4LDEzNj
-UzMzc0MjUsLTE1ODc2NDAzODYsLTExNDQ2NDY3MTldfQ==
+eyJoaXN0b3J5IjpbLTM1OTUwMDc3MSw5NjI2MDA4OTgsMTM2NT
+MzNzQyNSwtMTU4NzY0MDM4NiwtMTE0NDY0NjcxOV19
 -->
