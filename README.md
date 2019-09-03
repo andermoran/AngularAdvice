@@ -14,7 +14,7 @@
 ## Data Binding
  ### String Interpolation
 - Allows you to communicate between your TypeScript code and HTML template in your component
-```
+```html
 <p>Hello, my name is  {{ name }}!</p>
 ```
 - Where `name` is a variable in the corresponding TypeScript code
@@ -24,7 +24,7 @@
 
 ### Property Binding
 - Bind HTML attributes to variables
-```
+```html
 <button [disabled]="buttonDisabled">Click me</button>
 ```
 - Where `buttonDisabled` is a variable in a component file
@@ -34,14 +34,14 @@
 
 ### Event Binding
 - Bind HTML DOM events such as `click()` to a method
-```
+```html
 <button (click)="onButtonClick()"/>
 ```
 - Where `onButtonClick()` is a method in a component file
 - So whenever `click()` fires, it triggers `onButtonClick()`
 - Can pass data with event by using the reserved `$event` keyword
 - `$event` can be passed to the component method through the parameter in the HTML template
- ```
+ ```html
  <input type="text" class="form-control" (input)=“inputUpdated($event)”/>
  ```
 - In our TypeScript code, we can reference this via 
@@ -59,5 +59,5 @@ inputUpdated(event: Event) {
 > Now TypeSript knows that we know that the type of the `HTMLElement` of the event is `HTMLInputElement`
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNzYwNDQ1OV19
+eyJoaXN0b3J5IjpbLTEyODEyMDQ3NjddfQ==
 -->
