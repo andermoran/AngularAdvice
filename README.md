@@ -21,7 +21,7 @@
 ```
 - Where `name` is a variable in the corresponding TypeScript code
 - The variable being interpolated into a string can be a `string`, `number`, `boolean`, etc. as long as it can be represented as a `string` in the end
-#### [Example](https://stackblitz.com/edit/angular-cau2tt)
+- [Example](https://stackblitz.com/edit/angular-cau2tt)
 > Notice the `name` variable in `app.component.ts` and the `{{ name }}` in `app.component.html` 
 
 ### Property Binding
@@ -34,7 +34,7 @@
 - In this case, the variable we bind is a `boolean`, but what if we bind a `string` or `number`?
 	- For a `string` variable, if it is empty, then it is the equivalent of `false`, else it is `true`
 	- For a `number` variable, if it is `0` then it is the equivalent of `false`, else it is `true`
-#### [Example](https://stackblitz.com/edit/angular-2knkts)
+- [Example](https://stackblitz.com/edit/angular-2knkts)
 > Notice the `buttonDisabled` variable in `app.component.ts` and the `[disabled]="buttonDisabled"` in `app.component.html` . Try changing the value of `buttonDisabled` from `false` to `true`
 
 ### Event Binding
@@ -75,7 +75,7 @@ inputUpdated(event: Event) {
 
 ![TypeScript no longer complaining with variable and is now happy](https://github.com/andermoran/AngularAdvice/blob/master/images/Screen%20Shot%202019-09-03%20at%2011.24.39%20AM.png)
 > Notice how `value` is no longer red underlined
-#### [Example](https://stackblitz.com/edit/angular-9waen7)
+- [Example](https://stackblitz.com/edit/angular-9waen7)
 > Try typing into the input field and looking at the console:
 
 ![Console showing "Hello" being logged](https://github.com/andermoran/AngularAdvice/blob/master/images/Screen%20Shot%202019-09-03%20at%2011.24.21%20AM.png)
@@ -96,7 +96,7 @@ html["input field value (app.component.html)"] -- $event --> ts["handler method 
 > 
 > `import { FormsModule } from '@angular/forms';`
 - With two-way data binding, information is sent in *both* directions instead of only one
-#### [Example](https://stackblitz.com/edit/angular-pkgmpx)
+- [Example](https://stackblitz.com/edit/angular-pkgmpx)
 > *Note: ngModel is a directive but you don't need to know what that is right now*
 
 > Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`. In the previous example, if the value `userInput` is changed in the typescript code, then the value in the input field does not change. Why? Remember, the previous example was a *one* direction data binding so the value of the input field changed the value of `userInput`; however, if the value of `userInput` was changed outside of the input field, then the input field would not update. This is because the input field's value can only be changed if the user types keystrokes into it (like how it would normally work). In our *two* directional example, the value of the input field is tied to the value of `userInput`. So if `userInput` changes, then the value inside the text field changes and vice versa. Try changing the value of the textfield by typing into it, this changed the value of `userInput`. Now click the `Set to "Hello, World!" button` and see how the value of the input field changed to "Hello, World!". When this button is clicked, TypeScript code is run that sets the value of `userInput` to "Hello, World!". Since `userInput` is bound to the input field value, the value of the input field is then set to "Hello, World!".
@@ -123,11 +123,12 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 <p *ngIf="password.length >= 5">{{ password }} is a valid password</p>
 ```
 > This paragraph tag will only display if the `password.length >= 5` variable evaluates to `true`
+- [Example](https://stackblitz.com/edit/angular-tnzfsf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMDczNDgxLDE0ODkwNTQxOTEsMTU2Mj
-A0NDYwMywtMTU4NjcxNzg3OSwtMTgxNjY3NDY0NSwtMTMwODg1
-OTI3MywtOTUzNzE3MDQ3LDI2OTgwNzYyMyw3ODMwMTM5ODMsLT
-E2Njc2NjE4MDMsLTE2OTk2NTQyMTEsLTE3Mzc0MDQxNzQsLTE2
-NDA5NjY4OTksOTYyNjAwODk4LDEzNjUzMzc0MjUsLTE1ODc2ND
-AzODYsLTExNDQ2NDY3MTldfQ==
+eyJoaXN0b3J5IjpbLTI3NzgxMzIzNCwxNDg5MDU0MTkxLDE1Nj
+IwNDQ2MDMsLTE1ODY3MTc4NzksLTE4MTY2NzQ2NDUsLTEzMDg4
+NTkyNzMsLTk1MzcxNzA0NywyNjk4MDc2MjMsNzgzMDEzOTgzLC
+0xNjY3NjYxODAzLC0xNjk5NjU0MjExLC0xNzM3NDA0MTc0LC0x
+NjQwOTY2ODk5LDk2MjYwMDg5OCwxMzY1MzM3NDI1LC0xNTg3Nj
+QwMzg2LC0xMTQ0NjQ2NzE5XX0=
 -->
