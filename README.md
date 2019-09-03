@@ -71,13 +71,9 @@ inputUpdated(event: Event) {
 ![TypeScript no longer complaining with variable and is now happy](https://github.com/andermoran/AngularAdvice/blob/master/images/Screen%20Shot%202019-09-03%20at%2011.24.39%20AM.png))
 > Notice how `value` is no longer red underlined
 #### [Example](https://stackblitz.com/edit/angular-9waen7)
-> Try typing into the input field
-> Notice how `(input)="inputUpdated($event)"` takes `$event` as a parameter, allowing `app.component.ts` to get information from `app.component.html`. Here we are passing information in one direction (from `app.component.ts` to `app.component.html`) and storing it in the `userInput` variable in `app.component.ts` via the line: 
-```typescript
-inputUpdated(event: Event)  {
-	this.userInput = event.target.value;
-}
-```
+> Try typing into the input field and looking at the console:
+![Console showing "Hello" being logged](https://github.com/andermoran/AngularAdvice/blob/master/images/Screen%20Shot%202019-09-03%20at%2011.24.21%20AM.png)
+> Notice how `(input)="inputUpdated($event)"` takes `$event` as a parameter, allowing `app.component.ts` to get information from `app.component.html`. Here we are passing information in one direction (from `app.component.html` to `app.component.ts`) and logging  it in `app.component.ts` via the 
 
 ### Two-Way Databinding
 - The two-way data binding enables "changes in the application state have been automagically reflected into the view and vise-versa"
@@ -94,7 +90,7 @@ inputUpdated(event: Event)  {
 
 > Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`. Try typing into the input box. It appears to work the same way as the previous method of getting a user's input but in this case
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjY4MDI2MzAsMjY5ODA3NjIzLDc4Mz
+eyJoaXN0b3J5IjpbLTE0ODQ0ODI5MjMsMjY5ODA3NjIzLDc4Mz
 AxMzk4MywtMTY2NzY2MTgwMywtMTY5OTY1NDIxMSwtMTczNzQw
 NDE3NCwtMTY0MDk2Njg5OSw5NjI2MDA4OTgsMTM2NTMzNzQyNS
 wtMTU4NzY0MDM4NiwtMTE0NDY0NjcxOV19
