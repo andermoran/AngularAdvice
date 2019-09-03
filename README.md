@@ -68,7 +68,7 @@ inputUpdated(event: Event) {
 ```
 > Now TypeScript knows that we know that the type of the `HTMLElement` of the event is `HTMLInputElement`
 
-![TypeScript no longer complaining with variable and is now happy](https://github.com/andermoran/AngularAdvice/blob/master/images/Screen%20Shot%202019-09-03%20at%2011.24.39%20AM.png))
+![TypeScript no longer complaining with variable and is now happy](https://github.com/andermoran/AngularAdvice/blob/master/images/Screen%20Shot%202019-09-03%20at%2011.24.39%20AM.png)
 > Notice how `value` is no longer red underlined
 #### [Example](https://stackblitz.com/edit/angular-9waen7)
 > Try typing into the input field and looking at the console:
@@ -94,7 +94,7 @@ html[app.component.html] -- $event --> ts[app.component.ts]
 
 > Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`. Try typing into the input box. FINISH THIS PART WHEN I COME BACK FROM LUNCH
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQ4NTExMTksMjY5ODA3NjIzLDc4Mz
+eyJoaXN0b3J5IjpbLTE3NDMxMjk2NzAsMjY5ODA3NjIzLDc4Mz
 AxMzk4MywtMTY2NzY2MTgwMywtMTY5OTY1NDIxMSwtMTczNzQw
 NDE3NCwtMTY0MDk2Njg5OSw5NjI2MDA4OTgsMTM2NTMzNzQyNS
 wtMTU4NzY0MDM4NiwtMTE0NDY0NjcxOV19
