@@ -33,7 +33,7 @@
 > Notice the `buttonDisabled` variable in `app.component.ts` and the `[disabled]="buttonDisabled"` in `app.component.html` . Try changing the value of `buttonDisabled` from `false` to `true`
 
 ### Event Binding
-- Bind HTML DOM events such as `click()` to a method
+- Bind HTML DOM events such as `click()` to a TypeSript method using `(` and `)`
 ```html
 <button (click)="onButtonClick()"/>
 ```
@@ -59,5 +59,5 @@ inputUpdated(event: Event) {
 > Now TypeSript knows that we know that the type of the `HTMLElement` of the event is `HTMLInputElement`
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNzYyNTE4NCwtMTE0NDY0NjcxOV19
+eyJoaXN0b3J5IjpbMjA1NjYxNTQ3OCwtMTE0NDY0NjcxOV19
 -->
