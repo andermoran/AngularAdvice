@@ -71,6 +71,7 @@ inputUpdated(event: Event) {
 ![TypeScript no longer complaining with variable and is now happy](https://github.com/andermoran/AngularAdvice/blob/master/images/event_error_fixed_explicit.png)
 > Notice how `value` is no longer red underlined
 #### [Example](https://stackblitz.com/edit/angular-9waen7)
+> Notice how `(input)="inputUpdated($event)"` takes `$event` as a parameter, allowing 
 ### Two-Way Databinding
 - *Note from [Maximilian Schwarzmüller](https://twitter.com/maxedapps):*
 > #### Important: FormsModule is Required for Two-Way-Binding!
@@ -82,8 +83,8 @@ inputUpdated(event: Event) {
 #### [Example](https://stackblitz.com/edit/angular-pkgmpx)
 > Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`. Try typing 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg2MDg3MjU1LC0xNjY3NjYxODAzLC0xNj
-k5NjU0MjExLC0xNzM3NDA0MTc0LC0xNjQwOTY2ODk5LDk2MjYw
-MDg5OCwxMzY1MzM3NDI1LC0xNTg3NjQwMzg2LC0xMTQ0NjQ2Nz
-E5XX0=
+eyJoaXN0b3J5IjpbMTE2MTE3MTgsLTE2Njc2NjE4MDMsLTE2OT
+k2NTQyMTEsLTE3Mzc0MDQxNzQsLTE2NDA5NjY4OTksOTYyNjAw
+ODk4LDEzNjUzMzc0MjUsLTE1ODc2NDAzODYsLTExNDQ2NDY3MT
+ldfQ==
 -->
