@@ -20,7 +20,7 @@
 - Where `name` is a variable in the corresponding TypeScript code
 - The variable being interpolated into a string can be a `string`, `number`, `boolean`, etc. as long as it can be represented as a `string` in the end
 - [Example](https://stackblitz.com/edit/angular-cau2tt)
-> Notice the `name` variable in `app.component.ts` and the `{{ name }}` in `app.component.html` 
+> Notice the `name` variable in `app.component.ts` and the `{{ name }}` in `app.component.html` . Try changing the `name` variable and see what happens
 
 ### Property Binding
 - Bind HTML attributes to variables
@@ -56,5 +56,5 @@ inputUpdated(event: Event) {
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTE4Mjg0NDFdfQ==
+eyJoaXN0b3J5IjpbLTY1ODY0Njg3MiwtMTcxMTgyODQ0MV19
 -->
