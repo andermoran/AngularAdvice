@@ -45,13 +45,13 @@
  <input type="text" class="form-control" (input)=“inputUpdated($event)”/>
  ```
 - In our TypeScript code, we can reference this via 
-```
+```typescript
 inputUpdated(event: Event) {
 	this.myVar = event.target.value;
 }
 ```
 - TypeScript might complain about this syntax because it does not explicitly know that the event has properties we are assuming it to have. To fix this, we canbe more explicit and type
-```
+```typescript
 inputUpdated(event: Event) {
 	this.myVar = (<HTMLInputElement>event.target).value;
 }
@@ -59,5 +59,5 @@ inputUpdated(event: Event) {
 > Now TypeSript knows that we know that the type of the `HTMLElement` of the event is `HTMLInputElement`
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODEyMDQ3NjddfQ==
+eyJoaXN0b3J5IjpbLTExNDQ2NDY3MTldfQ==
 -->
