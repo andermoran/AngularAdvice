@@ -77,7 +77,7 @@ inputUpdated(event: Event) {
 > Notice how `(input)="inputUpdated($event)"` takes `$event` as a parameter, allowing `app.component.ts` to get information from `app.component.html`. Here we are passing information stored in `$event` in one direction (from `app.component.html` to `app.component.ts`) and logging  it in `app.component.ts` via the `inputUpdated` method
 ```mermaid
 graph LR
-html[input field - app.component.html] -- $event --> ts[app.component.ts]
+html["input field value (app.component.html)"] -- $event --> ts["handler method (app.component.ts)"]
 ```
 
 ### Two-Way Databinding
@@ -97,13 +97,12 @@ html[input field - app.component.html] -- $event --> ts[app.component.ts]
 > Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`.  In the previous example, if the value `userInput` is changed in the typescript code, then the value in the input field does not change. Why? Remember, the previous example was a *one* direction data binding so the value of the input field changed the value of  `userInput`; however, if the value of  `userInput` was changed outside of the input field, then the input field would not update. This is because the input field's value can only be changed if the user types keystrokes into it (like how it would normally work). In our *two* directional example, the value of the input field is tied to the value of  `userInput`. So if `userInput` changes, then the value inside the text field changes and vice versa.
 ```mermaid
 graph LR
-html[app.component.html] -- TypeScript variable --> ts[app.component.ts]
-ts[app.component.ts] -- TypeScript variable --> html[app.component.html]
+html["(app.component.html)"] -- TypeScript variable --> ts["(app.component.ts)"]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MTE1NTE2NSwtMTgxNjY3NDY0NSwtMT
-MwODg1OTI3MywtOTUzNzE3MDQ3LDI2OTgwNzYyMyw3ODMwMTM5
-ODMsLTE2Njc2NjE4MDMsLTE2OTk2NTQyMTEsLTE3Mzc0MDQxNz
-QsLTE2NDA5NjY4OTksOTYyNjAwODk4LDEzNjUzMzc0MjUsLTE1
-ODc2NDAzODYsLTExNDQ2NDY3MTldfQ==
+eyJoaXN0b3J5IjpbLTEwMzI3OTM5NDksLTE4MTY2NzQ2NDUsLT
+EzMDg4NTkyNzMsLTk1MzcxNzA0NywyNjk4MDc2MjMsNzgzMDEz
+OTgzLC0xNjY3NjYxODAzLC0xNjk5NjU0MjExLC0xNzM3NDA0MT
+c0LC0xNjQwOTY2ODk5LDk2MjYwMDg5OCwxMzY1MzM3NDI1LC0x
+NTg3NjQwMzg2LC0xMTQ0NjQ2NzE5XX0=
 -->
