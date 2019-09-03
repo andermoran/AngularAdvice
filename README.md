@@ -78,9 +78,12 @@ inputUpdated(event: Event) {
 > 
 > You then also need to add the import from  `@angular/forms` in the app.module.ts file:
 > `import { FormsModule } from '@angular/forms';`
-> 
+- With two-way databinding, information is sent in *both* directions instead of only one
+- [Example](https://stackblitz.com/edit/angular-pkgmpx)
+> Notice ho
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njc2NjE4MDMsLTE2OTk2NTQyMTEsLT
-E3Mzc0MDQxNzQsLTE2NDA5NjY4OTksOTYyNjAwODk4LDEzNjUz
-Mzc0MjUsLTE1ODc2NDAzODYsLTExNDQ2NDY3MTldfQ==
+eyJoaXN0b3J5IjpbLTQ3OTM2NTA3OCwtMTY2NzY2MTgwMywtMT
+Y5OTY1NDIxMSwtMTczNzQwNDE3NCwtMTY0MDk2Njg5OSw5NjI2
+MDA4OTgsMTM2NTMzNzQyNSwtMTU4NzY0MDM4NiwtMTE0NDY0Nj
+cxOV19
 -->
