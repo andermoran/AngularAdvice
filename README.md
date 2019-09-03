@@ -91,10 +91,12 @@ inputUpdated(event: Event)  {
 > `import { FormsModule } from '@angular/forms';`
 - With two-way databinding, information is sent in *both* directions instead of only one
 #### [Example](https://stackblitz.com/edit/angular-pkgmpx)
-> Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`. Try typing into the input box. It appears to work the same way as the previous method of g
+> *Note: ngModel is a directive but you don't need to know what that is right now*
+> 
+> Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`. Try typing into the input box. It appears to work the same way as the previous method of getting a user's input
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTE5NjM3MzgsLTE2Njc2NjE4MDMsLT
-E2OTk2NTQyMTEsLTE3Mzc0MDQxNzQsLTE2NDA5NjY4OTksOTYy
-NjAwODk4LDEzNjUzMzc0MjUsLTE1ODc2NDAzODYsLTExNDQ2ND
-Y3MTldfQ==
+eyJoaXN0b3J5IjpbNTM5OTc1MzA0LC0xNjY3NjYxODAzLC0xNj
+k5NjU0MjExLC0xNzM3NDA0MTc0LC0xNjQwOTY2ODk5LDk2MjYw
+MDg5OCwxMzY1MzM3NDI1LC0xNTg3NjQwMzg2LC0xMTQ0NjQ2Nz
+E5XX0=
 -->
