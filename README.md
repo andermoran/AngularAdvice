@@ -2,10 +2,10 @@
 # Ander's Angular Adivce
 
 ## Basics
-
 - Angular (currently on Angular 8) is a framework that allows for dynamic, reactive web applications as well as native mobile applications
 - It is a combination of TypeScript (a subset of Javascript) and HTML
 - The "main" file is `app.component.ts` which is a component itself which is loaded into the home html page, index.html
+> *Note: please view this page in Chroime
 
 ## Components
 - Components are similar, one could even say analogous. to classes in OOP (Object Oriented Programming)
@@ -94,8 +94,8 @@ html[app.component.html] -- $event --> ts[app.component.ts]
 
 > Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`. Try typing into the input box. FINISH THIS PART WHEN I COME BACK FROM LUNCH
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDMxMjk2NzAsMjY5ODA3NjIzLDc4Mz
-AxMzk4MywtMTY2NzY2MTgwMywtMTY5OTY1NDIxMSwtMTczNzQw
-NDE3NCwtMTY0MDk2Njg5OSw5NjI2MDA4OTgsMTM2NTMzNzQyNS
-wtMTU4NzY0MDM4NiwtMTE0NDY0NjcxOV19
+eyJoaXN0b3J5IjpbMTc1MDg3MTAyMiwyNjk4MDc2MjMsNzgzMD
+EzOTgzLC0xNjY3NjYxODAzLC0xNjk5NjU0MjExLC0xNzM3NDA0
+MTc0LC0xNjQwOTY2ODk5LDk2MjYwMDg5OCwxMzY1MzM3NDI1LC
+0xNTg3NjQwMzg2LC0xMTQ0NjQ2NzE5XX0=
 -->
