@@ -53,7 +53,9 @@ inputUpdated(event: Event) {
 }
 ```
 > TypeScript might complain about this syntax because it does not explicitly know that the event has properties we are assuming it to have
+> 
 > ![TypeScript complaining about variable's vagueness](https://github.com/andermoran/AngularAdvice/blob/master/images/event_error.png)
+> 
 > To fix this, we can be more explicit and type
 ```typescript
 inputUpdated(event: Event) {
@@ -71,6 +73,6 @@ inputUpdated(event: Event) {
 > **Important**: For events, you don't bind to onclick but only to click (=> (click))
 > The MDN (Mozilla Developer Network) offers nice lists of all properties and events of the element you're interested in. Googling for  `YOUR_ELEMENT properties` or  `YOUR_ELEMENT events` should yield nice results
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzMxMTAxNSw5NjI2MDA4OTgsMTM2NT
+eyJoaXN0b3J5IjpbMTM1NDYyOTQ4OSw5NjI2MDA4OTgsMTM2NT
 MzNzQyNSwtMTU4NzY0MDM4NiwtMTE0NDY0NjcxOV19
 -->
