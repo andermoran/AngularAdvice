@@ -106,10 +106,14 @@ html["input field value (app.component.html)"] -- ngModel --> ts["variable (app.
 ts["variable (app.component.ts)"] -- ngModel --> html["input field value (app.component.html)"]
 ```
 - Looking at the diagram above, you can see that a change to either the input field value *or* the variable associated with `ngModel` will change the other.
+
+## Directives
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MjA0NDYwMywtMTU4NjcxNzg3OSwtMT
-gxNjY3NDY0NSwtMTMwODg1OTI3MywtOTUzNzE3MDQ3LDI2OTgw
-NzYyMyw3ODMwMTM5ODMsLTE2Njc2NjE4MDMsLTE2OTk2NTQyMT
-EsLTE3Mzc0MDQxNzQsLTE2NDA5NjY4OTksOTYyNjAwODk4LDEz
-NjUzMzc0MjUsLTE1ODc2NDAzODYsLTExNDQ2NDY3MTldfQ==
+eyJoaXN0b3J5IjpbLTExMjg3NjQxMjEsMTU2MjA0NDYwMywtMT
+U4NjcxNzg3OSwtMTgxNjY3NDY0NSwtMTMwODg1OTI3MywtOTUz
+NzE3MDQ3LDI2OTgwNzYyMyw3ODMwMTM5ODMsLTE2Njc2NjE4MD
+MsLTE2OTk2NTQyMTEsLTE3Mzc0MDQxNzQsLTE2NDA5NjY4OTks
+OTYyNjAwODk4LDEzNjUzMzc0MjUsLTE1ODc2NDAzODYsLTExND
+Q2NDY3MTldfQ==
 -->
