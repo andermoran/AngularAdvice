@@ -35,12 +35,12 @@
 ### Event Binding
 - Bind HTML DOM events such as `click()` to a TypeSript method using `(` and `)`
 ```html
-<button (click)="onButtonClick()"/>
+<button (click)="onButtonClick()">Click me</button>
 ```
 - Where `onButtonClick()` is a method in a component file
 - So whenever `click()` fires, it triggers `onButtonClick()`
 - [Example](https://stackblitz.com/edit/angular-2knkts)
-> Notice the `onButtonClick()` method in `app.component.ts` and the `(click)="onButtonClick()"` in `app.component.html` . Try changing the value of `buttonDisabled` from `false` to `true`
+> Notice the `onButtonClick()` method in `app.component.ts` and the `(click)="onButtonClick()"` in `app.component.html` 
 - Can pass data with event by using the reserved `$event` keyword
 - `$event` can be passed to the component method through the parameter in the HTML template
  ```html
@@ -59,7 +59,15 @@ inputUpdated(event: Event) {
 }
 ```
 > Now TypeSript knows that we know that the type of the `HTMLElement` of the event is `HTMLInputElement`
-- 
+
+
+
+> Note from [Maximilian Schwarzmüller] How do you know to which Properties or Events of HTML Elements you may bind? You can basically bind to all Properties and Events - a good idea is to  `console.log()` the element you're interested in to see which properties and events it offers.
+
+**Important**: For events, you don't bind to onclick but only to click (=> (click)).
+
+The MDN (Mozilla Developer Network) offers nice lists of all properties and events of the element you're interested in. Googling for  `YOUR_ELEMENT properties` or  `YOUR_ELEMENT events` should yield nice results.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTg0MDMwNiwtMTE0NDY0NjcxOV19
+eyJoaXN0b3J5IjpbLTE3NDQ0OTUzMTAsLTExNDQ2NDY3MTldfQ
+==
 -->
