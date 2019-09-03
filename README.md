@@ -41,6 +41,10 @@
 - So whenever `click()` fires, it triggers `onButtonClick()`
 #### [Example](https://stackblitz.com/edit/angular-2knkts)
 > Notice the `onButtonClick()` method in `app.component.ts` and the `(click)="onButtonClick()"` in `app.component.html` 
+- *Note from [Maximilian Schwarzmüller](https://twitter.com/maxedapps):*
+>  How do you know to which Properties or Events of HTML Elements you may bind? You can basically bind to all Properties and Events - a good idea is to  `console.log()` the element you're interested in to see which properties and events it offers
+> **Important**: For events, you don't bind to onclick but only to click (=> (click))
+> The MDN (Mozilla Developer Network) offers nice lists of all properties and events of the element you're interested in. Googling for  `YOUR_ELEMENT properties` or  `YOUR_ELEMENT events` should yield nice results
 - Data can be passed with event by using the reserved `$event` keyword
 - `$event` can be passed to the component method through the parameter in the HTML template
  ```html
@@ -67,14 +71,8 @@ inputUpdated(event: Event) {
 ![TypeScript no longer complaining with variable and is now happy](https://github.com/andermoran/AngularAdvice/blob/master/images/event_error_fixed_explicit.png)
 > Notice how `value` is no longer red underlined
 #### [Example](https://stackblitz.com/edit/angular-9waen7)
-
-
-
-> *Note from [Maximilian Schwarzmüller](https://twitter.com/maxedapps):*
->  How do you know to which Properties or Events of HTML Elements you may bind? You can basically bind to all Properties and Events - a good idea is to  `console.log()` the element you're interested in to see which properties and events it offers
-> **Important**: For events, you don't bind to onclick but only to click (=> (click))
-> The MDN (Mozilla Developer Network) offers nice lists of all properties and events of the element you're interested in. Googling for  `YOUR_ELEMENT properties` or  `YOUR_ELEMENT events` should yield nice results
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDA5NjY4OTksOTYyNjAwODk4LDEzNj
-UzMzc0MjUsLTE1ODc2NDAzODYsLTExNDQ2NDY3MTldfQ==
+eyJoaXN0b3J5IjpbLTE3Mzc0MDQxNzQsLTE2NDA5NjY4OTksOT
+YyNjAwODk4LDEzNjUzMzc0MjUsLTE1ODc2NDAzODYsLTExNDQ2
+NDY3MTldfQ==
 -->
