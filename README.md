@@ -74,6 +74,10 @@ inputUpdated(event: Event) {
 > Try typing into the input field and looking at the console:
 ![Console showing "Hello" being logged](https://github.com/andermoran/AngularAdvice/blob/master/images/Screen%20Shot%202019-09-03%20at%2011.24.21%20AM.png)
 > Notice how `(input)="inputUpdated($event)"` takes `$event` as a parameter, allowing `app.component.ts` to get information from `app.component.html`. Here we are passing information in one direction (from `app.component.html` to `app.component.ts`) and logging  it in `app.component.ts` via the `inputUpdated` method
+```mermaid
+graph LR
+A[app.component.html] -- Link text --> B[app.component.ts]
+```
 
 ### Two-Way Databinding
 - The two-way data binding enables "changes in the application state have been automagically reflected into the view and vise-versa"
@@ -90,8 +94,8 @@ inputUpdated(event: Event) {
 
 > Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`. Try typing into the input box. FINISH THIS PART WHEN I COME BACK FROM LUNCH
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzE5OTc2NTcsMjY5ODA3NjIzLDc4Mz
-AxMzk4MywtMTY2NzY2MTgwMywtMTY5OTY1NDIxMSwtMTczNzQw
-NDE3NCwtMTY0MDk2Njg5OSw5NjI2MDA4OTgsMTM2NTMzNzQyNS
-wtMTU4NzY0MDM4NiwtMTE0NDY0NjcxOV19
+eyJoaXN0b3J5IjpbLTM1NTM1Njk2OCwyNjk4MDc2MjMsNzgzMD
+EzOTgzLC0xNjY3NjYxODAzLC0xNjk5NjU0MjExLC0xNzM3NDA0
+MTc0LC0xNjQwOTY2ODk5LDk2MjYwMDg5OCwxMzY1MzM3NDI1LC
+0xNTg3NjQwMzg2LC0xMTQ0NjQ2NzE5XX0=
 -->
