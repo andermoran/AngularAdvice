@@ -113,8 +113,9 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 ```html
 <p appTurnGreen>Receives a green background!</p>
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzU4MzIzMSwxNTYyMDQ0NjAzLC0xNT
+eyJoaXN0b3J5IjpbMTQ4OTA1NDE5MSwxNTYyMDQ0NjAzLC0xNT
 g2NzE3ODc5LC0xODE2Njc0NjQ1LC0xMzA4ODU5MjczLC05NTM3
 MTcwNDcsMjY5ODA3NjIzLDc4MzAxMzk4MywtMTY2NzY2MTgwMy
 wtMTY5OTY1NDIxMSwtMTczNzQwNDE3NCwtMTY0MDk2Njg5OSw5
