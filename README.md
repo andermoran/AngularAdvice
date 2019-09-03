@@ -79,11 +79,11 @@ inputUpdated(event: Event) {
 > You then also need to add the import from  `@angular/forms` in the app.module.ts file:
 > `import { FormsModule } from '@angular/forms';`
 - With two-way databinding, information is sent in *both* directions instead of only one
-- [Example](https://stackblitz.com/edit/angular-pkgmpx)
-> Notice ho
+#### [Example](https://stackblitz.com/edit/angular-pkgmpx)
+> Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`. Try typing 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3OTM2NTA3OCwtMTY2NzY2MTgwMywtMT
-Y5OTY1NDIxMSwtMTczNzQwNDE3NCwtMTY0MDk2Njg5OSw5NjI2
-MDA4OTgsMTM2NTMzNzQyNSwtMTU4NzY0MDM4NiwtMTE0NDY0Nj
-cxOV19
+eyJoaXN0b3J5IjpbMzg2MDg3MjU1LC0xNjY3NjYxODAzLC0xNj
+k5NjU0MjExLC0xNzM3NDA0MTc0LC0xNjQwOTY2ODk5LDk2MjYw
+MDg5OCwxMzY1MzM3NDI1LC0xNTg3NjQwMzg2LC0xMTQ0NjQ2Nz
+E5XX0=
 -->
