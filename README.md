@@ -71,8 +71,16 @@ inputUpdated(event: Event) {
 ![TypeScript no longer complaining with variable and is now happy](https://github.com/andermoran/AngularAdvice/blob/master/images/event_error_fixed_explicit.png)
 > Notice how `value` is no longer red underlined
 #### [Example](https://stackblitz.com/edit/angular-9waen7)
+### Two-Way Databinding
+Important: FormsModule is Required for Two-Way-Binding!
+
+Important: For Two-Way-Binding (covered in the next lecture) to work, you need to enable the  `ngModel` directive. This is done by adding the  `FormsModule` to the  `imports[]` array in the AppModule.
+
+You then also need to add the import from  `@angular/forms` in the app.module.ts file:
+
+`import { FormsModule } from '@angular/forms';`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTk2NTQyMTEsLTE3Mzc0MDQxNzQsLT
-E2NDA5NjY4OTksOTYyNjAwODk4LDEzNjUzMzc0MjUsLTE1ODc2
-NDAzODYsLTExNDQ2NDY3MTldfQ==
+eyJoaXN0b3J5IjpbLTEzNjQwNDI0MzEsLTE2OTk2NTQyMTEsLT
+E3Mzc0MDQxNzQsLTE2NDA5NjY4OTksOTYyNjAwODk4LDEzNjUz
+Mzc0MjUsLTE1ODc2NDAzODYsLTExNDQ2NDY3MTldfQ==
 -->
