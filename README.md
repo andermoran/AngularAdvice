@@ -10,7 +10,7 @@
 > *Note: please view this page in Chrome and install the [Github + Mermaid](https://github.com/BackMarket/github-mermaid-extension) Chrome extension to view the graphs properly*
 
 ## Components
-- Components are similar, one could even say analogous. to classes in OOP (Object Oriented Programming)
+- Components are similar, one could even say analogous, to classes in OOP (Object Oriented Programming)
 - Similar to objects, components are made to be reused in and it helps keep the LOC (lines of code) lower in the main file, `app.component.ts`
 
 ## Data Binding
@@ -82,7 +82,7 @@ graph LR
 html["input field value (app.component.html)"] -- $event --> ts["handler method (app.component.ts)"]
 ```
 
-### Two-Way Databinding
+### Two-Way Data Binding
 - The two-way data binding enables "changes in the application state have been automagically reflected into the view and vise-versa"
 
 > *Note from [Maximilian Schwarzmüller](https://twitter.com/maxedapps):*
@@ -92,7 +92,7 @@ html["input field value (app.component.html)"] -- $event --> ts["handler method 
 > You then also need to add the import from  `@angular/forms` in the app.module.ts file:
 > 
 > `import { FormsModule } from '@angular/forms';`
-- With two-way databinding, information is sent in *both* directions instead of only one
+- With two-way data binding, information is sent in *both* directions instead of only one
 #### [Example](https://stackblitz.com/edit/angular-pkgmpx)
 > *Note: ngModel is a directive but you don't need to know what that is right now*
 
@@ -104,9 +104,9 @@ ts["variable (app.component.ts)"] -- ngModel --> html["input field value (app.co
 ```
 - Looking at the diagram above, you can see that a change to either the input field value *or* the variable associated with `ngModel` will change the other.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNjU5NzEzMSwtMTgxNjY3NDY0NSwtMT
-MwODg1OTI3MywtOTUzNzE3MDQ3LDI2OTgwNzYyMyw3ODMwMTM5
-ODMsLTE2Njc2NjE4MDMsLTE2OTk2NTQyMTEsLTE3Mzc0MDQxNz
-QsLTE2NDA5NjY4OTksOTYyNjAwODk4LDEzNjUzMzc0MjUsLTE1
-ODc2NDAzODYsLTExNDQ2NDY3MTldfQ==
+eyJoaXN0b3J5IjpbLTE1ODY3MTc4NzksLTE4MTY2NzQ2NDUsLT
+EzMDg4NTkyNzMsLTk1MzcxNzA0NywyNjk4MDc2MjMsNzgzMDEz
+OTgzLC0xNjY3NjYxODAzLC0xNjk5NjU0MjExLC0xNzM3NDA0MT
+c0LC0xNjQwOTY2ODk5LDk2MjYwMDg5OCwxMzY1MzM3NDI1LC0x
+NTg3NjQwMzg2LC0xMTQ0NjQ2NzE5XX0=
 -->
