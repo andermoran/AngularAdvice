@@ -71,7 +71,10 @@ inputUpdated(event: Event) {
 ![TypeScript no longer complaining with variable and is now happy](https://github.com/andermoran/AngularAdvice/blob/master/images/event_error_fixed_explicit.png)
 > Notice how `value` is no longer red underlined
 #### [Example](https://stackblitz.com/edit/angular-9waen7)
-> Notice how `(input)="inputUpdated($event)"` takes `$event` as a parameter, allowing `app.component.ts` to get information from `app.component.html`. Here we are passing information in one direction (from `app.component.ts` to `app.component.html`) and storing it in the `userInput` variable in `app.component.ts`. Try typing into the input field and see how the `userInput` variable updates, the updating the line:
+> Notice how `(input)="inputUpdated($event)"` takes `$event` as a parameter, allowing `app.component.ts` to get information from `app.component.html`. Here we are passing information in one direction (from `app.component.ts` to `app.component.html`) and storing it in the `userInput` variable in `app.component.ts` via the line: 
+```
+> ```
+> Try typing into the input field and see how the `userInput` variable updates, the updating the line:
 ```html
 <p>user input = {{ userInput }}</p>
 ```
@@ -85,9 +88,9 @@ inputUpdated(event: Event) {
 > `import { FormsModule } from '@angular/forms';`
 - With two-way databinding, information is sent in *both* directions instead of only one
 #### [Example](https://stackblitz.com/edit/angular-pkgmpx)
-> Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`. Try typing 
+> Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`. Try typing into the input box. Here the `userInput` variable in being updating because of 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MTYwMzkzNywtMTY2NzY2MTgwMywtMT
+eyJoaXN0b3J5IjpbLTY4ODIxOTM3NSwtMTY2NzY2MTgwMywtMT
 Y5OTY1NDIxMSwtMTczNzQwNDE3NCwtMTY0MDk2Njg5OSw5NjI2
 MDA4OTgsMTM2NTMzNzQyNSwtMTU4NzY0MDM4NiwtMTE0NDY0Nj
 cxOV19
