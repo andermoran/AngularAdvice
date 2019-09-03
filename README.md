@@ -94,11 +94,14 @@ html[app.component.html] -- $event --> ts[app.component.ts]
 #### [Example](https://stackblitz.com/edit/angular-pkgmpx)
 > *Note: ngModel is a directive but you don't need to know what that is right now*
 
-> Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`. Try typing into the input box. FINISH THIS PART WHEN I COME BACK FROM LUNCH
+> Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`.  
+> graph LR
+html[app.component.html] -- $event --> ts[app.component.ts]
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTY2NzQ2NDUsLTEzMDg4NTkyNzMsLT
-k1MzcxNzA0NywyNjk4MDc2MjMsNzgzMDEzOTgzLC0xNjY3NjYx
-ODAzLC0xNjk5NjU0MjExLC0xNzM3NDA0MTc0LC0xNjQwOTY2OD
-k5LDk2MjYwMDg5OCwxMzY1MzM3NDI1LC0xNTg3NjQwMzg2LC0x
-MTQ0NjQ2NzE5XX0=
+eyJoaXN0b3J5IjpbLTY2NjIyNjcyMywtMTgxNjY3NDY0NSwtMT
+MwODg1OTI3MywtOTUzNzE3MDQ3LDI2OTgwNzYyMyw3ODMwMTM5
+ODMsLTE2Njc2NjE4MDMsLTE2OTk2NTQyMTEsLTE3Mzc0MDQxNz
+QsLTE2NDA5NjY4OTksOTYyNjAwODk4LDEzNjUzMzc0MjUsLTE1
+ODc2NDAzODYsLTExNDQ2NDY3MTldfQ==
 -->
