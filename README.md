@@ -39,6 +39,8 @@
 ```
 - Where `onButtonClick()` is a method in a component file
 - So whenever `click()` fires, it triggers `onButtonClick()`
+- [Example](https://stackblitz.com/edit/angular-2knkts)
+> Notice the `onButtonClick` variable in `app.component.ts` and the `(click)="onButtonClick()"` in `app.component.html` . Try changing the value of `buttonDisabled` from `false` to `true`
 - Can pass data with event by using the reserved `$event` keyword
 - `$event` can be passed to the component method through the parameter in the HTML template
  ```html
@@ -59,5 +61,5 @@ inputUpdated(event: Event) {
 > Now TypeSript knows that we know that the type of the `HTMLElement` of the event is `HTMLInputElement`
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NjYxNTQ3OCwtMTE0NDY0NjcxOV19
+eyJoaXN0b3J5IjpbOTA4ODI2ODU2LC0xMTQ0NjQ2NzE5XX0=
 -->
