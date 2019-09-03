@@ -13,7 +13,7 @@
 
 ## Data Binding
  ### String Interpolation
-- Allows you to communicate between your TypeScript code and HTML template in your component
+- Allows you to communicate between your TypeScript code and HTML template in your component by using `[` and `]`
 ```html
 <p>Hello, my name is  {{ name }}!</p>
 ```
@@ -23,7 +23,7 @@
 > Notice the `name` variable in `app.component.ts` and the `{{ name }}` in `app.component.html` 
 
 ### Property Binding
-- Bind HTML attributes to variables
+- Bind HTML attributes to TypeScript variables using `[`  and `]`
 ```html
 <button [disabled]="buttonDisabled">Click me</button>
 ```
@@ -59,5 +59,5 @@ inputUpdated(event: Event) {
 > Now TypeSript knows that we know that the type of the `HTMLElement` of the event is `HTMLInputElement`
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ5MTg3NjE0LC0xMTQ0NjQ2NzE5XX0=
+eyJoaXN0b3J5IjpbMTcyNzYyNTE4NCwtMTE0NDY0NjcxOV19
 -->
