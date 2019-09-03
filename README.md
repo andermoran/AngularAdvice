@@ -52,7 +52,7 @@ inputUpdated(event: Event) {
 	this.myVar = event.target.value;
 }
 ```
-
+![TypeScript complaining about implicit variable](https://github.com/andermoran/AngularAdvice/blob/master/images/event_error.png)
 - TypeScript might complain about this syntax because it does not explicitly know that the event has properties we are assuming it to have. To fix this, we canbe more explicit and type
 ```typescript
 inputUpdated(event: Event) {
@@ -69,6 +69,6 @@ inputUpdated(event: Event) {
 > **Important**: For events, you don't bind to onclick but only to click (=> (click))
 > The MDN (Mozilla Developer Network) offers nice lists of all properties and events of the element you're interested in. Googling for  `YOUR_ELEMENT properties` or  `YOUR_ELEMENT events` should yield nice results
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTMzNzQyNSwtMTU4NzY0MDM4NiwtMT
-E0NDY0NjcxOV19
+eyJoaXN0b3J5IjpbOTYyNjAwODk4LDEzNjUzMzc0MjUsLTE1OD
+c2NDAzODYsLTExNDQ2NDY3MTldfQ==
 -->
