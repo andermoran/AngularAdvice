@@ -118,17 +118,17 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - Must be prefixed with `*`
 #### *ngIf
 - Used to decide whether  to display an element or not
-- As long as whatever is in between the `"` and `"` is true, then the element will be displayed
+- As long as whatever is in between the `"` and `"` is true (e.g. variable, method, expression), then the element will be displayed
 ```html
 <p *ngIf="password.length >= 5">{{ password }} is a valid password</p>
 ```
 > This paragraph tag will only display if the `password.length >= 5` variable evaluates to `true`
 - [Example](https://stackblitz.com/edit/angular-tnzfsf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NzgxMzIzNCwxNDg5MDU0MTkxLDE1Nj
-IwNDQ2MDMsLTE1ODY3MTc4NzksLTE4MTY2NzQ2NDUsLTEzMDg4
-NTkyNzMsLTk1MzcxNzA0NywyNjk4MDc2MjMsNzgzMDEzOTgzLC
-0xNjY3NjYxODAzLC0xNjk5NjU0MjExLC0xNzM3NDA0MTc0LC0x
-NjQwOTY2ODk5LDk2MjYwMDg5OCwxMzY1MzM3NDI1LC0xNTg3Nj
-QwMzg2LC0xMTQ0NjQ2NzE5XX0=
+eyJoaXN0b3J5IjpbLTE4NzExMzc0MzAsMTQ4OTA1NDE5MSwxNT
+YyMDQ0NjAzLC0xNTg2NzE3ODc5LC0xODE2Njc0NjQ1LC0xMzA4
+ODU5MjczLC05NTM3MTcwNDcsMjY5ODA3NjIzLDc4MzAxMzk4My
+wtMTY2NzY2MTgwMywtMTY5OTY1NDIxMSwtMTczNzQwNDE3NCwt
+MTY0MDk2Njg5OSw5NjI2MDA4OTgsMTM2NTMzNzQyNSwtMTU4Nz
+Y0MDM4NiwtMTE0NDY0NjcxOV19
 -->
