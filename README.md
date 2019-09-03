@@ -99,12 +99,12 @@ html["input field value (app.component.html)"] -- $event --> ts["handler method 
 graph LR
 html["input field value (app.component.html)"] -- ngModel --> ts["variable (app.component.ts)"]
 ts["variable (app.component.ts)"] -- ngModel --> html["input field value (app.component.html)"]
-
 ```
+- Looking at the diagram above, you can see that a change to either the input field value *or* the variable associated with `ngModel` will change the other
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjUyMzQyNDIsLTE4MTY2NzQ2NDUsLT
-EzMDg4NTkyNzMsLTk1MzcxNzA0NywyNjk4MDc2MjMsNzgzMDEz
-OTgzLC0xNjY3NjYxODAzLC0xNjk5NjU0MjExLC0xNzM3NDA0MT
-c0LC0xNjQwOTY2ODk5LDk2MjYwMDg5OCwxMzY1MzM3NDI1LC0x
-NTg3NjQwMzg2LC0xMTQ0NjQ2NzE5XX0=
+eyJoaXN0b3J5IjpbMTI0MjMwMzA5OSwtMTgxNjY3NDY0NSwtMT
+MwODg1OTI3MywtOTUzNzE3MDQ3LDI2OTgwNzYyMyw3ODMwMTM5
+ODMsLTE2Njc2NjE4MDMsLTE2OTk2NTQyMTEsLTE3Mzc0MDQxNz
+QsLTE2NDA5NjY4OTksOTYyNjAwODk4LDEzNjUzMzc0MjUsLTE1
+ODc2NDAzODYsLTExNDQ2NDY3MTldfQ==
 -->
