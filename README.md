@@ -58,7 +58,7 @@ inputUpdated(event: Event) {
 ```
 > TypeScript might complain about this syntax because it does not explicitly know that the event has properties we are assuming it to have. All TypeScript knows is that it is an event, not necessarily what kind
 
-![TypeScript complaining about variable's vagueness]([https://github.com/andermoran/AngularAdvice/blob/master/images/Screen%20Shot%202019-09-03%20at%2011.24.51%20AM.png](https://github.com/andermoran/AngularAdvice/blob/master/images/Screen%20Shot%202019-09-03%20at%2011.24.51%20AM.png))
+![TypeScript complaining about variable's vagueness]((https://github.com/andermoran/AngularAdvice/blob/master/images/Screen%20Shot%202019-09-03%20at%2011.24.51%20AM.png))
 > Notice how `value` is red underlined
 > To fix this, we can be more explicit and type
 ```typescript
@@ -68,13 +68,10 @@ inputUpdated(event: Event) {
 ```
 > Now TypeScript knows that we know that the type of the `HTMLElement` of the event is `HTMLInputElement`
 
-![TypeScript no longer complaining with variable and is now happy](https://github.com/andermoran/AngularAdvice/blob/master/images/event_error_fixed_explicit.png)
+![TypeScript no longer complaining with variable and is now happy](https://github.com/andermoran/AngularAdvice/blob/master/images/Screen%20Shot%202019-09-03%20at%2011.24.39%20AM.png))
 > Notice how `value` is no longer red underlined
 #### [Example](https://stackblitz.com/edit/angular-9waen7)
-> Try typing into the input field and see how the `userInput` variable updates, the updating the line:
-```html
-<p>user input = {{ userInput }}</p>
-```
+> Try typing into the input field
 > Notice how `(input)="inputUpdated($event)"` takes `$event` as a parameter, allowing `app.component.ts` to get information from `app.component.html`. Here we are passing information in one direction (from `app.component.ts` to `app.component.html`) and storing it in the `userInput` variable in `app.component.ts` via the line: 
 ```typescript
 inputUpdated(event: Event)  {
@@ -97,8 +94,8 @@ inputUpdated(event: Event)  {
 
 > Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`. Try typing into the input box. It appears to work the same way as the previous method of getting a user's input but in this case
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA0Mjg4ODkxLDI2OTgwNzYyMyw3ODMwMT
-M5ODMsLTE2Njc2NjE4MDMsLTE2OTk2NTQyMTEsLTE3Mzc0MDQx
-NzQsLTE2NDA5NjY4OTksOTYyNjAwODk4LDEzNjUzMzc0MjUsLT
-E1ODc2NDAzODYsLTExNDQ2NDY3MTldfQ==
+eyJoaXN0b3J5IjpbLTE2NjY4MDI2MzAsMjY5ODA3NjIzLDc4Mz
+AxMzk4MywtMTY2NzY2MTgwMywtMTY5OTY1NDIxMSwtMTczNzQw
+NDE3NCwtMTY0MDk2Njg5OSw5NjI2MDA4OTgsMTM2NTMzNzQyNS
+wtMTU4NzY0MDM4NiwtMTE0NDY0NjcxOV19
 -->
