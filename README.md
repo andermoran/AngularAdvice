@@ -31,7 +31,9 @@
 ```
 - Where `buttonDisabled` is a variable in a component file
 - If `buttonDisabled` is `true`, then the button is disabled, if it is `false`, then the button is enabled
-- In this case, the variable we bind is a `boolean`, but what if we bind a `string` or 
+- In this case, the variable we bind is a `boolean`, but what if we bind a `string` or `number`?
+	- For a `string` variable, if it is empty, then it is the equivalent of false, if it has at least one character, then it is true
+	- For a `number` variable, if it is `0` then it is false,
 #### [Example](https://stackblitz.com/edit/angular-2knkts)
 > Notice the `buttonDisabled` variable in `app.component.ts` and the `[disabled]="buttonDisabled"` in `app.component.html` . Try changing the value of `buttonDisabled` from `false` to `true`
 
@@ -105,7 +107,7 @@ ts["variable (app.component.ts)"] -- ngModel --> html["input field value (app.co
 ```
 - Looking at the diagram above, you can see that a change to either the input field value *or* the variable associated with `ngModel` will change the other.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTEyMzg4NzQsLTE1ODY3MTc4NzksLT
+eyJoaXN0b3J5IjpbLTE4OTM1Mzc5ODYsLTE1ODY3MTc4NzksLT
 E4MTY2NzQ2NDUsLTEzMDg4NTkyNzMsLTk1MzcxNzA0NywyNjk4
 MDc2MjMsNzgzMDEzOTgzLC0xNjY3NjYxODAzLC0xNjk5NjU0Mj
 ExLC0xNzM3NDA0MTc0LC0xNjQwOTY2ODk5LDk2MjYwMDg5OCwx
