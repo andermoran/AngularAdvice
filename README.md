@@ -83,7 +83,8 @@ inputUpdated(event: Event)  {
 ```
 
 ### Two-Way Databinding
-- The two-way data binding enables changes in the application state have been automagically reflected into the view and vise-versa
+- The two-way data binding enables "changes in the application state have been automagically reflected into the view and vise-versa"
+
 - *Note from [Maximilian Schwarzmüller](https://twitter.com/maxedapps):*
 > #### Important: FormsModule is Required for Two-Way-Binding!
 > Important: For Two-Way-Binding to work, you need to enable the  `ngModel` directive. This is done by adding the  `FormsModule` to the  `imports[]` array in the AppModule. 
@@ -96,8 +97,8 @@ inputUpdated(event: Event)  {
 
 > Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`. Try typing into the input box. It appears to work the same way as the previous method of getting a user's input but in this case
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NDIxODQ0NSwtMTY2NzY2MTgwMywtMT
-Y5OTY1NDIxMSwtMTczNzQwNDE3NCwtMTY0MDk2Njg5OSw5NjI2
-MDA4OTgsMTM2NTMzNzQyNSwtMTU4NzY0MDM4NiwtMTE0NDY0Nj
-cxOV19
+eyJoaXN0b3J5IjpbNzgzMDEzOTgzLC0xNjY3NjYxODAzLC0xNj
+k5NjU0MjExLC0xNzM3NDA0MTc0LC0xNjQwOTY2ODk5LDk2MjYw
+MDg5OCwxMzY1MzM3NDI1LC0xNTg3NjQwMzg2LC0xMTQ0NjQ2Nz
+E5XX0=
 -->
