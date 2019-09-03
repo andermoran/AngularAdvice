@@ -113,15 +113,20 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 ```html
 <p appTurnGreen>Receives a green background!</p>
 ```
-### Structural Directive
+### Structural Directives
 - "Structural directives are responsible for HTML layout. They shape or reshape the DOM's *structure*, typically by adding, removing, or manipulating elements."
 - Must be prefixed with `*`
-	- Example: `*ngIf`
+#### *ngIf
+- Used to decide whether  to display an element or not
+```html
+<p *nfIf="isRootUser">You are the root user</p>
+```
+> This paragrap
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMjM2MTA5MCwxNDg5MDU0MTkxLDE1Nj
-IwNDQ2MDMsLTE1ODY3MTc4NzksLTE4MTY2NzQ2NDUsLTEzMDg4
-NTkyNzMsLTk1MzcxNzA0NywyNjk4MDc2MjMsNzgzMDEzOTgzLC
-0xNjY3NjYxODAzLC0xNjk5NjU0MjExLC0xNzM3NDA0MTc0LC0x
-NjQwOTY2ODk5LDk2MjYwMDg5OCwxMzY1MzM3NDI1LC0xNTg3Nj
-QwMzg2LC0xMTQ0NjQ2NzE5XX0=
+eyJoaXN0b3J5IjpbLTQwMzEzMzY2LDE0ODkwNTQxOTEsMTU2Mj
+A0NDYwMywtMTU4NjcxNzg3OSwtMTgxNjY3NDY0NSwtMTMwODg1
+OTI3MywtOTUzNzE3MDQ3LDI2OTgwNzYyMyw3ODMwMTM5ODMsLT
+E2Njc2NjE4MDMsLTE2OTk2NTQyMTEsLTE3Mzc0MDQxNzQsLTE2
+NDA5NjY4OTksOTYyNjAwODk4LDEzNjUzMzc0MjUsLTE1ODc2ND
+AzODYsLTExNDQ2NDY3MTldfQ==
 -->
