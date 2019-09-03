@@ -94,14 +94,16 @@ html[app.component.html] -- $event --> ts[app.component.ts]
 #### [Example](https://stackblitz.com/edit/angular-pkgmpx)
 > *Note: ngModel is a directive but you don't need to know what that is right now*
 
-> Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`.  
-> graph LR
-html[app.component.html] -- $event --> ts[app.component.ts]
+> Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`.  This differs from the previous example because if 
+```mermaid
+graph LR
+html[app.component.html] -- TypeScript variable --> ts[app.component.ts]
+ts[app.component.ts] -- TypeScript variable --> html[app.component.html]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NjIyNjcyMywtMTgxNjY3NDY0NSwtMT
-MwODg1OTI3MywtOTUzNzE3MDQ3LDI2OTgwNzYyMyw3ODMwMTM5
-ODMsLTE2Njc2NjE4MDMsLTE2OTk2NTQyMTEsLTE3Mzc0MDQxNz
-QsLTE2NDA5NjY4OTksOTYyNjAwODk4LDEzNjUzMzc0MjUsLTE1
-ODc2NDAzODYsLTExNDQ2NDY3MTldfQ==
+eyJoaXN0b3J5IjpbLTEwNjk2MzU1MTQsLTE4MTY2NzQ2NDUsLT
+EzMDg4NTkyNzMsLTk1MzcxNzA0NywyNjk4MDc2MjMsNzgzMDEz
+OTgzLC0xNjY3NjYxODAzLC0xNjk5NjU0MjExLC0xNzM3NDA0MT
+c0LC0xNjQwOTY2ODk5LDk2MjYwMDg5OCwxMzY1MzM3NDI1LC0x
+NTg3NjQwMzg2LC0xMTQ0NjQ2NzE5XX0=
 -->
