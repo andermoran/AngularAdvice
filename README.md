@@ -58,7 +58,7 @@ inputUpdated(event: Event) {
 ```
 > TypeScript might complain about this syntax because it does not explicitly know that the event has properties we are assuming it to have. All TypeScript knows is that it is an event, not necessarily what kind
 
-![TypeScript complaining about variable's vagueness]((https://github.com/andermoran/AngularAdvice/blob/master/images/Screen%20Shot%202019-09-03%20at%2011.24.51%20AM.png))
+![TypeScript complaining about variable's vagueness](https://github.com/andermoran/AngularAdvice/blob/master/images/Screen%20Shot%202019-09-03%20at%2011.24.51%20AM.png)
 > Notice how `value` is red underlined
 > To fix this, we can be more explicit and type
 ```typescript
@@ -94,8 +94,8 @@ html[app.component.html] -- $event --> ts[app.component.ts]
 
 > Notice the `userInput` variable in `app.component.ts` and the `[(ngModel)]="userInput"` in `app.component.html`. Try typing into the input box. FINISH THIS PART WHEN I COME BACK FROM LUNCH
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTc0ODA2MCwyNjk4MDc2MjMsNzgzMD
-EzOTgzLC0xNjY3NjYxODAzLC0xNjk5NjU0MjExLC0xNzM3NDA0
-MTc0LC0xNjQwOTY2ODk5LDk2MjYwMDg5OCwxMzY1MzM3NDI1LC
-0xNTg3NjQwMzg2LC0xMTQ0NjQ2NzE5XX0=
+eyJoaXN0b3J5IjpbLTE2MDQ4NTExMTksMjY5ODA3NjIzLDc4Mz
+AxMzk4MywtMTY2NzY2MTgwMywtMTY5OTY1NDIxMSwtMTczNzQw
+NDE3NCwtMTY0MDk2Njg5OSw5NjI2MDA4OTgsMTM2NTMzNzQyNS
+wtMTU4NzY0MDM4NiwtMTE0NDY0NjcxOV19
 -->
