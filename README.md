@@ -78,8 +78,9 @@ inputUpdated(event: Event) {
 > 
 > You then also need to add the import from  `@angular/forms` in the app.module.ts file:
 > `import { FormsModule } from '@angular/forms';`
+> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjEwNTkxMjcsLTE2OTk2NTQyMTEsLT
+eyJoaXN0b3J5IjpbLTE2Njc2NjE4MDMsLTE2OTk2NTQyMTEsLT
 E3Mzc0MDQxNzQsLTE2NDA5NjY4OTksOTYyNjAwODk4LDEzNjUz
 Mzc0MjUsLTE1ODc2NDAzODYsLTExNDQ2NDY3MTldfQ==
 -->
