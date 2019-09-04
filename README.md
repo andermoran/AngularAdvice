@@ -3,6 +3,8 @@
 ## Table of Contents
 ### Will do once finished
 
+## Table of Contents
+
 ## Basics
 - Angular (currently on Angular 8) is a framework that allows for dynamic, reactive web applications as well as native mobile applications
 - It is a combination of TypeScript (a subset of Javascript) and HTML
@@ -122,15 +124,16 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 ```html
 <p *ngIf="password.length >= 5">{{ password }} is a valid password</p>
 ```
-> This paragraph tag will only display if `password.length >= 5` evaluates to `true`
+> This paragraph tag will only display if `password.length >= 5` evaluates to `true`. `password` is a TypeScript variable.
 - [Example](https://stackblitz.com/edit/angular-tnzfsf)
 - What if we want to display one thing if something is true and another thing if something is false? Is there an *ngElse?
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDA3OTkzNzEsLTE4NzExMzc0MzAsMT
-Q4OTA1NDE5MSwxNTYyMDQ0NjAzLC0xNTg2NzE3ODc5LC0xODE2
-Njc0NjQ1LC0xMzA4ODU5MjczLC05NTM3MTcwNDcsMjY5ODA3Nj
-IzLDc4MzAxMzk4MywtMTY2NzY2MTgwMywtMTY5OTY1NDIxMSwt
-MTczNzQwNDE3NCwtMTY0MDk2Njg5OSw5NjI2MDA4OTgsMTM2NT
-MzNzQyNSwtMTU4NzY0MDM4NiwtMTE0NDY0NjcxOV19
+eyJoaXN0b3J5IjpbMzY3MjQzMTY1LC0xMTQwNzk5MzcxLC0xOD
+cxMTM3NDMwLDE0ODkwNTQxOTEsMTU2MjA0NDYwMywtMTU4Njcx
+Nzg3OSwtMTgxNjY3NDY0NSwtMTMwODg1OTI3MywtOTUzNzE3MD
+Q3LDI2OTgwNzYyMyw3ODMwMTM5ODMsLTE2Njc2NjE4MDMsLTE2
+OTk2NTQyMTEsLTE3Mzc0MDQxNzQsLTE2NDA5NjY4OTksOTYyNj
+AwODk4LDEzNjUzMzc0MjUsLTE1ODc2NDAzODYsLTExNDQ2NDY3
+MTldfQ==
 -->
