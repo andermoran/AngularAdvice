@@ -184,12 +184,14 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 		```
 	> where `valid` is a css class defined in the .css file associated with a component
 - [Example](https://stackblitz.com/edit/angular-mnkems)
+
+### [Example using ngIf, ngFor, ngClass, and ngStyle](https://stackblitz.com/edit/angular-nxsnso)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyNDk1OTM0LC0xODU0NTEyOTI1LC04OT
-QwOTU0MjYsLTEyMjQ1NDYwOTcsLTcyNjcyNjQyNywtMjAxMzA1
-NzE3NCwyMDA4NTU0NTgwLDEzMzM0MTU5NjMsLTI4NTg5NDU1Ny
-wtMTYxMzMwNDQ5Myw2NDAzNTkyMzMsLTU5MDc0NDk5MCwtMTE2
-MTM5OTU5MCwtMTc3ODM1NjIyNCwtMTE0MDc5OTM3MSwtMTg3MT
-EzNzQzMCwxNDg5MDU0MTkxLDE1NjIwNDQ2MDMsLTE1ODY3MTc4
-NzksLTE4MTY2NzQ2NDVdfQ==
+eyJoaXN0b3J5IjpbMTYzOTA1NDUzMSw5MzI0OTU5MzQsLTE4NT
+Q1MTI5MjUsLTg5NDA5NTQyNiwtMTIyNDU0NjA5NywtNzI2NzI2
+NDI3LC0yMDEzMDU3MTc0LDIwMDg1NTQ1ODAsMTMzMzQxNTk2My
+wtMjg1ODk0NTU3LC0xNjEzMzA0NDkzLDY0MDM1OTIzMywtNTkw
+NzQ0OTkwLC0xMTYxMzk5NTkwLC0xNzc4MzU2MjI0LC0xMTQwNz
+k5MzcxLC0xODcxMTM3NDMwLDE0ODkwNTQxOTEsMTU2MjA0NDYw
+MywtMTU4NjcxNzg3OV19
 -->
