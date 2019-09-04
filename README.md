@@ -156,7 +156,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 	> Notice the `people` array. `*ngFor="let person of people"` means loop through each element in the array `people` and at each index assign the value of the array at that index to `person`
 - To get the index of the element in the array with ngFor assign the index to a variable
 ```html
-<p *ngFor="let person of people; let i = index">{{ person }}</p>
+<p *ngFor="let person of people; let i = index">person #{{ i }} {{ person }}</p>
 ```
 ### Attribute Directives
 - These directives do not add or remove elements, only change the element it is used on
@@ -195,7 +195,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 #### [Example using ngIf, ngFor, ngClass, and ngStyle](https://stackblitz.com/edit/angular-nxsnso)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMTYyMjY1Myw5MzI0OTU5MzQsLTE4NT
+eyJoaXN0b3J5IjpbLTYzMTI0MDkzMCw5MzI0OTU5MzQsLTE4NT
 Q1MTI5MjUsLTg5NDA5NTQyNiwtMTIyNDU0NjA5NywtNzI2NzI2
 NDI3LC0yMDEzMDU3MTc0LDIwMDg1NTQ1ODAsMTMzMzQxNTk2My
 wtMjg1ODk0NTU3LC0xNjEzMzA0NDkzLDY0MDM1OTIzMywtNTkw
