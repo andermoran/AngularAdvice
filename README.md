@@ -155,17 +155,20 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - You can use this in a multiple ways as long as there is a javascript object between the quotes. Here are a couple examples
 	1. Using a function that returns a javascript object
 		```typescript
-		getColor()  {
-		return  {backgroundColor:  'green', color:  'white'};
+		getColor() {
+			return {backgroundColor: 'green', color: 'white'};
 		}
 		```
 		```html
 		<p [ngStyle]="getColor()">Hello, world!<p>
 		```
-	2. 
+	2. Directly passing the javascript object
+		```html
+		<p [ngStyle]="{backgroundColor: 'green', color: 'white'}">Hello, world!<p>
+		```
 - [Example](https://stackblitz.com/edit/angular-p6hawb)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MjY1MjExMywxMzMzNDE1OTYzLC0yOD
+eyJoaXN0b3J5IjpbMjAwODU1NDU4MCwxMzMzNDE1OTYzLC0yOD
 U4OTQ1NTcsLTE2MTMzMDQ0OTMsNjQwMzU5MjMzLC01OTA3NDQ5
 OTAsLTExNjEzOTk1OTAsLTE3NzgzNTYyMjQsLTExNDA3OTkzNz
 EsLTE4NzExMzc0MzAsMTQ4OTA1NDE5MSwxNTYyMDQ0NjAzLC0x
