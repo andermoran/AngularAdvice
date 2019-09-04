@@ -148,8 +148,13 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 	> Notice how if the password is less than 5 character you see `password too short` but once it is at least five characters it says `(whatever you typed) is a valid password`
 #### ngFor
 - Loops through an array to display multiple elements
+```html
+<p *ngFor="let person of people">{{ person }}</p>
+```
+> Where people is 
 - [Example](https://stackblitz.com/edit/angular-2v9dzs)
 	> Notice the `people` array. `*ngFor="let person of people"` means loop through each element in the array `people` and at each index assign the value of the array at that index to `person`
+- 
 ### Attribute Directives
 - These directives do not add or remove elements, only change the element it is used on
 #### ngStyle
@@ -185,13 +190,13 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 	> where `valid` is a css class defined in the .css file associated with a component
 - [Example](https://stackblitz.com/edit/angular-mnkems)
 
-### [Example using ngIf, ngFor, ngClass, and ngStyle](https://stackblitz.com/edit/angular-nxsnso)
+#### [Example using ngIf, ngFor, ngClass, and ngStyle](https://stackblitz.com/edit/angular-nxsnso)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTA1NDUzMSw5MzI0OTU5MzQsLTE4NT
-Q1MTI5MjUsLTg5NDA5NTQyNiwtMTIyNDU0NjA5NywtNzI2NzI2
-NDI3LC0yMDEzMDU3MTc0LDIwMDg1NTQ1ODAsMTMzMzQxNTk2My
-wtMjg1ODk0NTU3LC0xNjEzMzA0NDkzLDY0MDM1OTIzMywtNTkw
-NzQ0OTkwLC0xMTYxMzk5NTkwLC0xNzc4MzU2MjI0LC0xMTQwNz
-k5MzcxLC0xODcxMTM3NDMwLDE0ODkwNTQxOTEsMTU2MjA0NDYw
-MywtMTU4NjcxNzg3OV19
+eyJoaXN0b3J5IjpbODc1NTk1MzI1LDkzMjQ5NTkzNCwtMTg1ND
+UxMjkyNSwtODk0MDk1NDI2LC0xMjI0NTQ2MDk3LC03MjY3MjY0
+MjcsLTIwMTMwNTcxNzQsMjAwODU1NDU4MCwxMzMzNDE1OTYzLC
+0yODU4OTQ1NTcsLTE2MTMzMDQ0OTMsNjQwMzU5MjMzLC01OTA3
+NDQ5OTAsLTExNjEzOTk1OTAsLTE3NzgzNTYyMjQsLTExNDA3OT
+kzNzEsLTE4NzExMzc0MzAsMTQ4OTA1NDE5MSwxNTYyMDQ0NjAz
+LC0xNTg2NzE3ODc5XX0=
 -->
