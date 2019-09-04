@@ -136,9 +136,9 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 	<p *ngIf="password.length >= 5">{{ password }} is a valid password</p>
 	<p *ngIf="password.length < 5">{{ password }} is too short</p>
 	```
-	2.
+	2. Using ng
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MjgxMzIxMywtMTE2MTM5OTU5MCwtMT
+eyJoaXN0b3J5IjpbLTU5MDc0NDk5MCwtMTE2MTM5OTU5MCwtMT
 c3ODM1NjIyNCwtMTE0MDc5OTM3MSwtMTg3MTEzNzQzMCwxNDg5
 MDU0MTkxLDE1NjIwNDQ2MDMsLTE1ODY3MTc4NzksLTE4MTY2Nz
 Q2NDUsLTEzMDg4NTkyNzMsLTk1MzcxNzA0NywyNjk4MDc2MjMs
