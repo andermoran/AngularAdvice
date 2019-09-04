@@ -20,9 +20,9 @@ I am making this guide as I am learning Angular from [Maximilian Schwarzmüller'
 ## Data Binding
  ### String Interpolation
 - Allows you to communicate between your TypeScript code and HTML template in your component by using `[` and `]`
-```html
-<p>Hello, my name is {{ name }}!</p>
-```
+	```html
+	<p>Hello, my name is {{ name }}!</p>
+	```
 - Where `name` is a variable in the corresponding TypeScript code
 - The variable being interpolated into a string can be a `string`, `number`, `boolean`, etc. as long as it can be represented as a `string` in the end
 - [Example](https://stackblitz.com/edit/angular-cau2tt)
@@ -30,9 +30,9 @@ I am making this guide as I am learning Angular from [Maximilian Schwarzmüller'
 
 ### Property Binding
 - Bind HTML attributes to TypeScript variables using `[` and `]`
-```html
-<button [disabled]="buttonDisabled">Click me</button>
-```
+	```html
+	<button [disabled]="buttonDisabled">Click me</button>
+	```
 - Where `buttonDisabled` is a variable in a component file
 - If `buttonDisabled` is `true`, then the button is disabled, if it is `false`, then the button is enabled
 - In this case, the variable we bind is a `boolean`, but what if we bind a `string` or `number`?
@@ -43,9 +43,9 @@ I am making this guide as I am learning Angular from [Maximilian Schwarzmüller'
 
 ### Event Binding
 - Bind HTML DOM events such as `click()` to a TypeSript method using `(` and `)`
-```html
-<button (click)="onButtonClick()">Click me</button>
-```
+	```html
+	<button (click)="onButtonClick()">Click me</button>
+	```
 - Where `onButtonClick()` is a method in a component file
 - So whenever `click()` fires, it triggers `onButtonClick()`
 #### [Example](https://stackblitz.com/edit/angular-2knkts)
@@ -56,20 +56,19 @@ I am making this guide as I am learning Angular from [Maximilian Schwarzmüller'
 > The MDN (Mozilla Developer Network) offers nice lists of all properties and events of the element you're interested in. Googling for `YOUR_ELEMENT properties` or `YOUR_ELEMENT events` should yield nice results
 - Data can be passed with event by using the reserved `$event` keyword
 - `$event` can be passed to the component method through the parameter in the HTML template
- ```html
- <input type="text" class="form-control" (input)="inputUpdated($event)"/>
- ```
+	 ```html
+	 <input type="text" class="form-control" (input)="inputUpdated($event)"/>
+	 ```
 - In our TypeScript code, we can reference this via 
-```typescript
-inputUpdated(event: Event) {
-	console.log(event.target.value);
-}
-```
-> TypeScript might complain about this syntax because it does not explicitly know that the event has properties we are assuming it to have. All TypeScript knows is that it is an event, not necessarily what kind
+	```typescript
+	inputUpdated(event: Event) {
+		console.log(event.target.value);
+	}
+	```
+	> TypeScript might complain about this syntax because it does not explicitly know that the event has properties we are assuming it to have. All TypeScript knows is that it is an event, not necessarily what kind
 
 ![TypeScript complaining about variable's vagueness](https://github.com/andermoran/AngularAdvice/blob/master/images/Screen%20Shot%202019-09-03%20at%2011.24.51%20AM.png)
-> Notice how `value` is red underlined
-> To fix this, we can be more explicit and type
+> Notice how `value` is red underlined. To fix this, we can be more explicit and type
 ```typescript
 inputUpdated(event: Event) {
 	console.log((<HTMLInputElement>event.target).value);
@@ -114,9 +113,9 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 ## Directives
 - "Directives are instructions in the DOM"
 - Example directive:
-```html
-<p appTurnGreen>Receives a green background!</p>
-```
+	```html
+	<p appTurnGreen>Receives a green background!</p>
+	```
 ### Structural Directives
 - "Structural directives are responsible for HTML layout. They shape or reshape the DOM's *structure*, typically by adding, removing, or manipulating elements."
 - Must be prefixed with `*`
@@ -133,10 +132,10 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 	- Kind of
 - You have two options
 	1. Writing the same line of code but reverse the boolean
-	```html
-	<p *ngIf="password.length >= 5">{{ password }} is a valid password</p>
-	<p *ngIf="password.length < 5">{{ password }} is too short</p>
-	```
+		```html
+		<p *ngIf="password.length >= 5">{{ password }} is a valid password</p>
+		<p *ngIf="password.length < 5">{{ password }} is too short</p>
+		```
 	2. Using `ng-template`
 		```html
 		<p *ngIf="password.length >= 5; else passwordTooShort">{{ password }} is a valid password</p>
@@ -181,7 +180,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 > `valid` is a css class defined in the .css file associated with a component
 - [Example](https://stackblitz.com/edit/angular-mnkems)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDQyMDU5NTksLTcyNjcyNjQyNywtMj
+eyJoaXN0b3J5IjpbLTEyMjQ1NDYwOTcsLTcyNjcyNjQyNywtMj
 AxMzA1NzE3NCwyMDA4NTU0NTgwLDEzMzM0MTU5NjMsLTI4NTg5
 NDU1NywtMTYxMzMwNDQ5Myw2NDAzNTkyMzMsLTU5MDc0NDk5MC
 wtMTE2MTM5OTU5MCwtMTc3ODM1NjIyNCwtMTE0MDc5OTM3MSwt
