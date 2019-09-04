@@ -138,12 +138,12 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 	<p *ngIf="password.length < 5">{{ password }} is too short</p>
 	```
 	2. Using `ng-template`
-	```html
-	<p *ngIf="password.length >= 5; else passwordTooShort">{{ password }} is a valid password</p>
-	<ng-template #passwordTooShort>
-	<p #passwordTooShort>password too short</p>
-	</ng-template>
-	```
+		```html
+		<p *ngIf="password.length >= 5; else passwordTooShort">{{ password }} is a valid password</p>
+		<ng-template #passwordTooShort>
+		<p #passwordTooShort>password too short</p>
+		</ng-template>
+		```
 	3. There are a few more ways to achieve conditional rendering [here](https://ultimatecourses.com/blog/angular-ngif-else-then#ngIf_and_Else)
 - [Example](https://stackblitz.com/edit/angular-l7ueby)
 > Notice how if the password is less than 5 character you see `password too short` but once it is at least five characters it says `(whatever you typed) is a valid password`
@@ -169,17 +169,23 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - [Example](https://stackblitz.com/edit/angular-p6hawb)
 #### ngClass
 - Dynamically add or remove CSS classes to elements
-	```html
-	<p [ngClass]="{valid: password.length >= 5}">Password status<p>
-	```
-	> `valid` is a css class defined in the .css file associated with a component
+- You can have it apply/remove the class conditionally or unconditionally
+	1. Conditionally
+		```html
+		<p [ngClass]="{valid: password.length >= 5}">Password status<p>
+		```
+	2. Uncondtionally
+		```html
+		<p [ngClass]="'valid'">Password status<p>
+		```
+> `valid` is a css class defined in the .css file associated with a component
 - [Example](https://stackblitz.com/edit/angular-mnkems)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNjcyNjQyNywtMjAxMzA1NzE3NCwyMD
-A4NTU0NTgwLDEzMzM0MTU5NjMsLTI4NTg5NDU1NywtMTYxMzMw
-NDQ5Myw2NDAzNTkyMzMsLTU5MDc0NDk5MCwtMTE2MTM5OTU5MC
-wtMTc3ODM1NjIyNCwtMTE0MDc5OTM3MSwtMTg3MTEzNzQzMCwx
-NDg5MDU0MTkxLDE1NjIwNDQ2MDMsLTE1ODY3MTc4NzksLTE4MT
-Y2NzQ2NDUsLTEzMDg4NTkyNzMsLTk1MzcxNzA0NywyNjk4MDc2
-MjMsNzgzMDEzOTgzXX0=
+eyJoaXN0b3J5IjpbLTE5NDQyMDU5NTksLTcyNjcyNjQyNywtMj
+AxMzA1NzE3NCwyMDA4NTU0NTgwLDEzMzM0MTU5NjMsLTI4NTg5
+NDU1NywtMTYxMzMwNDQ5Myw2NDAzNTkyMzMsLTU5MDc0NDk5MC
+wtMTE2MTM5OTU5MCwtMTc3ODM1NjIyNCwtMTE0MDc5OTM3MSwt
+MTg3MTEzNzQzMCwxNDg5MDU0MTkxLDE1NjIwNDQ2MDMsLTE1OD
+Y3MTc4NzksLTE4MTY2NzQ2NDUsLTEzMDg4NTkyNzMsLTk1Mzcx
+NzA0NywyNjk4MDc2MjNdfQ==
 -->
