@@ -177,6 +177,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 		```html
 		<p [ngClass]="{valid: password.length >= 5}">Password status<p>
 		```
+		> If the css class name has a `-` (e.g. `valid-password`) then you need to place single quotes around the class name `<p [ngClass]="{'valid-password': password.length >= 5}">Password status<p>`
 	2. Uncondtionally
 		```html
 		<p [ngClass]="'valid'">Password status<p>
@@ -184,11 +185,11 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 	> where `valid` is a css class defined in the .css file associated with a component
 - [Example](https://stackblitz.com/edit/angular-mnkems)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTQ1MTI5MjUsLTg5NDA5NTQyNiwtMT
-IyNDU0NjA5NywtNzI2NzI2NDI3LC0yMDEzMDU3MTc0LDIwMDg1
-NTQ1ODAsMTMzMzQxNTk2MywtMjg1ODk0NTU3LC0xNjEzMzA0ND
-kzLDY0MDM1OTIzMywtNTkwNzQ0OTkwLC0xMTYxMzk5NTkwLC0x
-Nzc4MzU2MjI0LC0xMTQwNzk5MzcxLC0xODcxMTM3NDMwLDE0OD
-kwNTQxOTEsMTU2MjA0NDYwMywtMTU4NjcxNzg3OSwtMTgxNjY3
-NDY0NSwtMTMwODg1OTI3M119
+eyJoaXN0b3J5IjpbOTMyNDk1OTM0LC0xODU0NTEyOTI1LC04OT
+QwOTU0MjYsLTEyMjQ1NDYwOTcsLTcyNjcyNjQyNywtMjAxMzA1
+NzE3NCwyMDA4NTU0NTgwLDEzMzM0MTU5NjMsLTI4NTg5NDU1Ny
+wtMTYxMzMwNDQ5Myw2NDAzNTkyMzMsLTU5MDc0NDk5MCwtMTE2
+MTM5OTU5MCwtMTc3ODM1NjIyNCwtMTE0MDc5OTM3MSwtMTg3MT
+EzNzQzMCwxNDg5MDU0MTkxLDE1NjIwNDQ2MDMsLTE1ODY3MTc4
+NzksLTE4MTY2NzQ2NDVdfQ==
 -->
