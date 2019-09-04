@@ -177,14 +177,14 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 		```html
 		<p [ngClass]="'valid'">Password status<p>
 		```
-> `valid` is a css class defined in the .css file associated with a component
+	> `valid` is a css class defined in the .css file associated with a component
 - [Example](https://stackblitz.com/edit/angular-mnkems)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjQ1NDYwOTcsLTcyNjcyNjQyNywtMj
-AxMzA1NzE3NCwyMDA4NTU0NTgwLDEzMzM0MTU5NjMsLTI4NTg5
-NDU1NywtMTYxMzMwNDQ5Myw2NDAzNTkyMzMsLTU5MDc0NDk5MC
-wtMTE2MTM5OTU5MCwtMTc3ODM1NjIyNCwtMTE0MDc5OTM3MSwt
-MTg3MTEzNzQzMCwxNDg5MDU0MTkxLDE1NjIwNDQ2MDMsLTE1OD
-Y3MTc4NzksLTE4MTY2NzQ2NDUsLTEzMDg4NTkyNzMsLTk1Mzcx
-NzA0NywyNjk4MDc2MjNdfQ==
+eyJoaXN0b3J5IjpbMTk5MDI1NjE4MywtMTIyNDU0NjA5NywtNz
+I2NzI2NDI3LC0yMDEzMDU3MTc0LDIwMDg1NTQ1ODAsMTMzMzQx
+NTk2MywtMjg1ODk0NTU3LC0xNjEzMzA0NDkzLDY0MDM1OTIzMy
+wtNTkwNzQ0OTkwLC0xMTYxMzk5NTkwLC0xNzc4MzU2MjI0LC0x
+MTQwNzk5MzcxLC0xODcxMTM3NDMwLDE0ODkwNTQxOTEsMTU2Mj
+A0NDYwMywtMTU4NjcxNzg3OSwtMTgxNjY3NDY0NSwtMTMwODg1
+OTI3MywtOTUzNzE3MDQ3XX0=
 -->
