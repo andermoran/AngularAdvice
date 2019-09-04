@@ -150,7 +150,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 ### Attribute Directives
 - These directives do not add or remove elements, only change the element it is used on
 #### ngStyle
-- Used to apply CSS styles to elements
+- Used to dynamically apply CSS styles to elements
 - In between `"` and `"` you should have a javascript object
 - You can use this in a multiple ways as long as there is a javascript object between the quotes. Here are a couple examples
 	1. Using a function that returns a javascript object
@@ -167,12 +167,15 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 		<p [ngStyle]="{backgroundColor: 'green', color: 'white'}">Hello, world!<p>
 		```
 - [Example](https://stackblitz.com/edit/angular-p6hawb)
+#### ngClass
+- Dynamically add or remove CSS classes to elements
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODU1NDU4MCwxMzMzNDE1OTYzLC0yOD
-U4OTQ1NTcsLTE2MTMzMDQ0OTMsNjQwMzU5MjMzLC01OTA3NDQ5
-OTAsLTExNjEzOTk1OTAsLTE3NzgzNTYyMjQsLTExNDA3OTkzNz
-EsLTE4NzExMzc0MzAsMTQ4OTA1NDE5MSwxNTYyMDQ0NjAzLC0x
-NTg2NzE3ODc5LC0xODE2Njc0NjQ1LC0xMzA4ODU5MjczLC05NT
-M3MTcwNDcsMjY5ODA3NjIzLDc4MzAxMzk4MywtMTY2NzY2MTgw
-MywtMTY5OTY1NDIxMV19
+eyJoaXN0b3J5IjpbLTIwMTMwNTcxNzQsMjAwODU1NDU4MCwxMz
+MzNDE1OTYzLC0yODU4OTQ1NTcsLTE2MTMzMDQ0OTMsNjQwMzU5
+MjMzLC01OTA3NDQ5OTAsLTExNjEzOTk1OTAsLTE3NzgzNTYyMj
+QsLTExNDA3OTkzNzEsLTE4NzExMzc0MzAsMTQ4OTA1NDE5MSwx
+NTYyMDQ0NjAzLC0xNTg2NzE3ODc5LC0xODE2Njc0NjQ1LC0xMz
+A4ODU5MjczLC05NTM3MTcwNDcsMjY5ODA3NjIzLDc4MzAxMzk4
+MywtMTY2NzY2MTgwM119
 -->
