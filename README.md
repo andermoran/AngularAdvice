@@ -151,18 +151,21 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - These directives do not add or remove elements, only change the element it is used on
 #### ngStyle
 - Used to apply CSS styles to elements
+- In between `"` and `"` you should have a javascript object
 - You can use this in a couple ways
-	1. 
+	1. Using a function that returns a javascript object
+```typescript
+```
 ```html
-<p [ngStyle]="getColor()">Password status<p>
+<p [ngStyle]="getColor()">Hello, world!<p>
 ```
 - [Example](https://stackblitz.com/edit/angular-p6hawb)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk2MTI5NCwxMzMzNDE1OTYzLC0yODU4OT
-Q1NTcsLTE2MTMzMDQ0OTMsNjQwMzU5MjMzLC01OTA3NDQ5OTAs
-LTExNjEzOTk1OTAsLTE3NzgzNTYyMjQsLTExNDA3OTkzNzEsLT
-E4NzExMzc0MzAsMTQ4OTA1NDE5MSwxNTYyMDQ0NjAzLC0xNTg2
-NzE3ODc5LC0xODE2Njc0NjQ1LC0xMzA4ODU5MjczLC05NTM3MT
-cwNDcsMjY5ODA3NjIzLDc4MzAxMzk4MywtMTY2NzY2MTgwMywt
-MTY5OTY1NDIxMV19
+eyJoaXN0b3J5IjpbLTQzMTA0Nzg4NywxMzMzNDE1OTYzLC0yOD
+U4OTQ1NTcsLTE2MTMzMDQ0OTMsNjQwMzU5MjMzLC01OTA3NDQ5
+OTAsLTExNjEzOTk1OTAsLTE3NzgzNTYyMjQsLTExNDA3OTkzNz
+EsLTE4NzExMzc0MzAsMTQ4OTA1NDE5MSwxNTYyMDQ0NjAzLC0x
+NTg2NzE3ODc5LC0xODE2Njc0NjQ1LC0xMzA4ODU5MjczLC05NT
+M3MTcwNDcsMjY5ODA3NjIzLDc4MzAxMzk4MywtMTY2NzY2MTgw
+MywtMTY5OTY1NDIxMV19
 -->
