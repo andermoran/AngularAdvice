@@ -149,13 +149,20 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 > Notice how if the password is less than 5 character you see `password too short` but once it is at least five characters it says `(whatever you typed) is a valid password`
 ### Attribute Directives
 - These directives do not add or remove elements, only change the element it is used on
-#### ngIf
+#### ngStyle
+- Used to apply CSS styles to elements
+- You can use this in a couple ways
+	1. 
+```html
+<p [ngStyle]="getColor()">Password status<p>
+```
+- [Example](https://stackblitz.com/edit/angular-p6hawb)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzQxNTk2MywtMjg1ODk0NTU3LC0xNj
-EzMzA0NDkzLDY0MDM1OTIzMywtNTkwNzQ0OTkwLC0xMTYxMzk5
-NTkwLC0xNzc4MzU2MjI0LC0xMTQwNzk5MzcxLC0xODcxMTM3ND
-MwLDE0ODkwNTQxOTEsMTU2MjA0NDYwMywtMTU4NjcxNzg3OSwt
-MTgxNjY3NDY0NSwtMTMwODg1OTI3MywtOTUzNzE3MDQ3LDI2OT
-gwNzYyMyw3ODMwMTM5ODMsLTE2Njc2NjE4MDMsLTE2OTk2NTQy
-MTEsLTE3Mzc0MDQxNzRdfQ==
+eyJoaXN0b3J5IjpbNjk2MTI5NCwxMzMzNDE1OTYzLC0yODU4OT
+Q1NTcsLTE2MTMzMDQ0OTMsNjQwMzU5MjMzLC01OTA3NDQ5OTAs
+LTExNjEzOTk1OTAsLTE3NzgzNTYyMjQsLTExNDA3OTkzNzEsLT
+E4NzExMzc0MzAsMTQ4OTA1NDE5MSwxNTYyMDQ0NjAzLC0xNTg2
+NzE3ODc5LC0xODE2Njc0NjQ1LC0xMzA4ODU5MjczLC05NTM3MT
+cwNDcsMjY5ODA3NjIzLDc4MzAxMzk4MywtMTY2NzY2MTgwMywt
+MTY5OTY1NDIxMV19
 -->
