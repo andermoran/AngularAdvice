@@ -154,18 +154,21 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - In between `"` and `"` you should have a javascript object
 - You can use this in a couple ways
 	1. Using a function that returns a javascript object
-```typescript
-```
-```html
-<p [ngStyle]="getColor()">Hello, world!<p>
-```
+		```typescript
+		getColor()  {
+			return  {backgroundColor:  'green', color:  'white'};
+		}
+	```
+		```html
+		<p [ngStyle]="getColor()">Hello, world!<p>
+	```
 - [Example](https://stackblitz.com/edit/angular-p6hawb)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTA0Nzg4NywxMzMzNDE1OTYzLC0yOD
-U4OTQ1NTcsLTE2MTMzMDQ0OTMsNjQwMzU5MjMzLC01OTA3NDQ5
-OTAsLTExNjEzOTk1OTAsLTE3NzgzNTYyMjQsLTExNDA3OTkzNz
-EsLTE4NzExMzc0MzAsMTQ4OTA1NDE5MSwxNTYyMDQ0NjAzLC0x
-NTg2NzE3ODc5LC0xODE2Njc0NjQ1LC0xMzA4ODU5MjczLC05NT
-M3MTcwNDcsMjY5ODA3NjIzLDc4MzAxMzk4MywtMTY2NzY2MTgw
-MywtMTY5OTY1NDIxMV19
+eyJoaXN0b3J5IjpbNDE4NDY4MTYyLDEzMzM0MTU5NjMsLTI4NT
+g5NDU1NywtMTYxMzMwNDQ5Myw2NDAzNTkyMzMsLTU5MDc0NDk5
+MCwtMTE2MTM5OTU5MCwtMTc3ODM1NjIyNCwtMTE0MDc5OTM3MS
+wtMTg3MTEzNzQzMCwxNDg5MDU0MTkxLDE1NjIwNDQ2MDMsLTE1
+ODY3MTc4NzksLTE4MTY2NzQ2NDUsLTEzMDg4NTkyNzMsLTk1Mz
+cxNzA0NywyNjk4MDc2MjMsNzgzMDEzOTgzLC0xNjY3NjYxODAz
+LC0xNjk5NjU0MjExXX0=
 -->
