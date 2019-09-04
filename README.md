@@ -5,7 +5,7 @@
 ### Will do once finished
 
 ## Note
-I am making this guide as I am learning Angular from  
+I am making this guide as I am learning Angular from  [Maximilian Schwarzmüller's Angular Tutorial](https://www.udemy.com/the-complete-guide-to-angular-2/) as well as googling stuff online
 
 ## Basics
 - Angular (currently on Angular 8) is a framework that allows for dynamic, reactive web applications as well as native mobile applications
@@ -131,11 +131,11 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - What if we want to display one thing if something is true and another thing if something is false? Is there an *ngElse?
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNzg4ODU5OSwtMTE0MDc5OTM3MSwtMT
-g3MTEzNzQzMCwxNDg5MDU0MTkxLDE1NjIwNDQ2MDMsLTE1ODY3
-MTc4NzksLTE4MTY2NzQ2NDUsLTEzMDg4NTkyNzMsLTk1MzcxNz
-A0NywyNjk4MDc2MjMsNzgzMDEzOTgzLC0xNjY3NjYxODAzLC0x
-Njk5NjU0MjExLC0xNzM3NDA0MTc0LC0xNjQwOTY2ODk5LDk2Mj
-YwMDg5OCwxMzY1MzM3NDI1LC0xNTg3NjQwMzg2LC0xMTQ0NjQ2
-NzE5XX0=
+eyJoaXN0b3J5IjpbNzc0NDkyODE5LC0xMTQwNzk5MzcxLC0xOD
+cxMTM3NDMwLDE0ODkwNTQxOTEsMTU2MjA0NDYwMywtMTU4Njcx
+Nzg3OSwtMTgxNjY3NDY0NSwtMTMwODg1OTI3MywtOTUzNzE3MD
+Q3LDI2OTgwNzYyMyw3ODMwMTM5ODMsLTE2Njc2NjE4MDMsLTE2
+OTk2NTQyMTEsLTE3Mzc0MDQxNzQsLTE2NDA5NjY4OTksOTYyNj
+AwODk4LDEzNjUzMzc0MjUsLTE1ODc2NDAzODYsLTExNDQ2NDY3
+MTldfQ==
 -->
