@@ -131,13 +131,18 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - What if we want to display one thing if something is `true` and another thing if something is `false`? Is there an `*ngElse`?
 	- Kind of
 - You have two options
-	- 
+	1. Writing the same line of code but reverse the boolean
+	```html
+	<p *ngIf="password.length >= 5">{{ password }} is a valid password</p>
+	<p *ngIf="password.length < 5">{{ password }} is too short</p>
+	```
+	2.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMwOTEyNDEwLC0xMTYxMzk5NTkwLC0xNz
-c4MzU2MjI0LC0xMTQwNzk5MzcxLC0xODcxMTM3NDMwLDE0ODkw
-NTQxOTEsMTU2MjA0NDYwMywtMTU4NjcxNzg3OSwtMTgxNjY3ND
-Y0NSwtMTMwODg1OTI3MywtOTUzNzE3MDQ3LDI2OTgwNzYyMyw3
-ODMwMTM5ODMsLTE2Njc2NjE4MDMsLTE2OTk2NTQyMTEsLTE3Mz
-c0MDQxNzQsLTE2NDA5NjY4OTksOTYyNjAwODk4LDEzNjUzMzc0
-MjUsLTE1ODc2NDAzODZdfQ==
+eyJoaXN0b3J5IjpbMTk5MjgxMzIxMywtMTE2MTM5OTU5MCwtMT
+c3ODM1NjIyNCwtMTE0MDc5OTM3MSwtMTg3MTEzNzQzMCwxNDg5
+MDU0MTkxLDE1NjIwNDQ2MDMsLTE1ODY3MTc4NzksLTE4MTY2Nz
+Q2NDUsLTEzMDg4NTkyNzMsLTk1MzcxNzA0NywyNjk4MDc2MjMs
+NzgzMDEzOTgzLC0xNjY3NjYxODAzLC0xNjk5NjU0MjExLC0xNz
+M3NDA0MTc0LC0xNjQwOTY2ODk5LDk2MjYwMDg5OCwxMzY1MzM3
+NDI1LC0xNTg3NjQwMzg2XX0=
 -->
