@@ -122,6 +122,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - Must be prefixed with `*`
 #### ngIf
 - Used to decide whether to display an element or not
+	- This is known as **conditional rendering**
 - As long as whatever is in between the `"` and `"` is `true` (e.g. variable, method, expression), then the element will be displayed
 ```html
 <p *ngIf="password.length >= 5">{{ password }} is a valid password</p>
@@ -146,11 +147,11 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 	3. There are a few more ways to achieve conditional rendering [here](https://ultimatecourses.com/blog/angular-ngif-else-then#ngIf_and_Else)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwMzU5MjMzLC01OTA3NDQ5OTAsLTExNj
-EzOTk1OTAsLTE3NzgzNTYyMjQsLTExNDA3OTkzNzEsLTE4NzEx
-Mzc0MzAsMTQ4OTA1NDE5MSwxNTYyMDQ0NjAzLC0xNTg2NzE3OD
-c5LC0xODE2Njc0NjQ1LC0xMzA4ODU5MjczLC05NTM3MTcwNDcs
-MjY5ODA3NjIzLDc4MzAxMzk4MywtMTY2NzY2MTgwMywtMTY5OT
-Y1NDIxMSwtMTczNzQwNDE3NCwtMTY0MDk2Njg5OSw5NjI2MDA4
-OTgsMTM2NTMzNzQyNV19
+eyJoaXN0b3J5IjpbLTE2MTMzMDQ0OTMsNjQwMzU5MjMzLC01OT
+A3NDQ5OTAsLTExNjEzOTk1OTAsLTE3NzgzNTYyMjQsLTExNDA3
+OTkzNzEsLTE4NzExMzc0MzAsMTQ4OTA1NDE5MSwxNTYyMDQ0Nj
+AzLC0xNTg2NzE3ODc5LC0xODE2Njc0NjQ1LC0xMzA4ODU5Mjcz
+LC05NTM3MTcwNDcsMjY5ODA3NjIzLDc4MzAxMzk4MywtMTY2Nz
+Y2MTgwMywtMTY5OTY1NDIxMSwtMTczNzQwNDE3NCwtMTY0MDk2
+Njg5OSw5NjI2MDA4OThdfQ==
 -->
