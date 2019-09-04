@@ -5,7 +5,7 @@
 ### Will do once finished
 
 ## Note
-I am making this guide as I am learning Angular from  [Maximilian Schwarzmüller's Angular Tutorial](https://www.udemy.com/the-complete-guide-to-angular-2/) as well as googling stuff online. If anything is in quotes, it means I copy and pasted something that was said by someone else. I am writing writing this tutorial using [stackedit](https://stackedit.io/) which has no spell checking so I'm sure I've misspelled a lot of things while writing this.
+I am making this guide as I am learning Angular from [Maximilian Schwarzmüller's Angular Tutorial](https://www.udemy.com/the-complete-guide-to-angular-2/) as well as googling stuff online. If anything is in quotes, it means I copy and pasted something that was said by someone else. I am writing writing this tutorial using [stackedit](https://stackedit.io/) which has no spell checking so I'm sure I've misspelled a lot of things while writing this.
 
 ## Basics
 - Angular (currently on Angular 8) is a framework that allows for dynamic, reactive web applications as well as native mobile applications
@@ -121,7 +121,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - "Structural directives are responsible for HTML layout. They shape or reshape the DOM's *structure*, typically by adding, removing, or manipulating elements."
 - Must be prefixed with `*`
 #### *ngIf
-- Used to decide whether  to display an element or not
+- Used to decide whether to display an element or not
 - As long as whatever is in between the `"` and `"` is `true` (e.g. variable, method, expression), then the element will be displayed
 ```html
 <p *ngIf="password.length >= 5">{{ password }} is a valid password</p>
@@ -131,11 +131,11 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - What if we want to display one thing if something is `true` and another thing if something is `false`? Is there an `*ngElse`?
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTI3MTMzNCwtMTc3ODM1NjIyNCwtMT
-E0MDc5OTM3MSwtMTg3MTEzNzQzMCwxNDg5MDU0MTkxLDE1NjIw
-NDQ2MDMsLTE1ODY3MTc4NzksLTE4MTY2NzQ2NDUsLTEzMDg4NT
-kyNzMsLTk1MzcxNzA0NywyNjk4MDc2MjMsNzgzMDEzOTgzLC0x
-NjY3NjYxODAzLC0xNjk5NjU0MjExLC0xNzM3NDA0MTc0LC0xNj
-QwOTY2ODk5LDk2MjYwMDg5OCwxMzY1MzM3NDI1LC0xNTg3NjQw
-Mzg2LC0xMTQ0NjQ2NzE5XX0=
+eyJoaXN0b3J5IjpbLTExNjEzOTk1OTAsLTE3NzgzNTYyMjQsLT
+ExNDA3OTkzNzEsLTE4NzExMzc0MzAsMTQ4OTA1NDE5MSwxNTYy
+MDQ0NjAzLC0xNTg2NzE3ODc5LC0xODE2Njc0NjQ1LC0xMzA4OD
+U5MjczLC05NTM3MTcwNDcsMjY5ODA3NjIzLDc4MzAxMzk4Mywt
+MTY2NzY2MTgwMywtMTY5OTY1NDIxMSwtMTczNzQwNDE3NCwtMT
+Y0MDk2Njg5OSw5NjI2MDA4OTgsMTM2NTMzNzQyNSwtMTU4NzY0
+MDM4NiwtMTE0NDY0NjcxOV19
 -->
