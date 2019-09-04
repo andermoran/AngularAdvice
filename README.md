@@ -122,20 +122,20 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - Must be prefixed with `*`
 #### *ngIf
 - Used to decide whether  to display an element or not
-- As long as whatever is in between the `"` and `"` is true (e.g. variable, method, expression), then the element will be displayed
+- As long as whatever is in between the `"` and `"` is `true` (e.g. variable, method, expression), then the element will be displayed
 ```html
 <p *ngIf="password.length >= 5">{{ password }} is a valid password</p>
 ```
 > This paragraph tag will only display if `password.length >= 5` evaluates to `true`. `password` is a TypeScript variable.
 - [Example](https://stackblitz.com/edit/angular-tnzfsf)
-- What if we want to display one thing if something is true and another thing if something is false? Is there an *ngElse?
+- What if we want to display one thing if something is `true` and another thing if something is `false`? Is there an `*ngElse`?
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzgzNTYyMjQsLTExNDA3OTkzNzEsLT
-E4NzExMzc0MzAsMTQ4OTA1NDE5MSwxNTYyMDQ0NjAzLC0xNTg2
-NzE3ODc5LC0xODE2Njc0NjQ1LC0xMzA4ODU5MjczLC05NTM3MT
-cwNDcsMjY5ODA3NjIzLDc4MzAxMzk4MywtMTY2NzY2MTgwMywt
-MTY5OTY1NDIxMSwtMTczNzQwNDE3NCwtMTY0MDk2Njg5OSw5Nj
-I2MDA4OTgsMTM2NTMzNzQyNSwtMTU4NzY0MDM4NiwtMTE0NDY0
-NjcxOV19
+eyJoaXN0b3J5IjpbMTE5OTI3MTMzNCwtMTc3ODM1NjIyNCwtMT
+E0MDc5OTM3MSwtMTg3MTEzNzQzMCwxNDg5MDU0MTkxLDE1NjIw
+NDQ2MDMsLTE1ODY3MTc4NzksLTE4MTY2NzQ2NDUsLTEzMDg4NT
+kyNzMsLTk1MzcxNzA0NywyNjk4MDc2MjMsNzgzMDEzOTgzLC0x
+NjY3NjYxODAzLC0xNjk5NjU0MjExLC0xNzM3NDA0MTc0LC0xNj
+QwOTY2ODk5LDk2MjYwMDg5OCwxMzY1MzM3NDI1LC0xNTg3NjQw
+Mzg2LC0xMTQ0NjQ2NzE5XX0=
 -->
