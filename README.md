@@ -146,6 +146,10 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 	3. There are a few more ways to achieve conditional rendering [here](https://ultimatecourses.com/blog/angular-ngif-else-then#ngIf_and_Else)
 - [Example](https://stackblitz.com/edit/angular-l7ueby)
 > Notice how if the password is less than 5 character you see `password too short` but once it is at least five characters it says `(whatever you typed) is a valid password`
+#### ngFor
+- Loops through an array to display multiple elements
+- [Example](https://stackblitz.com/edit/angular-2v9dzs)
+> Notice the `people` array. `*ngFor="let person of people"` 
 ### Attribute Directives
 - These directives do not add or remove elements, only change the element it is used on
 #### ngStyle
@@ -180,11 +184,11 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 	> where `valid` is a css class defined in the .css file associated with a component
 - [Example](https://stackblitz.com/edit/angular-mnkems)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NDA5NTQyNiwtMTIyNDU0NjA5NywtNz
-I2NzI2NDI3LC0yMDEzMDU3MTc0LDIwMDg1NTQ1ODAsMTMzMzQx
-NTk2MywtMjg1ODk0NTU3LC0xNjEzMzA0NDkzLDY0MDM1OTIzMy
-wtNTkwNzQ0OTkwLC0xMTYxMzk5NTkwLC0xNzc4MzU2MjI0LC0x
-MTQwNzk5MzcxLC0xODcxMTM3NDMwLDE0ODkwNTQxOTEsMTU2Mj
-A0NDYwMywtMTU4NjcxNzg3OSwtMTgxNjY3NDY0NSwtMTMwODg1
-OTI3MywtOTUzNzE3MDQ3XX0=
+eyJoaXN0b3J5IjpbLTEyNjk2MDI2NTEsLTg5NDA5NTQyNiwtMT
+IyNDU0NjA5NywtNzI2NzI2NDI3LC0yMDEzMDU3MTc0LDIwMDg1
+NTQ1ODAsMTMzMzQxNTk2MywtMjg1ODk0NTU3LC0xNjEzMzA0ND
+kzLDY0MDM1OTIzMywtNTkwNzQ0OTkwLC0xMTYxMzk5NTkwLC0x
+Nzc4MzU2MjI0LC0xMTQwNzk5MzcxLC0xODcxMTM3NDMwLDE0OD
+kwNTQxOTEsMTU2MjA0NDYwMywtMTU4NjcxNzg3OSwtMTgxNjY3
+NDY0NSwtMTMwODg1OTI3M119
 -->
