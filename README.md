@@ -129,13 +129,15 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 > This paragraph tag will only display if `password.length >= 5` evaluates to `true`. `password` is a TypeScript variable.
 - [Example](https://stackblitz.com/edit/angular-tnzfsf)
 - What if we want to display one thing if something is `true` and another thing if something is `false`? Is there an `*ngElse`?
-- 
+	- Kind of
+- You have two options
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjEzOTk1OTAsLTE3NzgzNTYyMjQsLT
-ExNDA3OTkzNzEsLTE4NzExMzc0MzAsMTQ4OTA1NDE5MSwxNTYy
-MDQ0NjAzLC0xNTg2NzE3ODc5LC0xODE2Njc0NjQ1LC0xMzA4OD
-U5MjczLC05NTM3MTcwNDcsMjY5ODA3NjIzLDc4MzAxMzk4Mywt
-MTY2NzY2MTgwMywtMTY5OTY1NDIxMSwtMTczNzQwNDE3NCwtMT
-Y0MDk2Njg5OSw5NjI2MDA4OTgsMTM2NTMzNzQyNSwtMTU4NzY0
-MDM4NiwtMTE0NDY0NjcxOV19
+eyJoaXN0b3J5IjpbNDMwOTEyNDEwLC0xMTYxMzk5NTkwLC0xNz
+c4MzU2MjI0LC0xMTQwNzk5MzcxLC0xODcxMTM3NDMwLDE0ODkw
+NTQxOTEsMTU2MjA0NDYwMywtMTU4NjcxNzg3OSwtMTgxNjY3ND
+Y0NSwtMTMwODg1OTI3MywtOTUzNzE3MDQ3LDI2OTgwNzYyMyw3
+ODMwMTM5ODMsLTE2Njc2NjE4MDMsLTE2OTk2NTQyMTEsLTE3Mz
+c0MDQxNzQsLTE2NDA5NjY4OTksOTYyNjAwODk4LDEzNjUzMzc0
+MjUsLTE1ODc2NDAzODZdfQ==
 -->
