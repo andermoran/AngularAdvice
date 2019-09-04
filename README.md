@@ -145,13 +145,15 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 	</ng-template>
 	```
 	3. There are a few more ways to achieve conditional rendering [here](https://ultimatecourses.com/blog/angular-ngif-else-then#ngIf_and_Else)
+- [Example](https://stackblitz.com/edit/angular-l7ueby)
+> Notice how if the password is less than 5 character you see `password too short` but once it is at least f
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTMzMDQ0OTMsNjQwMzU5MjMzLC01OT
-A3NDQ5OTAsLTExNjEzOTk1OTAsLTE3NzgzNTYyMjQsLTExNDA3
-OTkzNzEsLTE4NzExMzc0MzAsMTQ4OTA1NDE5MSwxNTYyMDQ0Nj
-AzLC0xNTg2NzE3ODc5LC0xODE2Njc0NjQ1LC0xMzA4ODU5Mjcz
-LC05NTM3MTcwNDcsMjY5ODA3NjIzLDc4MzAxMzk4MywtMTY2Nz
-Y2MTgwMywtMTY5OTY1NDIxMSwtMTczNzQwNDE3NCwtMTY0MDk2
-Njg5OSw5NjI2MDA4OThdfQ==
+eyJoaXN0b3J5IjpbLTE1NDg5NjU5NzgsLTE2MTMzMDQ0OTMsNj
+QwMzU5MjMzLC01OTA3NDQ5OTAsLTExNjEzOTk1OTAsLTE3Nzgz
+NTYyMjQsLTExNDA3OTkzNzEsLTE4NzExMzc0MzAsMTQ4OTA1ND
+E5MSwxNTYyMDQ0NjAzLC0xNTg2NzE3ODc5LC0xODE2Njc0NjQ1
+LC0xMzA4ODU5MjczLC05NTM3MTcwNDcsMjY5ODA3NjIzLDc4Mz
+AxMzk4MywtMTY2NzY2MTgwMywtMTY5OTY1NDIxMSwtMTczNzQw
+NDE3NCwtMTY0MDk2Njg5OV19
 -->
