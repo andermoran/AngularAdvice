@@ -136,13 +136,15 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 	<p *ngIf="password.length >= 5">{{ password }} is a valid password</p>
 	<p *ngIf="password.length < 5">{{ password }} is too short</p>
 	```
-	2. Using ng
+	2. Using `ng-template`
+		```
+		
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MDc0NDk5MCwtMTE2MTM5OTU5MCwtMT
-c3ODM1NjIyNCwtMTE0MDc5OTM3MSwtMTg3MTEzNzQzMCwxNDg5
-MDU0MTkxLDE1NjIwNDQ2MDMsLTE1ODY3MTc4NzksLTE4MTY2Nz
-Q2NDUsLTEzMDg4NTkyNzMsLTk1MzcxNzA0NywyNjk4MDc2MjMs
-NzgzMDEzOTgzLC0xNjY3NjYxODAzLC0xNjk5NjU0MjExLC0xNz
-M3NDA0MTc0LC0xNjQwOTY2ODk5LDk2MjYwMDg5OCwxMzY1MzM3
-NDI1LC0xNTg3NjQwMzg2XX0=
+eyJoaXN0b3J5IjpbMTI5ODg5MjkzLC01OTA3NDQ5OTAsLTExNj
+EzOTk1OTAsLTE3NzgzNTYyMjQsLTExNDA3OTkzNzEsLTE4NzEx
+Mzc0MzAsMTQ4OTA1NDE5MSwxNTYyMDQ0NjAzLC0xNTg2NzE3OD
+c5LC0xODE2Njc0NjQ1LC0xMzA4ODU5MjczLC05NTM3MTcwNDcs
+MjY5ODA3NjIzLDc4MzAxMzk4MywtMTY2NzY2MTgwMywtMTY5OT
+Y1NDIxMSwtMTczNzQwNDE3NCwtMTY0MDk2Njg5OSw5NjI2MDA4
+OTgsMTM2NTMzNzQyNV19
 -->
