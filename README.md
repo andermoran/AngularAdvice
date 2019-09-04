@@ -26,7 +26,7 @@ I am making this guide as I am learning Angular from [Maximilian Schwarzmüller'
 - Where `name` is a variable in the corresponding TypeScript code
 - The variable being interpolated into a string can be a `string`, `number`, `boolean`, etc. as long as it can be represented as a `string` in the end
 - [Example](https://stackblitz.com/edit/angular-cau2tt)
-> Notice the `name` variable in `app.component.ts` and the `{{ name }}` in `app.component.html` 
+	> Notice the `name` variable in `app.component.ts` and the `{{ name }}` in `app.component.html` 
 
 ### Property Binding
 - Bind HTML attributes to TypeScript variables using `[` and `]`
@@ -39,7 +39,7 @@ I am making this guide as I am learning Angular from [Maximilian Schwarzmüller'
 	- For a `string` variable, if it is empty, then it is the equivalent of `false`, else it is `true`
 	- For a `number` variable, if it is `0` then it is the equivalent of `false`, else it is `true`
 - [Example](https://stackblitz.com/edit/angular-2knkts)
-> Notice the `buttonDisabled` variable in `app.component.ts` and the `[disabled]="buttonDisabled"` in `app.component.html` . Try changing the value of `buttonDisabled` from `false` to `true`
+	> Notice the `buttonDisabled` variable in `app.component.ts` and the `[disabled]="buttonDisabled"` in `app.component.html` . Try changing the value of `buttonDisabled` from `false` to `true`
 
 ### Event Binding
 - Bind HTML DOM events such as `click()` to a TypeSript method using `(` and `)`
@@ -48,12 +48,12 @@ I am making this guide as I am learning Angular from [Maximilian Schwarzmüller'
 	```
 - Where `onButtonClick()` is a method in a component file
 - So whenever `click()` fires, it triggers `onButtonClick()`
-#### [Example](https://stackblitz.com/edit/angular-2knkts)
-> Notice the `onButtonClick()` method in `app.component.ts` and the `(click)="onButtonClick()"` in `app.component.html` 
+- [Example](https://stackblitz.com/edit/angular-2knkts)
+	> Notice the `onButtonClick()` method in `app.component.ts` and the `(click)="onButtonClick()"` in `app.component.html` 
 - *Note from [Maximilian Schwarzmüller](https://twitter.com/maxedapps):*
-> How do you know to which Properties or Events of HTML Elements you may bind? You can basically bind to all Properties and Events - a good idea is to `console.log()` the element you're interested in to see which properties and events it offers
-> **Important**: For events, you don't bind to onclick but only to click (=> (click))
-> The MDN (Mozilla Developer Network) offers nice lists of all properties and events of the element you're interested in. Googling for `YOUR_ELEMENT properties` or `YOUR_ELEMENT events` should yield nice results
+	> How do you know to which Properties or Events of HTML Elements you may bind? You can basically bind to all Properties and Events - a good idea is to `console.log()` the element you're interested in to see which properties and events it offers
+	> **Important**: For events, you don't bind to onclick but only to click (=> (click))
+	> The MDN (Mozilla Developer Network) offers nice lists of all properties and events of the element you're interested in. Googling for `YOUR_ELEMENT properties` or `YOUR_ELEMENT events` should yield nice results
 - Data can be passed with event by using the reserved `$event` keyword
 - `$event` can be passed to the component method through the parameter in the HTML template
 	 ```html
@@ -145,11 +145,11 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 		```
 	3. There are a few more ways to achieve conditional rendering [here](https://ultimatecourses.com/blog/angular-ngif-else-then#ngIf_and_Else)
 - [Example](https://stackblitz.com/edit/angular-l7ueby)
-> Notice how if the password is less than 5 character you see `password too short` but once it is at least five characters it says `(whatever you typed) is a valid password`
+	> Notice how if the password is less than 5 character you see `password too short` but once it is at least five characters it says `(whatever you typed) is a valid password`
 #### ngFor
 - Loops through an array to display multiple elements
 - [Example](https://stackblitz.com/edit/angular-2v9dzs)
-> Notice the `people` array. `*ngFor="let person of people"` 
+	> Notice the `people` array. `*ngFor="let person of people"` means loop through each element in the array `people` and at each index assign the value of the array at that index to `person`
 ### Attribute Directives
 - These directives do not add or remove elements, only change the element it is used on
 #### ngStyle
@@ -184,7 +184,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 	> where `valid` is a css class defined in the .css file associated with a component
 - [Example](https://stackblitz.com/edit/angular-mnkems)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjk2MDI2NTEsLTg5NDA5NTQyNiwtMT
+eyJoaXN0b3J5IjpbLTE4NTQ1MTI5MjUsLTg5NDA5NTQyNiwtMT
 IyNDU0NjA5NywtNzI2NzI2NDI3LC0yMDEzMDU3MTc0LDIwMDg1
 NTQ1ODAsMTMzMzQxNTk2MywtMjg1ODk0NTU3LC0xNjEzMzA0ND
 kzLDY0MDM1OTIzMywtNTkwNzQ0OTkwLC0xMTYxMzk5NTkwLC0x
