@@ -5,7 +5,7 @@
 ### Will do once finished
 
 ## Note
-I am making this guide as I am learning Angular from  [Maximilian Schwarzmüller's Angular Tutorial](https://www.udemy.com/the-complete-guide-to-angular-2/) as well as googling stuff online. If anything is in quotes, it means I copy and pasted something that was said by someone else. I am writing writing this tutorial using [stackedit](https://stackedit.io/) which has no spell checking so I'm sure I've misspelled somethings while writing this.
+I am making this guide as I am learning Angular from  [Maximilian Schwarzmüller's Angular Tutorial](https://www.udemy.com/the-complete-guide-to-angular-2/) as well as googling stuff online. If anything is in quotes, it means I copy and pasted something that was said by someone else. I am writing writing this tutorial using [stackedit](https://stackedit.io/) which has no spell checking so I'm sure I've misspelled a lot of things while writing this.
 
 ## Basics
 - Angular (currently on Angular 8) is a framework that allows for dynamic, reactive web applications as well as native mobile applications
@@ -131,11 +131,11 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - What if we want to display one thing if something is true and another thing if something is false? Is there an *ngElse?
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAxODcxNDk1LC0xMTQwNzk5MzcxLC0xOD
-cxMTM3NDMwLDE0ODkwNTQxOTEsMTU2MjA0NDYwMywtMTU4Njcx
-Nzg3OSwtMTgxNjY3NDY0NSwtMTMwODg1OTI3MywtOTUzNzE3MD
-Q3LDI2OTgwNzYyMyw3ODMwMTM5ODMsLTE2Njc2NjE4MDMsLTE2
-OTk2NTQyMTEsLTE3Mzc0MDQxNzQsLTE2NDA5NjY4OTksOTYyNj
-AwODk4LDEzNjUzMzc0MjUsLTE1ODc2NDAzODYsLTExNDQ2NDY3
-MTldfQ==
+eyJoaXN0b3J5IjpbLTE3NzgzNTYyMjQsLTExNDA3OTkzNzEsLT
+E4NzExMzc0MzAsMTQ4OTA1NDE5MSwxNTYyMDQ0NjAzLC0xNTg2
+NzE3ODc5LC0xODE2Njc0NjQ1LC0xMzA4ODU5MjczLC05NTM3MT
+cwNDcsMjY5ODA3NjIzLDc4MzAxMzk4MywtMTY2NzY2MTgwMywt
+MTY5OTY1NDIxMSwtMTczNzQwNDE3NCwtMTY0MDk2Njg5OSw5Nj
+I2MDA4OTgsMTM2NTMzNzQyNSwtMTU4NzY0MDM4NiwtMTE0NDY0
+NjcxOV19
 -->
