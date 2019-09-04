@@ -120,7 +120,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 ### Structural Directives
 - "Structural directives are responsible for HTML layout. They shape or reshape the DOM's *structure*, typically by adding, removing, or manipulating elements."
 - Must be prefixed with `*`
-#### *ngIf
+#### ngIf
 - Used to decide whether to display an element or not
 - As long as whatever is in between the `"` and `"` is `true` (e.g. variable, method, expression), then the element will be displayed
 ```html
@@ -128,7 +128,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 ```
 > This paragraph tag will only display if `password.length >= 5` evaluates to `true`. `password` is a TypeScript variable.
 - [Example](https://stackblitz.com/edit/angular-tnzfsf)
-- What if we want to display one thing if something is `true` and another thing if something is `false`? Is there an `*ngElse`?
+- What if we want to display one thing if something is `true` and another thing if something is `false`? Is there an `ngElse`?
 	- Kind of
 - You have two options
 	1. Writing the same line of code but reverse the boolean
@@ -144,8 +144,9 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 	</ng-template>
 	```
 	3. There are a few more ways to achieve conditional rendering [here](https://ultimatecourses.com/blog/angular-ngif-else-then#ngIf_and_Else)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc0Nzc4NjQ3LC01OTA3NDQ5OTAsLTExNj
+eyJoaXN0b3J5IjpbNjQwMzU5MjMzLC01OTA3NDQ5OTAsLTExNj
 EzOTk1OTAsLTE3NzgzNTYyMjQsLTExNDA3OTkzNzEsLTE4NzEx
 Mzc0MzAsMTQ4OTA1NDE5MSwxNTYyMDQ0NjAzLC0xNTg2NzE3OD
 c5LC0xODE2Njc0NjQ1LC0xMzA4ODU5MjczLC05NTM3MTcwNDcs
