@@ -130,7 +130,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 	<app-person [hili]="true"></app-person>
 	```
 - [Example](https://stackblitz.com/edit/angular-8i8qtm)
-> Note: Once you create an alias for a custom property, you can no longer bind to the original propert
+> Note: Once you create an alias for a custom property, you can no longer bind to the original property name so `<app-person [highlighted]="true"></app-person>` would not work anymore because angular recognizes `hili` in place of `highlighted` when binding
 
 
 ### Binding to Custom Events
@@ -223,7 +223,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NTcxNzc1NiwxNjY0NDYyNTAwLC02NT
+eyJoaXN0b3J5IjpbMTE1NzIzNTYyNSwxNjY0NDYyNTAwLC02NT
 g0Nzk5MCwtMjA1ODE3MzY3NiwtMTE0NDY1OTY3OSwtNjMxMjQw
 OTMwLDkzMjQ5NTkzNCwtMTg1NDUxMjkyNSwtODk0MDk1NDI2LC
 0xMjI0NTQ2MDk3LC03MjY3MjY0MjcsLTIwMTMwNTcxNzQsMjAw
