@@ -115,9 +115,13 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - Enables us to bind to properties, similar to how we did before, but for our own custom components
 - To add a bindable property to our own components we do so by creating a variable like we normally do but add `@Input()` in front of it
 - An example of this declaration would be `@Input() highlighted: boolean`
+- Say my
 - [Example](https://stackblitz.com/edit/angular-xg2lee)
 > This example shows how we pass a `boolean` to the `highlighted` property of the person component. This `highlighted` property is then handled by `person.component.html` where it uses `ngClass` to determine whethere to apply the css class or not
->
+- You can also specify another name for the property if you do not want to use the variable name for binding
+	- This other name acts as an alias for binding
+- What if instead
+- [Example](https://stackblitz.com/edit/angular-8i8qtm)
 
 
 ### Binding to Custom Events
@@ -210,7 +214,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTE5ODg2MjYsMTY2NDQ2MjUwMCwtNj
+eyJoaXN0b3J5IjpbLTEwODUwMzY2NzYsMTY2NDQ2MjUwMCwtNj
 U4NDc5OTAsLTIwNTgxNzM2NzYsLTExNDQ2NTk2NzksLTYzMTI0
 MDkzMCw5MzI0OTU5MzQsLTE4NTQ1MTI5MjUsLTg5NDA5NTQyNi
 wtMTIyNDU0NjA5NywtNzI2NzI2NDI3LC0yMDEzMDU3MTc0LDIw
