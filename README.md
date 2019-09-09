@@ -138,7 +138,10 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - Custom events are used by the child class to send a message to the parent class whenever something happens
 - In the child class, you must create an `EventEmitter` and put `Output` in front of it
 	- `@Output() created = new EventEmitter<>();`
-- You can pass data from the child to parent class by putting parameters between `<` and `
+- If you want to pass data from the child to parent class, put parameters between `<` and `>`
+	- `@Output() created = new EventEmitter<{name: string}>();`
+	- This passes a `string` variable called `name`
+- Next step is to let the parent class know when this event happens, so if our `EventEmitter` variable is called `created`
 - [Example](https://stackblitz.com/edit/angular-xmgq8g)
 
 ## Directives
@@ -228,11 +231,11 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzE4OTgxNDYsOTk4ODA4MDQyLDExNT
-cyMzU2MjUsMTY2NDQ2MjUwMCwtNjU4NDc5OTAsLTIwNTgxNzM2
-NzYsLTExNDQ2NTk2NzksLTYzMTI0MDkzMCw5MzI0OTU5MzQsLT
-E4NTQ1MTI5MjUsLTg5NDA5NTQyNiwtMTIyNDU0NjA5NywtNzI2
-NzI2NDI3LC0yMDEzMDU3MTc0LDIwMDg1NTQ1ODAsMTMzMzQxNT
-k2MywtMjg1ODk0NTU3LC0xNjEzMzA0NDkzLDY0MDM1OTIzMywt
-NTkwNzQ0OTkwXX0=
+eyJoaXN0b3J5IjpbMTk3MjE1NDMzMiw5OTg4MDgwNDIsMTE1Nz
+IzNTYyNSwxNjY0NDYyNTAwLC02NTg0Nzk5MCwtMjA1ODE3MzY3
+NiwtMTE0NDY1OTY3OSwtNjMxMjQwOTMwLDkzMjQ5NTkzNCwtMT
+g1NDUxMjkyNSwtODk0MDk1NDI2LC0xMjI0NTQ2MDk3LC03MjY3
+MjY0MjcsLTIwMTMwNTcxNzQsMjAwODU1NDU4MCwxMzMzNDE1OT
+YzLC0yODU4OTQ1NTcsLTE2MTMzMDQ0OTMsNjQwMzU5MjMzLC01
+OTA3NDQ5OTBdfQ==
 -->
