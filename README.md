@@ -112,6 +112,8 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 ### Binding to Custom Properties
 
+- [
+
 
 ### Binding to Custom Events
 
@@ -203,11 +205,11 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1ODQ3OTkwLC0yMDU4MTczNjc2LC0xMT
-Q0NjU5Njc5LC02MzEyNDA5MzAsOTMyNDk1OTM0LC0xODU0NTEy
-OTI1LC04OTQwOTU0MjYsLTEyMjQ1NDYwOTcsLTcyNjcyNjQyNy
-wtMjAxMzA1NzE3NCwyMDA4NTU0NTgwLDEzMzM0MTU5NjMsLTI4
-NTg5NDU1NywtMTYxMzMwNDQ5Myw2NDAzNTkyMzMsLTU5MDc0ND
-k5MCwtMTE2MTM5OTU5MCwtMTc3ODM1NjIyNCwtMTE0MDc5OTM3
-MSwtMTg3MTEzNzQzMF19
+eyJoaXN0b3J5IjpbMTc4Nzg1NzA1NiwtNjU4NDc5OTAsLTIwNT
+gxNzM2NzYsLTExNDQ2NTk2NzksLTYzMTI0MDkzMCw5MzI0OTU5
+MzQsLTE4NTQ1MTI5MjUsLTg5NDA5NTQyNiwtMTIyNDU0NjA5Ny
+wtNzI2NzI2NDI3LC0yMDEzMDU3MTc0LDIwMDg1NTQ1ODAsMTMz
+MzQxNTk2MywtMjg1ODk0NTU3LC0xNjEzMzA0NDkzLDY0MDM1OT
+IzMywtNTkwNzQ0OTkwLC0xMTYxMzk5NTkwLC0xNzc4MzU2MjI0
+LC0xMTQwNzk5MzcxXX0=
 -->
