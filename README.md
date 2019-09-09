@@ -194,12 +194,15 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - [Example](https://stackblitz.com/edit/angular-mnkems)
 
 #### [Example using ngIf, ngFor, ngClass, and ngStyle](https://stackblitz.com/edit/angular-nxsnso)
+
+## Modules
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMTI0MDkzMCw5MzI0OTU5MzQsLTE4NT
-Q1MTI5MjUsLTg5NDA5NTQyNiwtMTIyNDU0NjA5NywtNzI2NzI2
-NDI3LC0yMDEzMDU3MTc0LDIwMDg1NTQ1ODAsMTMzMzQxNTk2My
-wtMjg1ODk0NTU3LC0xNjEzMzA0NDkzLDY0MDM1OTIzMywtNTkw
-NzQ0OTkwLC0xMTYxMzk5NTkwLC0xNzc4MzU2MjI0LC0xMTQwNz
-k5MzcxLC0xODcxMTM3NDMwLDE0ODkwNTQxOTEsMTU2MjA0NDYw
-MywtMTU4NjcxNzg3OV19
+eyJoaXN0b3J5IjpbLTExNDQ2NTk2NzksLTYzMTI0MDkzMCw5Mz
+I0OTU5MzQsLTE4NTQ1MTI5MjUsLTg5NDA5NTQyNiwtMTIyNDU0
+NjA5NywtNzI2NzI2NDI3LC0yMDEzMDU3MTc0LDIwMDg1NTQ1OD
+AsMTMzMzQxNTk2MywtMjg1ODk0NTU3LC0xNjEzMzA0NDkzLDY0
+MDM1OTIzMywtNTkwNzQ0OTkwLC0xMTYxMzk5NTkwLC0xNzc4Mz
+U2MjI0LC0xMTQwNzk5MzcxLC0xODcxMTM3NDMwLDE0ODkwNTQx
+OTEsMTU2MjA0NDYwM119
 -->
