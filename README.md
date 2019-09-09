@@ -117,6 +117,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - An example of this declaration would be `@Input() highlighted: boolean`
 - [Example](https://stackblitz.com/edit/angular-xg2lee)
 > This example shows how we pass a `boolean` to the `highlighted` property of the person component. This `highlighted` property is then handled by `person.component.html` where it uses `ngClass` to determine whethere to apply the css class or not
+>
 
 
 ### Binding to Custom Events
@@ -209,11 +210,11 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NDQ2MjUwMCwtNjU4NDc5OTAsLTIwNT
-gxNzM2NzYsLTExNDQ2NTk2NzksLTYzMTI0MDkzMCw5MzI0OTU5
-MzQsLTE4NTQ1MTI5MjUsLTg5NDA5NTQyNiwtMTIyNDU0NjA5Ny
-wtNzI2NzI2NDI3LC0yMDEzMDU3MTc0LDIwMDg1NTQ1ODAsMTMz
-MzQxNTk2MywtMjg1ODk0NTU3LC0xNjEzMzA0NDkzLDY0MDM1OT
-IzMywtNTkwNzQ0OTkwLC0xMTYxMzk5NTkwLC0xNzc4MzU2MjI0
-LC0xMTQwNzk5MzcxXX0=
+eyJoaXN0b3J5IjpbLTExMTE5ODg2MjYsMTY2NDQ2MjUwMCwtNj
+U4NDc5OTAsLTIwNTgxNzM2NzYsLTExNDQ2NTk2NzksLTYzMTI0
+MDkzMCw5MzI0OTU5MzQsLTE4NTQ1MTI5MjUsLTg5NDA5NTQyNi
+wtMTIyNDU0NjA5NywtNzI2NzI2NDI3LC0yMDEzMDU3MTc0LDIw
+MDg1NTQ1ODAsMTMzMzQxNTk2MywtMjg1ODk0NTU3LC0xNjEzMz
+A0NDkzLDY0MDM1OTIzMywtNTkwNzQ0OTkwLC0xMTYxMzk5NTkw
+LC0xNzc4MzU2MjI0XX0=
 -->
