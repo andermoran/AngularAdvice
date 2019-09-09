@@ -134,7 +134,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 
 ### Binding to Custom Events
-
+-
 
 ## Directives
 - "Directives are instructions in the DOM"
@@ -223,11 +223,11 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk4ODA4MDQyLDExNTcyMzU2MjUsMTY2ND
-Q2MjUwMCwtNjU4NDc5OTAsLTIwNTgxNzM2NzYsLTExNDQ2NTk2
-NzksLTYzMTI0MDkzMCw5MzI0OTU5MzQsLTE4NTQ1MTI5MjUsLT
-g5NDA5NTQyNiwtMTIyNDU0NjA5NywtNzI2NzI2NDI3LC0yMDEz
-MDU3MTc0LDIwMDg1NTQ1ODAsMTMzMzQxNTk2MywtMjg1ODk0NT
-U3LC0xNjEzMzA0NDkzLDY0MDM1OTIzMywtNTkwNzQ0OTkwLC0x
-MTYxMzk5NTkwXX0=
+eyJoaXN0b3J5IjpbMTI5NDEwMTY5OSw5OTg4MDgwNDIsMTE1Nz
+IzNTYyNSwxNjY0NDYyNTAwLC02NTg0Nzk5MCwtMjA1ODE3MzY3
+NiwtMTE0NDY1OTY3OSwtNjMxMjQwOTMwLDkzMjQ5NTkzNCwtMT
+g1NDUxMjkyNSwtODk0MDk1NDI2LC0xMjI0NTQ2MDk3LC03MjY3
+MjY0MjcsLTIwMTMwNTcxNzQsMjAwODU1NDU4MCwxMzMzNDE1OT
+YzLC0yODU4OTQ1NTcsLTE2MTMzMDQ0OTMsNjQwMzU5MjMzLC01
+OTA3NDQ5OTBdfQ==
 -->
