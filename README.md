@@ -111,8 +111,8 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - Looking at the diagram above, you can see that a change to either the input field value *or* the variable associated with `ngModel` will change the other.
 
 ### Binding to Custom Properties
-
-- [
+- Enables us to bind to properties, similar to how we did before, but for our own custom components
+- [Example](https://stackblitz.com/edit/angular-xg2lee)
 
 
 ### Binding to Custom Events
@@ -205,7 +205,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4Nzg1NzA1NiwtNjU4NDc5OTAsLTIwNT
+eyJoaXN0b3J5IjpbMTM5MTAwMjgzMywtNjU4NDc5OTAsLTIwNT
 gxNzM2NzYsLTExNDQ2NTk2NzksLTYzMTI0MDkzMCw5MzI0OTU5
 MzQsLTE4NTQ1MTI5MjUsLTg5NDA5NTQyNiwtMTIyNDU0NjA5Ny
 wtNzI2NzI2NDI3LC0yMDEzMDU3MTc0LDIwMDg1NTQ1ODAsMTMz
