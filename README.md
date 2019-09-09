@@ -112,6 +112,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 ### Binding to Custom Properties
 - Enables us to bind to properties, similar to how we did before, but for our own custom components
+- To add a bindable property to our own components we do so by
 - [Example](https://stackblitz.com/edit/angular-xg2lee)
 
 
@@ -205,11 +206,11 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTAwMjgzMywtNjU4NDc5OTAsLTIwNT
-gxNzM2NzYsLTExNDQ2NTk2NzksLTYzMTI0MDkzMCw5MzI0OTU5
-MzQsLTE4NTQ1MTI5MjUsLTg5NDA5NTQyNiwtMTIyNDU0NjA5Ny
-wtNzI2NzI2NDI3LC0yMDEzMDU3MTc0LDIwMDg1NTQ1ODAsMTMz
-MzQxNTk2MywtMjg1ODk0NTU3LC0xNjEzMzA0NDkzLDY0MDM1OT
-IzMywtNTkwNzQ0OTkwLC0xMTYxMzk5NTkwLC0xNzc4MzU2MjI0
-LC0xMTQwNzk5MzcxXX0=
+eyJoaXN0b3J5IjpbLTE4NjA0OTk0NzIsLTY1ODQ3OTkwLC0yMD
+U4MTczNjc2LC0xMTQ0NjU5Njc5LC02MzEyNDA5MzAsOTMyNDk1
+OTM0LC0xODU0NTEyOTI1LC04OTQwOTU0MjYsLTEyMjQ1NDYwOT
+csLTcyNjcyNjQyNywtMjAxMzA1NzE3NCwyMDA4NTU0NTgwLDEz
+MzM0MTU5NjMsLTI4NTg5NDU1NywtMTYxMzMwNDQ5Myw2NDAzNT
+kyMzMsLTU5MDc0NDk5MCwtMTE2MTM5OTU5MCwtMTc3ODM1NjIy
+NCwtMTE0MDc5OTM3MV19
 -->
