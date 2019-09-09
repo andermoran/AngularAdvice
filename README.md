@@ -110,7 +110,10 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 ```
 - Looking at the diagram above, you can see that a change to either the input field value *or* the variable associated with `ngModel` will change the other.
 
-### Custom Component Binding
+### Binding to Custom Properties
+
+
+### Binding to Custom Events
 
 
 ## Directives
@@ -200,11 +203,11 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTgxNzM2NzYsLTExNDQ2NTk2NzksLT
-YzMTI0MDkzMCw5MzI0OTU5MzQsLTE4NTQ1MTI5MjUsLTg5NDA5
-NTQyNiwtMTIyNDU0NjA5NywtNzI2NzI2NDI3LC0yMDEzMDU3MT
-c0LDIwMDg1NTQ1ODAsMTMzMzQxNTk2MywtMjg1ODk0NTU3LC0x
-NjEzMzA0NDkzLDY0MDM1OTIzMywtNTkwNzQ0OTkwLC0xMTYxMz
-k5NTkwLC0xNzc4MzU2MjI0LC0xMTQwNzk5MzcxLC0xODcxMTM3
-NDMwLDE0ODkwNTQxOTFdfQ==
+eyJoaXN0b3J5IjpbLTY1ODQ3OTkwLC0yMDU4MTczNjc2LC0xMT
+Q0NjU5Njc5LC02MzEyNDA5MzAsOTMyNDk1OTM0LC0xODU0NTEy
+OTI1LC04OTQwOTU0MjYsLTEyMjQ1NDYwOTcsLTcyNjcyNjQyNy
+wtMjAxMzA1NzE3NCwyMDA4NTU0NTgwLDEzMzM0MTU5NjMsLTI4
+NTg5NDU1NywtMTYxMzMwNDQ5Myw2NDAzNTkyMzMsLTU5MDc0ND
+k5MCwtMTE2MTM5OTU5MCwtMTc3ODM1NjIyNCwtMTE0MDc5OTM3
+MSwtMTg3MTEzNzQzMF19
 -->
