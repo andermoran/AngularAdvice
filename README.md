@@ -111,10 +111,10 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - Looking at the diagram above, you can see that a change to either the input field value *or* the variable associated with `ngModel` will change the other.
 
 ### Binding to Custom Properties
+> To use enable custom property bindings for a component, you need to import `Input` from `@angular/core`. Your import statement should 
 - Enables us to bind to properties, similar to how we did before, but for our own custom components
 - To add a bindable property to our own components we do so by creating a variable like we normally do but add `@Input()` in front of it
 - An example of this declaration would be `@Input() highlighted: boolean`
-- 
 - [Example](https://stackblitz.com/edit/angular-xg2lee)
 
 
@@ -208,11 +208,11 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTQzMjAzNywtNjU4NDc5OTAsLTIwNT
-gxNzM2NzYsLTExNDQ2NTk2NzksLTYzMTI0MDkzMCw5MzI0OTU5
-MzQsLTE4NTQ1MTI5MjUsLTg5NDA5NTQyNiwtMTIyNDU0NjA5Ny
-wtNzI2NzI2NDI3LC0yMDEzMDU3MTc0LDIwMDg1NTQ1ODAsMTMz
-MzQxNTk2MywtMjg1ODk0NTU3LC0xNjEzMzA0NDkzLDY0MDM1OT
-IzMywtNTkwNzQ0OTkwLC0xMTYxMzk5NTkwLC0xNzc4MzU2MjI0
-LC0xMTQwNzk5MzcxXX0=
+eyJoaXN0b3J5IjpbMTM5NTc0NjIxLC02NTg0Nzk5MCwtMjA1OD
+E3MzY3NiwtMTE0NDY1OTY3OSwtNjMxMjQwOTMwLDkzMjQ5NTkz
+NCwtMTg1NDUxMjkyNSwtODk0MDk1NDI2LC0xMjI0NTQ2MDk3LC
+03MjY3MjY0MjcsLTIwMTMwNTcxNzQsMjAwODU1NDU4MCwxMzMz
+NDE1OTYzLC0yODU4OTQ1NTcsLTE2MTMzMDQ0OTMsNjQwMzU5Mj
+MzLC01OTA3NDQ5OTAsLTExNjEzOTk1OTAsLTE3NzgzNTYyMjQs
+LTExNDA3OTkzNzFdfQ==
 -->
