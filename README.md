@@ -42,7 +42,7 @@ I am making this guide as I am learning Angular from [Maximilian Schwarzmüller'
 	> Notice the `buttonDisabled` variable in `app.component.ts` and the `[disabled]="buttonDisabled"` in `app.component.html` . Try changing the value of `buttonDisabled` from `false` to `true`
 
 ### Event Binding
-- Bind HTML DOM events such as `click()` to a TypeSript method using `(` and `)`
+- Bind HTML DOM events such as `click()` to a TypeScript method using `(` and `)`
 	```html
 	<button (click)="onButtonClick()">Click me</button>
 	```
@@ -223,11 +223,11 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NzIzNTYyNSwxNjY0NDYyNTAwLC02NT
-g0Nzk5MCwtMjA1ODE3MzY3NiwtMTE0NDY1OTY3OSwtNjMxMjQw
-OTMwLDkzMjQ5NTkzNCwtMTg1NDUxMjkyNSwtODk0MDk1NDI2LC
-0xMjI0NTQ2MDk3LC03MjY3MjY0MjcsLTIwMTMwNTcxNzQsMjAw
-ODU1NDU4MCwxMzMzNDE1OTYzLC0yODU4OTQ1NTcsLTE2MTMzMD
-Q0OTMsNjQwMzU5MjMzLC01OTA3NDQ5OTAsLTExNjEzOTk1OTAs
-LTE3NzgzNTYyMjRdfQ==
+eyJoaXN0b3J5IjpbOTk4ODA4MDQyLDExNTcyMzU2MjUsMTY2ND
+Q2MjUwMCwtNjU4NDc5OTAsLTIwNTgxNzM2NzYsLTExNDQ2NTk2
+NzksLTYzMTI0MDkzMCw5MzI0OTU5MzQsLTE4NTQ1MTI5MjUsLT
+g5NDA5NTQyNiwtMTIyNDU0NjA5NywtNzI2NzI2NDI3LC0yMDEz
+MDU3MTc0LDIwMDg1NTQ1ODAsMTMzMzQxNTk2MywtMjg1ODk0NT
+U3LC0xNjEzMzA0NDkzLDY0MDM1OTIzMywtNTkwNzQ0OTkwLC0x
+MTYxMzk5NTkwXX0=
 -->
