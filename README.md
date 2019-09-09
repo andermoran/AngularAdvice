@@ -136,6 +136,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 ### Binding to Custom Events
 > To use enable custom event bindings for a component, you need to import `Output` and `EventEmitter` from `@angular/core`. Your import statement should look like `import { Output, EventEmitter } from '@angular/core';`
 - Custom events are used by the child class to send a message to the parent class whenever something happens
+- In the child clas
 - [Example](https://stackblitz.com/edit/angular-xmgq8g)
 
 ## Directives
@@ -225,11 +226,11 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwOTM1Njk0Nyw5OTg4MDgwNDIsMTE1Nz
-IzNTYyNSwxNjY0NDYyNTAwLC02NTg0Nzk5MCwtMjA1ODE3MzY3
-NiwtMTE0NDY1OTY3OSwtNjMxMjQwOTMwLDkzMjQ5NTkzNCwtMT
-g1NDUxMjkyNSwtODk0MDk1NDI2LC0xMjI0NTQ2MDk3LC03MjY3
-MjY0MjcsLTIwMTMwNTcxNzQsMjAwODU1NDU4MCwxMzMzNDE1OT
-YzLC0yODU4OTQ1NTcsLTE2MTMzMDQ0OTMsNjQwMzU5MjMzLC01
-OTA3NDQ5OTBdfQ==
+eyJoaXN0b3J5IjpbLTE4NjMwMzQ1OTEsOTk4ODA4MDQyLDExNT
+cyMzU2MjUsMTY2NDQ2MjUwMCwtNjU4NDc5OTAsLTIwNTgxNzM2
+NzYsLTExNDQ2NTk2NzksLTYzMTI0MDkzMCw5MzI0OTU5MzQsLT
+E4NTQ1MTI5MjUsLTg5NDA5NTQyNiwtMTIyNDU0NjA5NywtNzI2
+NzI2NDI3LC0yMDEzMDU3MTc0LDIwMDg1NTQ1ODAsMTMzMzQxNT
+k2MywtMjg1ODk0NTU3LC0xNjEzMzA0NDkzLDY0MDM1OTIzMywt
+NTkwNzQ0OTkwXX0=
 -->
