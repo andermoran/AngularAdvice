@@ -136,7 +136,9 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 ### Binding to Custom Events
 > To use enable custom event bindings for a component, you need to import `Output` and `EventEmitter` from `@angular/core`. Your import statement should look like `import { Output, EventEmitter } from '@angular/core';`
 - Custom events are used by the child class to send a message to the parent class whenever something happens
-- In the child clas
+- In the child class, you must create an `EventEmitter` and put `Output` in front of it
+	- `@Output() created = new EventEmitter<>();`
+- You can pass data from the child to parent class by putting parameters between `<` and `
 - [Example](https://stackblitz.com/edit/angular-xmgq8g)
 
 ## Directives
@@ -226,7 +228,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjMwMzQ1OTEsOTk4ODA4MDQyLDExNT
+eyJoaXN0b3J5IjpbLTE3MzE4OTgxNDYsOTk4ODA4MDQyLDExNT
 cyMzU2MjUsMTY2NDQ2MjUwMCwtNjU4NDc5OTAsLTIwNTgxNzM2
 NzYsLTExNDQ2NTk2NzksLTYzMTI0MDkzMCw5MzI0OTU5MzQsLT
 E4NTQ1MTI5MjUsLTg5NDA5NTQyNiwtMTIyNDU0NjA5NywtNzI2
