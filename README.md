@@ -123,7 +123,8 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 > This example shows how we pass a `boolean` to the `highlighted` property of the person component. This `highlighted` property is then handled by `person.component.html` where it uses `ngClass` to determine whethere to apply the css class or not
 - You can also specify another name for the property if you do not want to use the variable name for binding
 	- This other name acts as an alias for binding
-- What if instead
+- What if instead I want to refer to the property as `hili` when I bind to it because I'm lazy and do not want to type highlighted?
+- Simply insert `hili` in between the parentheses after `Input` like so `@Input("hili") highlighted: boolean`
 
 	```html
 	<app-person [hili]="true"></app-person>
@@ -221,11 +222,11 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjE2NDczNSwxNjY0NDYyNTAwLC02NT
-g0Nzk5MCwtMjA1ODE3MzY3NiwtMTE0NDY1OTY3OSwtNjMxMjQw
-OTMwLDkzMjQ5NTkzNCwtMTg1NDUxMjkyNSwtODk0MDk1NDI2LC
-0xMjI0NTQ2MDk3LC03MjY3MjY0MjcsLTIwMTMwNTcxNzQsMjAw
-ODU1NDU4MCwxMzMzNDE1OTYzLC0yODU4OTQ1NTcsLTE2MTMzMD
-Q0OTMsNjQwMzU5MjMzLC01OTA3NDQ5OTAsLTExNjEzOTk1OTAs
-LTE3NzgzNTYyMjRdfQ==
+eyJoaXN0b3J5IjpbLTE5MTkxMDAwMzIsMTY2NDQ2MjUwMCwtNj
+U4NDc5OTAsLTIwNTgxNzM2NzYsLTExNDQ2NTk2NzksLTYzMTI0
+MDkzMCw5MzI0OTU5MzQsLTE4NTQ1MTI5MjUsLTg5NDA5NTQyNi
+wtMTIyNDU0NjA5NywtNzI2NzI2NDI3LC0yMDEzMDU3MTc0LDIw
+MDg1NTQ1ODAsMTMzMzQxNTk2MywtMjg1ODk0NTU3LC0xNjEzMz
+A0NDkzLDY0MDM1OTIzMywtNTkwNzQ0OTkwLC0xMTYxMzk5NTkw
+LC0xNzc4MzU2MjI0XX0=
 -->
