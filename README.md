@@ -110,6 +110,9 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 ```
 - Looking at the diagram above, you can see that a change to either the input field value *or* the variable associated with `ngModel` will change the other.
 
+### Custom Component Binding
+
+
 ## Directives
 - "Directives are instructions in the DOM"
 - Example directive:
@@ -197,7 +200,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njk0MjI4OTgsLTExNDQ2NTk2NzksLT
+eyJoaXN0b3J5IjpbLTIwNTgxNzM2NzYsLTExNDQ2NTk2NzksLT
 YzMTI0MDkzMCw5MzI0OTU5MzQsLTE4NTQ1MTI5MjUsLTg5NDA5
 NTQyNiwtMTIyNDU0NjA5NywtNzI2NzI2NDI3LC0yMDEzMDU3MT
 c0LDIwMDg1NTQ1ODAsMTMzMzQxNTk2MywtMjg1ODk0NTU3LC0x
