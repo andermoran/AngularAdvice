@@ -141,7 +141,13 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - If you want to pass data from the child to parent class, put parameters between `<` and `>`
 	- `@Output() created = new EventEmitter<{name: string}>();`
 	- This passes a `string` variable called `name`
-- Next step is to let the parent class know when this event happens, so if our `EventEmitter` variable is called `created`
+- Next step is to let the parent class know when this event happens, so if our `EventEmitter` variable is called `created` and we want our parent class to know when the child class component calls `ngOnInit` we do
+	```typescript
+	ngOnInit() {
+		this.created.emit({name: this.name});
+	}
+	```
+	> 
 - [Example](https://stackblitz.com/edit/angular-xmgq8g)
 
 ## Directives
@@ -231,7 +237,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MjE1NDMzMiw5OTg4MDgwNDIsMTE1Nz
+eyJoaXN0b3J5IjpbMTE4MTMwMzQ2Miw5OTg4MDgwNDIsMTE1Nz
 IzNTYyNSwxNjY0NDYyNTAwLC02NTg0Nzk5MCwtMjA1ODE3MzY3
 NiwtMTE0NDY1OTY3OSwtNjMxMjQwOTMwLDkzMjQ5NTkzNCwtMT
 g1NDUxMjkyNSwtODk0MDk1NDI2LC0xMjI0NTQ2MDk3LC03MjY3
