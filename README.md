@@ -144,10 +144,16 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - Next step is to let the parent class know when this event happens, so if our `EventEmitter` variable is called `created` and we want our parent class to know when the child class component calls `ngOnInit` we do
 	```typescript
 	ngOnInit() {
+		this.created.emit();
+	}
+	```
+- To pass data with this event we do
+	```typescript
+	ngOnInit() {
 		this.created.emit({name: this.name});
 	}
 	```
-	> 
+	> This assumes the child class has a variable called `name` which it wishes to pass to the parent class
 - [Example](https://stackblitz.com/edit/angular-xmgq8g)
 
 ## Directives
@@ -237,11 +243,11 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTMwMzQ2Miw5OTg4MDgwNDIsMTE1Nz
-IzNTYyNSwxNjY0NDYyNTAwLC02NTg0Nzk5MCwtMjA1ODE3MzY3
-NiwtMTE0NDY1OTY3OSwtNjMxMjQwOTMwLDkzMjQ5NTkzNCwtMT
-g1NDUxMjkyNSwtODk0MDk1NDI2LC0xMjI0NTQ2MDk3LC03MjY3
-MjY0MjcsLTIwMTMwNTcxNzQsMjAwODU1NDU4MCwxMzMzNDE1OT
-YzLC0yODU4OTQ1NTcsLTE2MTMzMDQ0OTMsNjQwMzU5MjMzLC01
-OTA3NDQ5OTBdfQ==
+eyJoaXN0b3J5IjpbNzkwNzUyODg1LDk5ODgwODA0MiwxMTU3Mj
+M1NjI1LDE2NjQ0NjI1MDAsLTY1ODQ3OTkwLC0yMDU4MTczNjc2
+LC0xMTQ0NjU5Njc5LC02MzEyNDA5MzAsOTMyNDk1OTM0LC0xOD
+U0NTEyOTI1LC04OTQwOTU0MjYsLTEyMjQ1NDYwOTcsLTcyNjcy
+NjQyNywtMjAxMzA1NzE3NCwyMDA4NTU0NTgwLDEzMzM0MTU5Nj
+MsLTI4NTg5NDU1NywtMTYxMzMwNDQ5Myw2NDAzNTkyMzMsLTU5
+MDc0NDk5MF19
 -->
