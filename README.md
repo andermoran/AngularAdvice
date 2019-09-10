@@ -258,14 +258,12 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 - [Example](https://stackblitz.com/edit/angular-mnkems)
 
 #### [Example using ngIf, ngFor, ngClass, and ngStyle](https://stackblitz.com/edit/angular-nxsnso)
-
-## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMTA2MTExMCwtMTI4ODUxMTA1MSwxNj
-A3NTQxMTMxLC0xNDMyMjUyNjYzLC0xMTMyOTg1NTQ1LDk5ODgw
-ODA0MiwxMTU3MjM1NjI1LDE2NjQ0NjI1MDAsLTY1ODQ3OTkwLC
-0yMDU4MTczNjc2LC0xMTQ0NjU5Njc5LC02MzEyNDA5MzAsOTMy
-NDk1OTM0LC0xODU0NTEyOTI1LC04OTQwOTU0MjYsLTEyMjQ1ND
-YwOTcsLTcyNjcyNjQyNywtMjAxMzA1NzE3NCwyMDA4NTU0NTgw
-LDEzMzM0MTU5NjNdfQ==
+eyJoaXN0b3J5IjpbLTE1MzIxMjYwOTAsMjAxMTA2MTExMCwtMT
+I4ODUxMTA1MSwxNjA3NTQxMTMxLC0xNDMyMjUyNjYzLC0xMTMy
+OTg1NTQ1LDk5ODgwODA0MiwxMTU3MjM1NjI1LDE2NjQ0NjI1MD
+AsLTY1ODQ3OTkwLC0yMDU4MTczNjc2LC0xMTQ0NjU5Njc5LC02
+MzEyNDA5MzAsOTMyNDk1OTM0LC0xODU0NTEyOTI1LC04OTQwOT
+U0MjYsLTEyMjQ1NDYwOTcsLTcyNjcyNjQyNywtMjAxMzA1NzE3
+NCwyMDA4NTU0NTgwXX0=
 -->
