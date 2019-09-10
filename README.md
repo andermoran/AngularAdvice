@@ -159,11 +159,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 ```mermaid
 graph LR
 child-->nothing[ ]
-
-
-
 style nothing fill:#FFFFFF, stroke:#FFFFF;
-
 ```
 - [Example](https://stackblitz.com/edit/angular-xmgq8g)
 
@@ -254,11 +250,11 @@ style nothing fill:#FFFFFF, stroke:#FFFFF;
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzIyNTI2NjMsLTExMzI5ODU1NDUsOT
-k4ODA4MDQyLDExNTcyMzU2MjUsMTY2NDQ2MjUwMCwtNjU4NDc5
-OTAsLTIwNTgxNzM2NzYsLTExNDQ2NTk2NzksLTYzMTI0MDkzMC
-w5MzI0OTU5MzQsLTE4NTQ1MTI5MjUsLTg5NDA5NTQyNiwtMTIy
-NDU0NjA5NywtNzI2NzI2NDI3LC0yMDEzMDU3MTc0LDIwMDg1NT
-Q1ODAsMTMzMzQxNTk2MywtMjg1ODk0NTU3LC0xNjEzMzA0NDkz
-LDY0MDM1OTIzM119
+eyJoaXN0b3J5IjpbLTcyNTc2OTU5LC0xNDMyMjUyNjYzLC0xMT
+MyOTg1NTQ1LDk5ODgwODA0MiwxMTU3MjM1NjI1LDE2NjQ0NjI1
+MDAsLTY1ODQ3OTkwLC0yMDU4MTczNjc2LC0xMTQ0NjU5Njc5LC
+02MzEyNDA5MzAsOTMyNDk1OTM0LC0xODU0NTEyOTI1LC04OTQw
+OTU0MjYsLTEyMjQ1NDYwOTcsLTcyNjcyNjQyNywtMjAxMzA1Nz
+E3NCwyMDA4NTU0NTgwLDEzMzM0MTU5NjMsLTI4NTg5NDU1Nywt
+MTYxMzMwNDQ5M119
 -->
