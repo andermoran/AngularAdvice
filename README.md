@@ -160,7 +160,10 @@ graph LR
 child-->nothing[ ]
 style nothing fill:#FFFFFF, stroke:#FFFFF;
 ```
-- To make the parent class listen for the event, we have to bind an e 
+- To make the parent class listen for the event, we have to bind an event to our custom component like so
+	```typescript
+	<app-person (created)="showAlert($event)"></app-person>
+	```
 - [Example](https://stackblitz.com/edit/angular-xmgq8g)
 
 ## Directives
@@ -250,11 +253,11 @@ style nothing fill:#FFFFFF, stroke:#FFFFF;
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjI5MTkwNzAsLTE0MzIyNTI2NjMsLT
-ExMzI5ODU1NDUsOTk4ODA4MDQyLDExNTcyMzU2MjUsMTY2NDQ2
-MjUwMCwtNjU4NDc5OTAsLTIwNTgxNzM2NzYsLTExNDQ2NTk2Nz
-ksLTYzMTI0MDkzMCw5MzI0OTU5MzQsLTE4NTQ1MTI5MjUsLTg5
-NDA5NTQyNiwtMTIyNDU0NjA5NywtNzI2NzI2NDI3LC0yMDEzMD
-U3MTc0LDIwMDg1NTQ1ODAsMTMzMzQxNTk2MywtMjg1ODk0NTU3
-LC0xNjEzMzA0NDkzXX0=
+eyJoaXN0b3J5IjpbLTk2OTM2NDM0NSwtMTQzMjI1MjY2MywtMT
+EzMjk4NTU0NSw5OTg4MDgwNDIsMTE1NzIzNTYyNSwxNjY0NDYy
+NTAwLC02NTg0Nzk5MCwtMjA1ODE3MzY3NiwtMTE0NDY1OTY3OS
+wtNjMxMjQwOTMwLDkzMjQ5NTkzNCwtMTg1NDUxMjkyNSwtODk0
+MDk1NDI2LC0xMjI0NTQ2MDk3LC03MjY3MjY0MjcsLTIwMTMwNT
+cxNzQsMjAwODU1NDU4MCwxMzMzNDE1OTYzLC0yODU4OTQ1NTcs
+LTE2MTMzMDQ0OTNdfQ==
 -->
