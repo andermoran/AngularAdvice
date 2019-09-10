@@ -5,7 +5,8 @@
 ### Will do once finished
 
 ## Note
-I am making this guide as I am learning Angular from [Maximilian Schwarzmüller's Angular Tutorial](https://www.udemy.com/the-complete-guide-to-angular-2/) as well as googling stuff online. If anything is in quotes, it means I copy and pasted something that was said by someone else. I am writing writing this tutorial using [stackedit](https://stackedit.io/) which has no spell checking so I'm sure I've misspelled a lot of things while writing this.
+I am making this guide as I am learning Angular from [Maximilian Schwarzmüller's Angular Tutorial](https://www.udemy.com/the-complete-guide-to-angular-2/) as well as googling stuff online. Because I am writing this as I learn, there may be parts where I don't do things in the perfect manner but I think it's helpful to read through the eyes of someone who is still learning. Sometimes experts are so knowledgeable and
+ If anything is in quotes, it means I copy and pasted something that was said by someone else. I am writing writing this tutorial using [stackedit](https://stackedit.io/) which has no spell checking so I'm sure I've misspelled a lot of things while writing this.
 
 ## Basics
 - Angular (currently on Angular 8) is a framework that allows for dynamic, reactive web applications as well as native mobile applications
@@ -259,11 +260,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTQwODQzNCwtMTQzMjI1MjY2MywtMT
-EzMjk4NTU0NSw5OTg4MDgwNDIsMTE1NzIzNTYyNSwxNjY0NDYy
-NTAwLC02NTg0Nzk5MCwtMjA1ODE3MzY3NiwtMTE0NDY1OTY3OS
-wtNjMxMjQwOTMwLDkzMjQ5NTkzNCwtMTg1NDUxMjkyNSwtODk0
-MDk1NDI2LC0xMjI0NTQ2MDk3LC03MjY3MjY0MjcsLTIwMTMwNT
-cxNzQsMjAwODU1NDU4MCwxMzMzNDE1OTYzLC0yODU4OTQ1NTcs
-LTE2MTMzMDQ0OTNdfQ==
+eyJoaXN0b3J5IjpbLTEzMzAwOTk0ODEsLTE0MzIyNTI2NjMsLT
+ExMzI5ODU1NDUsOTk4ODA4MDQyLDExNTcyMzU2MjUsMTY2NDQ2
+MjUwMCwtNjU4NDc5OTAsLTIwNTgxNzM2NzYsLTExNDQ2NTk2Nz
+ksLTYzMTI0MDkzMCw5MzI0OTU5MzQsLTE4NTQ1MTI5MjUsLTg5
+NDA5NTQyNiwtMTIyNDU0NjA5NywtNzI2NzI2NDI3LC0yMDEzMD
+U3MTc0LDIwMDg1NTQ1ODAsMTMzMzQxNTk2MywtMjg1ODk0NTU3
+LC0xNjEzMzA0NDkzXX0=
 -->
