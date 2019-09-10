@@ -1,4 +1,5 @@
 <img align="right" src="https://angular.io/assets/images/logos/angular/angular.png">
+
 # Ander's Angular Adivce 
 
 
@@ -260,7 +261,7 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzgyNDQ0MCwtMTI4ODUxMTA1MSwxNj
+eyJoaXN0b3J5IjpbMjAxMTA2MTExMCwtMTI4ODUxMTA1MSwxNj
 A3NTQxMTMxLC0xNDMyMjUyNjYzLC0xMTMyOTg1NTQ1LDk5ODgw
 ODA0MiwxMTU3MjM1NjI1LDE2NjQ0NjI1MDAsLTY1ODQ3OTkwLC
 0yMDU4MTczNjc2LC0xMTQ0NjU5Njc5LC02MzEyNDA5MzAsOTMy
