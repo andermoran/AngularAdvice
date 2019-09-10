@@ -21,7 +21,13 @@ I am making this guide as I am learning Angular from [Maximilian Schwarzmüller'
 - The main component is `app`. Thinks of this like the mother of all components. Without this component, the app would have no functionality. Although the `app` component is **not** analogous to the `main` function in C or Java, imagine a program without a `main`. It has no functionality. That's how your Angular project would be with the `app` component.
 - Components are usually made up of 3 files with an additional file used for testing
 	1. `mycomponentname.component.ts`
-		- This file controls the logic of the component. This is where your `TypeScript` code goes
+		- This file controls the logic of the component. This is where your `TypeScript` code goes which controls what your component does.
+	2. `mycomponentname.component.html`
+		- This file controls how your component is structured on the page
+	3. `mycomponentname.component.css`
+		- This file controls how your component is styled on the page
+- 	3. `mycomponentname.component.css`
+		- This file controls how your component is styled on the page
 
 ## Data Binding
  ### String Interpolation
@@ -263,11 +269,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 
 #### [Example using ngIf, ngFor, ngClass, and ngStyle](https://stackblitz.com/edit/angular-nxsnso)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDMyNzk5MDcsLTI0Mjc3MzE5NSwyMD
-ExMDYxMTEwLC0xMjg4NTExMDUxLDE2MDc1NDExMzEsLTE0MzIy
-NTI2NjMsLTExMzI5ODU1NDUsOTk4ODA4MDQyLDExNTcyMzU2Mj
-UsMTY2NDQ2MjUwMCwtNjU4NDc5OTAsLTIwNTgxNzM2NzYsLTEx
-NDQ2NTk2NzksLTYzMTI0MDkzMCw5MzI0OTU5MzQsLTE4NTQ1MT
-I5MjUsLTg5NDA5NTQyNiwtMTIyNDU0NjA5NywtNzI2NzI2NDI3
-LC0yMDEzMDU3MTc0XX0=
+eyJoaXN0b3J5IjpbLTc1NDg0NDM1NSwtMjQyNzczMTk1LDIwMT
+EwNjExMTAsLTEyODg1MTEwNTEsMTYwNzU0MTEzMSwtMTQzMjI1
+MjY2MywtMTEzMjk4NTU0NSw5OTg4MDgwNDIsMTE1NzIzNTYyNS
+wxNjY0NDYyNTAwLC02NTg0Nzk5MCwtMjA1ODE3MzY3NiwtMTE0
+NDY1OTY3OSwtNjMxMjQwOTMwLDkzMjQ5NTkzNCwtMTg1NDUxMj
+kyNSwtODk0MDk1NDI2LC0xMjI0NTQ2MDk3LC03MjY3MjY0Mjcs
+LTIwMTMwNTcxNzRdfQ==
 -->
