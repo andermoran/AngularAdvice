@@ -18,7 +18,8 @@ I am making this guide as I am learning Angular from [Maximilian Schwarzmüller'
 ## Components
 - Components are similar, one could even say analogous, to classes in OOP (Object Oriented Programming)
 - Similar to objects, components are made to be reused in and it helps keep the LOC (lines of code) lower in the main file, `app.component.ts`
-- The main component is `app.component.ts`. Thinks of this like the mother of all components.
+- The main component is `app.component.ts`. Thinks of this like the mother of all components. Without this component, the app would have no functionality. If you know C or C++ imagine a 
+-
 - Components are usually made up of 3 files with an additional file used for testing
 	1. `mycomponentname.component.ts`
 		- This file controls the logic of the component
@@ -263,7 +264,7 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 
 #### [Example using ngIf, ngFor, ngClass, and ngStyle](https://stackblitz.com/edit/angular-nxsnso)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDQ0NzY5NywyMDExMDYxMTEwLC0xMj
+eyJoaXN0b3J5IjpbLTI0Mjc3MzE5NSwyMDExMDYxMTEwLC0xMj
 g4NTExMDUxLDE2MDc1NDExMzEsLTE0MzIyNTI2NjMsLTExMzI5
 ODU1NDUsOTk4ODA4MDQyLDExNTcyMzU2MjUsMTY2NDQ2MjUwMC
 wtNjU4NDc5OTAsLTIwNTgxNzM2NzYsLTExNDQ2NTk2NzksLTYz
