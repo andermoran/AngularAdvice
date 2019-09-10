@@ -18,6 +18,8 @@ I am making this guide as I am learning Angular from [Maximilian Schwarzmüller'
 ## Components
 - Components are similar, one could even say analogous, to classes in OOP (Object Oriented Programming)
 - Similar to objects, components are made to be reused in and it helps keep the LOC (lines of code) lower in the main file, `app.component.ts`
+- Components are usually made up of 3 files with an additional file used for testing
+	1. 
 
 ## Data Binding
  ### String Interpolation
@@ -259,7 +261,7 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 
 #### [Example using ngIf, ngFor, ngClass, and ngStyle](https://stackblitz.com/edit/angular-nxsnso)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzIxMjYwOTAsMjAxMTA2MTExMCwtMT
+eyJoaXN0b3J5IjpbLTE3NjQ4Mjc5NDAsMjAxMTA2MTExMCwtMT
 I4ODUxMTA1MSwxNjA3NTQxMTMxLC0xNDMyMjUyNjYzLC0xMTMy
 OTg1NTQ1LDk5ODgwODA0MiwxMTU3MjM1NjI1LDE2NjQ0NjI1MD
 AsLTY1ODQ3OTkwLC0yMDU4MTczNjc2LC0xMTQ0NjU5Njc5LC02
