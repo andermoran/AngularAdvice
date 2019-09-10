@@ -164,11 +164,12 @@ style nothing fill:#FFFFFF, stroke:#FFFFF;
 	```typescript
 	<app-person (created)="showAlert($event)"></app-person>
 	```
-	> Right here we are binding the `created` event we made in our child class to the method `showAlert(personData: {name: string})` in our parent class. We pass `$event`. With this binding is in place, whenever `this.created.emit({name: this.name});` runs in the child component, an event is emitted to the parent component causing `showAlert(personData: {name: string})` to run as well. Think about how we binded to click earlier.
-```mermaid
-graph LR
-child --EventEmitter--> parent
-```
+	```mermaid
+	graph LR
+	child --EventEmitter--> parent
+	```
+	> Right here we are binding the `created` event we made in our child component to the method `showAlert(personData: {name: string})` in our parent component. We pass `$event`. With this binding is in place, whenever `this.created.emit({name: this.name});` runs in the child component, an event is emitted to the parent component causing `showAlert(personData: {name: string})` to run as well
+Think about how we binded to click earlier. Whenever the person clicks the child component, the child 
 - [Example](https://stackblitz.com/edit/angular-xmgq8g)
 
 ## Directives
@@ -258,7 +259,7 @@ child --EventEmitter--> parent
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDUyNzk2MCwtMTQzMjI1MjY2MywtMT
+eyJoaXN0b3J5IjpbMTk3Mzc4MTI2MiwtMTQzMjI1MjY2MywtMT
 EzMjk4NTU0NSw5OTg4MDgwNDIsMTE1NzIzNTYyNSwxNjY0NDYy
 NTAwLC02NTg0Nzk5MCwtMjA1ODE3MzY3NiwtMTE0NDY1OTY3OS
 wtNjMxMjQwOTMwLDkzMjQ5NTkzNCwtMTg1NDUxMjkyNSwtODk0
