@@ -1,5 +1,5 @@
 
-# Ander's Angular Adivce [f](https://angular.io/assets/images/logos/angular/angular.png)
+# Ander's Angular Adivce ![Angular logo](https://angular.io/assets/images/logos/angular/angular.png)
 
 ## Table of Contents
 ### Will do once finished
@@ -259,11 +259,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODg1MTEwNTEsMTYwNzU0MTEzMSwtMT
-QzMjI1MjY2MywtMTEzMjk4NTU0NSw5OTg4MDgwNDIsMTE1NzIz
-NTYyNSwxNjY0NDYyNTAwLC02NTg0Nzk5MCwtMjA1ODE3MzY3Ni
-wtMTE0NDY1OTY3OSwtNjMxMjQwOTMwLDkzMjQ5NTkzNCwtMTg1
-NDUxMjkyNSwtODk0MDk1NDI2LC0xMjI0NTQ2MDk3LC03MjY3Mj
-Y0MjcsLTIwMTMwNTcxNzQsMjAwODU1NDU4MCwxMzMzNDE1OTYz
-LC0yODU4OTQ1NTddfQ==
+eyJoaXN0b3J5IjpbLTEzODY1NjY2NTksLTEyODg1MTEwNTEsMT
+YwNzU0MTEzMSwtMTQzMjI1MjY2MywtMTEzMjk4NTU0NSw5OTg4
+MDgwNDIsMTE1NzIzNTYyNSwxNjY0NDYyNTAwLC02NTg0Nzk5MC
+wtMjA1ODE3MzY3NiwtMTE0NDY1OTY3OSwtNjMxMjQwOTMwLDkz
+MjQ5NTkzNCwtMTg1NDUxMjkyNSwtODk0MDk1NDI2LC0xMjI0NT
+Q2MDk3LC03MjY3MjY0MjcsLTIwMTMwNTcxNzQsMjAwODU1NDU4
+MCwxMzMzNDE1OTYzXX0=
 -->
