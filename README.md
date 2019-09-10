@@ -26,8 +26,8 @@ I am making this guide as I am learning Angular from [Maximilian Schwarzmüller'
 		- This file controls how your component is structured on the page
 	3. `mycomponentname.component.css`
 		- This file controls how your component is styled on the page
-- 	3. `mycomponentname.component.css`
-		- This file controls how your component is styled on the page
+	4. `mycomponentname.component.spec.ts`
+		- This file is used for testing but I never use it so I'd just delete it
 
 ## Data Binding
  ### String Interpolation
@@ -269,11 +269,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 
 #### [Example using ngIf, ngFor, ngClass, and ngStyle](https://stackblitz.com/edit/angular-nxsnso)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NDg0NDM1NSwtMjQyNzczMTk1LDIwMT
-EwNjExMTAsLTEyODg1MTEwNTEsMTYwNzU0MTEzMSwtMTQzMjI1
-MjY2MywtMTEzMjk4NTU0NSw5OTg4MDgwNDIsMTE1NzIzNTYyNS
-wxNjY0NDYyNTAwLC02NTg0Nzk5MCwtMjA1ODE3MzY3NiwtMTE0
-NDY1OTY3OSwtNjMxMjQwOTMwLDkzMjQ5NTkzNCwtMTg1NDUxMj
-kyNSwtODk0MDk1NDI2LC0xMjI0NTQ2MDk3LC03MjY3MjY0Mjcs
-LTIwMTMwNTcxNzRdfQ==
+eyJoaXN0b3J5IjpbODcxMjM0MjYyLC0yNDI3NzMxOTUsMjAxMT
+A2MTExMCwtMTI4ODUxMTA1MSwxNjA3NTQxMTMxLC0xNDMyMjUy
+NjYzLC0xMTMyOTg1NTQ1LDk5ODgwODA0MiwxMTU3MjM1NjI1LD
+E2NjQ0NjI1MDAsLTY1ODQ3OTkwLC0yMDU4MTczNjc2LC0xMTQ0
+NjU5Njc5LC02MzEyNDA5MzAsOTMyNDk1OTM0LC0xODU0NTEyOT
+I1LC04OTQwOTU0MjYsLTEyMjQ1NDYwOTcsLTcyNjcyNjQyNywt
+MjAxMzA1NzE3NF19
 -->
