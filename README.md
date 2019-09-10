@@ -157,14 +157,18 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - The event will be emitted but the parent class is not listening for the event so this effectively does nothing
 ```mermaid
 graph LR
-child-->nothing[ ]
+child --EventEmitter--> nothing[ ]
 style nothing fill:#FFFFFF, stroke:#FFFFF;
 ```
 - To make the parent class listen for the event, we have to bind an event to our custom component like so
 	```typescript
 	<app-person (created)="showAlert($event)"></app-person>
 	```
-	> Right here we are binding the `created` event we made in our child class to the method `showAlert(personData: {name: string})` in our parent class. We pass the `$eve
+	> Right here we are binding the `created` event we made in our child class to the method `showAlert(personData: {name: string})` in our parent class. We pass `$event`
+```mermaid
+graph LR
+child --EventEmitter--> parent
+```
 - [Example](https://stackblitz.com/edit/angular-xmgq8g)
 
 ## Directives
@@ -254,11 +258,11 @@ style nothing fill:#FFFFFF, stroke:#FFFFF;
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2MTM1MTAyLC0xNDMyMjUyNjYzLC0xMT
-MyOTg1NTQ1LDk5ODgwODA0MiwxMTU3MjM1NjI1LDE2NjQ0NjI1
-MDAsLTY1ODQ3OTkwLC0yMDU4MTczNjc2LC0xMTQ0NjU5Njc5LC
-02MzEyNDA5MzAsOTMyNDk1OTM0LC0xODU0NTEyOTI1LC04OTQw
-OTU0MjYsLTEyMjQ1NDYwOTcsLTcyNjcyNjQyNywtMjAxMzA1Nz
-E3NCwyMDA4NTU0NTgwLDEzMzM0MTU5NjMsLTI4NTg5NDU1Nywt
-MTYxMzMwNDQ5M119
+eyJoaXN0b3J5IjpbMTA5MzQwNTIxNCwtMTQzMjI1MjY2MywtMT
+EzMjk4NTU0NSw5OTg4MDgwNDIsMTE1NzIzNTYyNSwxNjY0NDYy
+NTAwLC02NTg0Nzk5MCwtMjA1ODE3MzY3NiwtMTE0NDY1OTY3OS
+wtNjMxMjQwOTMwLDkzMjQ5NTkzNCwtMTg1NDUxMjkyNSwtODk0
+MDk1NDI2LC0xMjI0NTQ2MDk3LC03MjY3MjY0MjcsLTIwMTMwNT
+cxNzQsMjAwODU1NDU4MCwxMzMzNDE1OTYzLC0yODU4OTQ1NTcs
+LTE2MTMzMDQ0OTNdfQ==
 -->
