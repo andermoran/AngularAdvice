@@ -162,7 +162,7 @@ child-->nothing[ ]
 
 
 
-style nothing fill:#FFFFFF, stroke:#FFFFF, text:#FFFFF;
+style nothing fill:#FFFFFF, stroke:#FFFFF;
 
 ```
 - [Example](https://stackblitz.com/edit/angular-xmgq8g)
@@ -254,7 +254,7 @@ style nothing fill:#FFFFFF, stroke:#FFFFF, text:#FFFFF;
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTAwNDA3ODMsLTExMzI5ODU1NDUsOT
+eyJoaXN0b3J5IjpbLTE0MzIyNTI2NjMsLTExMzI5ODU1NDUsOT
 k4ODA4MDQyLDExNTcyMzU2MjUsMTY2NDQ2MjUwMCwtNjU4NDc5
 OTAsLTIwNTgxNzM2NzYsLTExNDQ2NTk2NzksLTYzMTI0MDkzMC
 w5MzI0OTU5MzQsLTE4NTQ1MTI5MjUsLTg5NDA5NTQyNiwtMTIy
