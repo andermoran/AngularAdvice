@@ -157,14 +157,14 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - The event will be emitted but the parent class is not listening for the event so this effectively does nothing
 - For the parent class to listen to the event.......
 ```mermaid
-     graph LR
-        START[ ]-->A[Sample Text]
-        A-->B
-        B-->A 
-        B-->STOP[ ]
+graph LR
+START[ ]-->A[Sample Text]
+A-->B
+B-->A 
+B-->STOP[ ]
 
-        style START fill:#FFFFFF, stroke:#FFFFFF;
-        style STOP  fill:#FFFFFF, stroke:#FFFFFF;
+style START fill:#FFFFFF, stroke:#FFFFFF;
+style STOP  fill:#FFFFFF, stroke:#FFFFFF;
 ```
 - [Example](https://stackblitz.com/edit/angular-xmgq8g)
 
@@ -255,7 +255,7 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTg3MjcyNTYsLTExMzI5ODU1NDUsOT
+eyJoaXN0b3J5IjpbLTExOTExNTg2MjAsLTExMzI5ODU1NDUsOT
 k4ODA4MDQyLDExNTcyMzU2MjUsMTY2NDQ2MjUwMCwtNjU4NDc5
 OTAsLTIwNTgxNzM2NzYsLTExNDQ2NTk2NzksLTYzMTI0MDkzMC
 w5MzI0OTU5MzQsLTE4NTQ1MTI5MjUsLTg5NDA5NTQyNiwtMTIy
