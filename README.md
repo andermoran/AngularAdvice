@@ -264,16 +264,17 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 		```html
 		<p [ngClass]="'valid'">Password status<p>
 		```
-	> where `valid` is a css class defined in the .css file associated with a component
+	> where `valid` is a css class defined in the .css file associated with a component.
+- **Make sure to notice the nested quotes in the 2nd example**
 - [Example](https://stackblitz.com/edit/angular-mnkems)
 
 #### [Example using ngIf, ngFor, ngClass, and ngStyle](https://stackblitz.com/edit/angular-nxsnso)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcxMjM0MjYyLC0yNDI3NzMxOTUsMjAxMT
-A2MTExMCwtMTI4ODUxMTA1MSwxNjA3NTQxMTMxLC0xNDMyMjUy
-NjYzLC0xMTMyOTg1NTQ1LDk5ODgwODA0MiwxMTU3MjM1NjI1LD
-E2NjQ0NjI1MDAsLTY1ODQ3OTkwLC0yMDU4MTczNjc2LC0xMTQ0
-NjU5Njc5LC02MzEyNDA5MzAsOTMyNDk1OTM0LC0xODU0NTEyOT
-I1LC04OTQwOTU0MjYsLTEyMjQ1NDYwOTcsLTcyNjcyNjQyNywt
-MjAxMzA1NzE3NF19
+eyJoaXN0b3J5IjpbMTQyMTg5NjI5MCw4NzEyMzQyNjIsLTI0Mj
+c3MzE5NSwyMDExMDYxMTEwLC0xMjg4NTExMDUxLDE2MDc1NDEx
+MzEsLTE0MzIyNTI2NjMsLTExMzI5ODU1NDUsOTk4ODA4MDQyLD
+ExNTcyMzU2MjUsMTY2NDQ2MjUwMCwtNjU4NDc5OTAsLTIwNTgx
+NzM2NzYsLTExNDQ2NTk2NzksLTYzMTI0MDkzMCw5MzI0OTU5Mz
+QsLTE4NTQ1MTI5MjUsLTg5NDA5NTQyNiwtMTIyNDU0NjA5Nywt
+NzI2NzI2NDI3XX0=
 -->
