@@ -156,6 +156,10 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 	> This assumes the child class has a variable called `name` which it wishes to pass to the parent class
 - The event will be emitted but the parent class is not listening for the event so this effectively does nothing
 - For the parent class to listen to the event.......
+```mermaid
+graph LR
+child["child"] --> parent["variable (app.component.ts)"]
+```
 - [Example](https://stackblitz.com/edit/angular-xmgq8g)
 
 ## Directives
@@ -245,11 +249,11 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzI5ODU1NDUsOTk4ODA4MDQyLDExNT
-cyMzU2MjUsMTY2NDQ2MjUwMCwtNjU4NDc5OTAsLTIwNTgxNzM2
-NzYsLTExNDQ2NTk2NzksLTYzMTI0MDkzMCw5MzI0OTU5MzQsLT
-E4NTQ1MTI5MjUsLTg5NDA5NTQyNiwtMTIyNDU0NjA5NywtNzI2
-NzI2NDI3LC0yMDEzMDU3MTc0LDIwMDg1NTQ1ODAsMTMzMzQxNT
-k2MywtMjg1ODk0NTU3LC0xNjEzMzA0NDkzLDY0MDM1OTIzMywt
-NTkwNzQ0OTkwXX0=
+eyJoaXN0b3J5IjpbMTM0NjAyMjMxOCwtMTEzMjk4NTU0NSw5OT
+g4MDgwNDIsMTE1NzIzNTYyNSwxNjY0NDYyNTAwLC02NTg0Nzk5
+MCwtMjA1ODE3MzY3NiwtMTE0NDY1OTY3OSwtNjMxMjQwOTMwLD
+kzMjQ5NTkzNCwtMTg1NDUxMjkyNSwtODk0MDk1NDI2LC0xMjI0
+NTQ2MDk3LC03MjY3MjY0MjcsLTIwMTMwNTcxNzQsMjAwODU1ND
+U4MCwxMzMzNDE1OTYzLC0yODU4OTQ1NTcsLTE2MTMzMDQ0OTMs
+NjQwMzU5MjMzXX0=
 -->
