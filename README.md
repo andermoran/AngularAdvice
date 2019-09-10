@@ -1,12 +1,11 @@
 
-# Ander's Angular Adivce
+# Ander's Angular Adivce [](https://angular.io/assets/images/logos/angular/angular.png)
 
 ## Table of Contents
 ### Will do once finished
 
 ## Note
-I am making this guide as I am learning Angular from [Maximilian Schwarzmüller's Angular Tutorial](https://www.udemy.com/the-complete-guide-to-angular-2/) as well as googling stuff online. Because I am writing this as I learn, there may be parts where I don't do things in the perfect manner but I think it's helpful to read through the eyes of someone who is still learning. Sometimes experts are so knowledgeable and deep into a subject to the point where they attempt to explain something and in their eyes it makes perfect sense, but to someone who is just starting out it is confusing due to the lack of a comprehensive understanding. I try my best to use words that anybody knows so that as many people as possible can understand with what  
- If anything is in quotes, it means I copy and pasted something that was said by someone else. I am writing writing this tutorial using [stackedit](https://stackedit.io/) which has no spell checking so I'm sure I've misspelled a lot of things while writing this.
+I am making this guide as I am learning Angular from [Maximilian Schwarzmüller's Angular Tutorial](https://www.udemy.com/the-complete-guide-to-angular-2/) as well as googling stuff online. Because I am writing this as I learn, there may be parts where I don't do things in the perfect manner but I think it's helpful to read through the eyes of someone who is still learning. Sometimes experts are so knowledgeable and deep into a subject to the point where they attempt to explain something and in their eyes it makes perfect sense, but to someone who is just starting out it is confusing due to the lack of a comprehensive understanding. I try my best to use words that anybody knows so that as many people as possible can understand what saying. If anything is in quotes, it means I copy and pasted something that was said by someone else. I am writing writing this tutorial using [stackedit](https://stackedit.io/) which has no spell checking so I'm sure I've misspelled a lot of things while writing this.
 
 ## Basics
 - Angular (currently on Angular 8) is a framework that allows for dynamic, reactive web applications as well as native mobile applications
@@ -260,7 +259,7 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MTk4NTQwNSwtMTQzMjI1MjY2MywtMT
+eyJoaXN0b3J5IjpbMTYwNzU0MTEzMSwtMTQzMjI1MjY2MywtMT
 EzMjk4NTU0NSw5OTg4MDgwNDIsMTE1NzIzNTYyNSwxNjY0NDYy
 NTAwLC02NTg0Nzk5MCwtMjA1ODE3MzY3NiwtMTE0NDY1OTY3OS
 wtNjMxMjQwOTMwLDkzMjQ5NTkzNCwtMTg1NDUxMjkyNSwtODk0
