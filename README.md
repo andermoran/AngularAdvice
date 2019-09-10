@@ -158,13 +158,12 @@ ts["variable (app.component.ts)"] --> html["input field value (app.component.htm
 - For the parent class to listen to the event.......
 ```mermaid
 graph LR
-START[ ]-->A[Sample Text]
-A-->B
-B-->A 
-B-->STOP[ ]
+child-->A[ ]
 
-style START fill:#FFFFFF, stroke:#FFFFFF;
-style STOP  fill:#FFFFFF, stroke:#FFFFFF;
+
+
+style A fill:#FFFFFF, stroke:#FFFFFF;
+
 ```
 - [Example](https://stackblitz.com/edit/angular-xmgq8g)
 
@@ -255,11 +254,11 @@ style STOP  fill:#FFFFFF, stroke:#FFFFFF;
 
 ## Module
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTExNTg2MjAsLTExMzI5ODU1NDUsOT
-k4ODA4MDQyLDExNTcyMzU2MjUsMTY2NDQ2MjUwMCwtNjU4NDc5
-OTAsLTIwNTgxNzM2NzYsLTExNDQ2NTk2NzksLTYzMTI0MDkzMC
-w5MzI0OTU5MzQsLTE4NTQ1MTI5MjUsLTg5NDA5NTQyNiwtMTIy
-NDU0NjA5NywtNzI2NzI2NDI3LC0yMDEzMDU3MTc0LDIwMDg1NT
-Q1ODAsMTMzMzQxNTk2MywtMjg1ODk0NTU3LC0xNjEzMzA0NDkz
-LDY0MDM1OTIzM119
+eyJoaXN0b3J5IjpbMTM1NzQzMDkyNywtMTEzMjk4NTU0NSw5OT
+g4MDgwNDIsMTE1NzIzNTYyNSwxNjY0NDYyNTAwLC02NTg0Nzk5
+MCwtMjA1ODE3MzY3NiwtMTE0NDY1OTY3OSwtNjMxMjQwOTMwLD
+kzMjQ5NTkzNCwtMTg1NDUxMjkyNSwtODk0MDk1NDI2LC0xMjI0
+NTQ2MDk3LC03MjY3MjY0MjcsLTIwMTMwNTcxNzQsMjAwODU1ND
+U4MCwxMzMzNDE1OTYzLC0yODU4OTQ1NTcsLTE2MTMzMDQ0OTMs
+NjQwMzU5MjMzXX0=
 -->
