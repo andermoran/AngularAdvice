@@ -272,10 +272,10 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 
 ## View Encapsulation
 - CSS styles for a given component only effect the host component, not the children it creates
-- Let's say the `App` component contains a `Person` component in `app.component.html`. If `app.component.css` changes the style of `p` tags and the Person`
+- Let's say the `App` component contains a `Person` component in `app.component.html`. If `app.component.css` changes the style of `p` tags and the `Person` component contains `p` tags, the `p` tags in `Person` will not be affected. Only `p` tags directly in `app.component.html` will be altered.
 - [Example](https://stackblitz.com/edit/angular-g3bfc4)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTAwODIwOCw4MTYyMDExNzgsLTgzMj
+eyJoaXN0b3J5IjpbLTE0NDQwMzIxMCw4MTYyMDExNzgsLTgzMj
 g5NTE4MywxNDIxODk2MjkwLDg3MTIzNDI2MiwtMjQyNzczMTk1
 LDIwMTEwNjExMTAsLTEyODg1MTEwNTEsMTYwNzU0MTEzMSwtMT
 QzMjI1MjY2MywtMTEzMjk4NTU0NSw5OTg4MDgwNDIsMTE1NzIz
