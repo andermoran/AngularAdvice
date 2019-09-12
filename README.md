@@ -302,7 +302,7 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 				border:  1px  solid  black;
 			}
 			```
-			This is because`None` ignores the shadow DOM
+			This is because`None` ignores the shadow DOM. I'm not too familiar with the shadow DOM (I literally just learned about it while learning about view encapsulation) but I will update this part once I can show a bette
 	3. None
 		- "Hello, my name is John Doe" is now red because we decided **not** to encapsulate the `App` component styles. So the styles are applied to all the components that `App` uses is `app.component.html`. Since there is an `h1` style in `app.component.css`, it is passed to the `Person` component
 		- *But wait...* there is also
@@ -333,11 +333,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjA0MTExNzcsODU4NTMwNDgwLC0xMT
-k2Mzk5OTYsLTQ4Nzk5ODYwNSw3NTkzMzk3MDMsLTE1NTE5MjEw
-NzUsLTQ3NjkxMDc0NywtMTA3MDcxMDkzMywxMTQ3MzA5Mjc0LC
-0xOTA0Mjk1MDUxLDE5MzM5MTI5NzQsLTE0NDQwMzIxMCw4MTYy
-MDExNzgsLTgzMjg5NTE4MywxNDIxODk2MjkwLDg3MTIzNDI2Mi
-wtMjQyNzczMTk1LDIwMTEwNjExMTAsLTEyODg1MTEwNTEsMTYw
-NzU0MTEzMV19
+eyJoaXN0b3J5IjpbLTE2MDM0MzUxLDg1ODUzMDQ4MCwtMTE5Nj
+M5OTk2LC00ODc5OTg2MDUsNzU5MzM5NzAzLC0xNTUxOTIxMDc1
+LC00NzY5MTA3NDcsLTEwNzA3MTA5MzMsMTE0NzMwOTI3NCwtMT
+kwNDI5NTA1MSwxOTMzOTEyOTc0LC0xNDQ0MDMyMTAsODE2MjAx
+MTc4LC04MzI4OTUxODMsMTQyMTg5NjI5MCw4NzEyMzQyNjIsLT
+I0Mjc3MzE5NSwyMDExMDYxMTEwLC0xMjg4NTExMDUxLDE2MDc1
+NDExMzFdfQ==
 -->
