@@ -297,8 +297,14 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	2. ShadowDom
 		- c
 	3. None
-		- "Hello, my name is John Doe" is now red because we decided **not** to encapsulate the `App` component styles. So the styles are applied to all the components that `App` uses is `app.component.html`. Since there is an `h1` style in `app.component.css`, it is passed to the `Person`
-
+		- "Hello, my name is John Doe" is now red because we decided **not** to encapsulate the `App` component styles. So the styles are applied to all the components that `App` uses is `app.component.html`. Since there is an `h1` style in `app.component.css`, it is passed to the `Person` component
+		- *But wait...* there is also
+			 ```css
+			p {
+				color: blue;
+			}
+			```
+			In `app.component.css` so why isn't "I have a pet named Fido" blue
 - You need to import `ViewEncapsulation` with 
 	```typescript
 	import { ViewEncapsulation } from '@angular/core'
@@ -314,7 +320,7 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjA0ODUxNTUsLTE1NTE5MjEwNzUsLT
+eyJoaXN0b3J5IjpbLTE1OTc5OTc5ODAsLTE1NTE5MjEwNzUsLT
 Q3NjkxMDc0NywtMTA3MDcxMDkzMywxMTQ3MzA5Mjc0LC0xOTA0
 Mjk1MDUxLDE5MzM5MTI5NzQsLTE0NDQwMzIxMCw4MTYyMDExNz
 gsLTgzMjg5NTE4MywxNDIxODk2MjkwLDg3MTIzNDI2MiwtMjQy
