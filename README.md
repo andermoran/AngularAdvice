@@ -292,7 +292,7 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 				color: red;
 			}
 			```
-			Why is this? Because we have chosen the `Emulated` option, all of the styles are contained with their respective component. Since "Hello, my name is John Doe" is a part of the 
+			Why is this? Because we have chosen the `Emulated` option, all of the styles are contained with their respective component. Since "Hello, my name is John Doe" is a part of the `Person` component and **not** the `App` component it does not respond because we have specified in `app.component.ts` that we want to encapsulate our view.
 	2. ShadowDom
 		- Uses Shadow DOM to encapsulate styles
 	3. None
@@ -315,11 +315,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA0OTY3MTkwLC0xNTUxOTIxMDc1LC00Nz
-Y5MTA3NDcsLTEwNzA3MTA5MzMsMTE0NzMwOTI3NCwtMTkwNDI5
-NTA1MSwxOTMzOTEyOTc0LC0xNDQ0MDMyMTAsODE2MjAxMTc4LC
-04MzI4OTUxODMsMTQyMTg5NjI5MCw4NzEyMzQyNjIsLTI0Mjc3
-MzE5NSwyMDExMDYxMTEwLC0xMjg4NTExMDUxLDE2MDc1NDExMz
-EsLTE0MzIyNTI2NjMsLTExMzI5ODU1NDUsOTk4ODA4MDQyLDEx
-NTcyMzU2MjVdfQ==
+eyJoaXN0b3J5IjpbLTU2MTA5MDUwMSwtMTU1MTkyMTA3NSwtND
+c2OTEwNzQ3LC0xMDcwNzEwOTMzLDExNDczMDkyNzQsLTE5MDQy
+OTUwNTEsMTkzMzkxMjk3NCwtMTQ0NDAzMjEwLDgxNjIwMTE3OC
+wtODMyODk1MTgzLDE0MjE4OTYyOTAsODcxMjM0MjYyLC0yNDI3
+NzMxOTUsMjAxMTA2MTExMCwtMTI4ODUxMTA1MSwxNjA3NTQxMT
+MxLC0xNDMyMjUyNjYzLC0xMTMyOTg1NTQ1LDk5ODgwODA0Miwx
+MTU3MjM1NjI1XX0=
 -->
