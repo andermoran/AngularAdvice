@@ -275,18 +275,18 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 - Let's say the `App` component contains a `Person` component in `app.component.html`. If `app.component.css` changes the style of `p` tags and the `Person` component contains `p` tags, the `p` tags in `Person` will not be affected. Only `p` tags directly in `app.component.html` will be altered.
 - [Example](https://stackblitz.com/edit/angular-g3bfc4)
 - Different encapsulation behaviors
-	1. None
+	1. Emulated
 		- This is the default behavior. Only styles directly associated with components will affect said component.
 	2. None
 		- This is the default behavior. Only styles directly associated with components will affect said component.
 
 You need 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU2MjY1OTg3LC0xNDQ0MDMyMTAsODE2Mj
-AxMTc4LC04MzI4OTUxODMsMTQyMTg5NjI5MCw4NzEyMzQyNjIs
-LTI0Mjc3MzE5NSwyMDExMDYxMTEwLC0xMjg4NTExMDUxLDE2MD
-c1NDExMzEsLTE0MzIyNTI2NjMsLTExMzI5ODU1NDUsOTk4ODA4
-MDQyLDExNTcyMzU2MjUsMTY2NDQ2MjUwMCwtNjU4NDc5OTAsLT
-IwNTgxNzM2NzYsLTExNDQ2NTk2NzksLTYzMTI0MDkzMCw5MzI0
-OTU5MzRdfQ==
+eyJoaXN0b3J5IjpbLTEwNDc3MjQ5ODIsLTE0NDQwMzIxMCw4MT
+YyMDExNzgsLTgzMjg5NTE4MywxNDIxODk2MjkwLDg3MTIzNDI2
+MiwtMjQyNzczMTk1LDIwMTEwNjExMTAsLTEyODg1MTEwNTEsMT
+YwNzU0MTEzMSwtMTQzMjI1MjY2MywtMTEzMjk4NTU0NSw5OTg4
+MDgwNDIsMTE1NzIzNTYyNSwxNjY0NDYyNTAwLC02NTg0Nzk5MC
+wtMjA1ODE3MzY3NiwtMTE0NDY1OTY3OSwtNjMxMjQwOTMwLDkz
+MjQ5NTkzNF19
 -->
