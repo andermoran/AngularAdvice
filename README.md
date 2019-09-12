@@ -299,7 +299,7 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 			 ```css
 			:host {
 				display: block;
-				border: 1px solid black;
+				border: 1px  solid black;
 			}
 			```
 			This is because `None` ignores the shadow DOM. I'm not too familiar with the shadow DOM (I literally just learned about it while learning about view encapsulation) but I will update this part once I can show a better example
@@ -333,11 +333,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTQ5NDcwNyw4NTg1MzA0ODAsLTExOT
-YzOTk5NiwtNDg3OTk4NjA1LDc1OTMzOTcwMywtMTU1MTkyMTA3
-NSwtNDc2OTEwNzQ3LC0xMDcwNzEwOTMzLDExNDczMDkyNzQsLT
-E5MDQyOTUwNTEsMTkzMzkxMjk3NCwtMTQ0NDAzMjEwLDgxNjIw
-MTE3OCwtODMyODk1MTgzLDE0MjE4OTYyOTAsODcxMjM0MjYyLC
-0yNDI3NzMxOTUsMjAxMTA2MTExMCwtMTI4ODUxMTA1MSwxNjA3
-NTQxMTMxXX0=
+eyJoaXN0b3J5IjpbLTEzNzg4NTQzNzUsLTkwOTQ5NDcwNyw4NT
+g1MzA0ODAsLTExOTYzOTk5NiwtNDg3OTk4NjA1LDc1OTMzOTcw
+MywtMTU1MTkyMTA3NSwtNDc2OTEwNzQ3LC0xMDcwNzEwOTMzLD
+ExNDczMDkyNzQsLTE5MDQyOTUwNTEsMTkzMzkxMjk3NCwtMTQ0
+NDAzMjEwLDgxNjIwMTE3OCwtODMyODk1MTgzLDE0MjE4OTYyOT
+AsODcxMjM0MjYyLC0yNDI3NzMxOTUsMjAxMTA2MTExMCwtMTI4
+ODUxMTA1MV19
 -->
