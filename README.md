@@ -286,13 +286,13 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 [Example](https://stackblitz.com/edit/angular-mwt3mm)
 - In the example above, try commenting and uncommenting lines 6, 7, and 8 in `app.component.ts`.  View the differences with each view encapsulation option.
 	1. Emulated
-		- Notice how "Hello, my name is John Doe" is black even though in `app.component.css` we see
+		- Notice how "Hello, my name is John Doe" (which is an `h1` tag) is black even though in `app.component.css` we see
 			```css
 			h1 {
 				color: red;
 			}
 			```
-			Why is this? Because we have chosen the emu
+			Why is this? Because we have chosen the `Emulated` option, all of the styles are contained with their respective component. Since "Hello, my name is John Doe" is a part of the 
 	2. ShadowDom
 		- Uses Shadow DOM to encapsulate styles
 	3. None
@@ -315,11 +315,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzgxODc4MTYsLTE1NTE5MjEwNzUsLT
-Q3NjkxMDc0NywtMTA3MDcxMDkzMywxMTQ3MzA5Mjc0LC0xOTA0
-Mjk1MDUxLDE5MzM5MTI5NzQsLTE0NDQwMzIxMCw4MTYyMDExNz
-gsLTgzMjg5NTE4MywxNDIxODk2MjkwLDg3MTIzNDI2MiwtMjQy
-NzczMTk1LDIwMTEwNjExMTAsLTEyODg1MTEwNTEsMTYwNzU0MT
-EzMSwtMTQzMjI1MjY2MywtMTEzMjk4NTU0NSw5OTg4MDgwNDIs
-MTE1NzIzNTYyNV19
+eyJoaXN0b3J5IjpbNTA0OTY3MTkwLC0xNTUxOTIxMDc1LC00Nz
+Y5MTA3NDcsLTEwNzA3MTA5MzMsMTE0NzMwOTI3NCwtMTkwNDI5
+NTA1MSwxOTMzOTEyOTc0LC0xNDQ0MDMyMTAsODE2MjAxMTc4LC
+04MzI4OTUxODMsMTQyMTg5NjI5MCw4NzEyMzQyNjIsLTI0Mjc3
+MzE5NSwyMDExMDYxMTEwLC0xMjg4NTExMDUxLDE2MDc1NDExMz
+EsLTE0MzIyNTI2NjMsLTExMzI5ODU1NDUsOTk4ODA4MDQyLDEx
+NTcyMzU2MjVdfQ==
 -->
