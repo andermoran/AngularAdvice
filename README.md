@@ -272,13 +272,14 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 
 ## View Encapsulation
 - CSS styles for a given component only effect the host component, not the children it creates
+- So i
 - [Example](https://stackblitz.com/edit/angular-g3bfc4)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE2MjAxMTc4LC04MzI4OTUxODMsMTQyMT
-g5NjI5MCw4NzEyMzQyNjIsLTI0Mjc3MzE5NSwyMDExMDYxMTEw
-LC0xMjg4NTExMDUxLDE2MDc1NDExMzEsLTE0MzIyNTI2NjMsLT
-ExMzI5ODU1NDUsOTk4ODA4MDQyLDExNTcyMzU2MjUsMTY2NDQ2
-MjUwMCwtNjU4NDc5OTAsLTIwNTgxNzM2NzYsLTExNDQ2NTk2Nz
-ksLTYzMTI0MDkzMCw5MzI0OTU5MzQsLTE4NTQ1MTI5MjUsLTg5
-NDA5NTQyNl19
+eyJoaXN0b3J5IjpbMTA0MDU2MzUyNCw4MTYyMDExNzgsLTgzMj
+g5NTE4MywxNDIxODk2MjkwLDg3MTIzNDI2MiwtMjQyNzczMTk1
+LDIwMTEwNjExMTAsLTEyODg1MTEwNTEsMTYwNzU0MTEzMSwtMT
+QzMjI1MjY2MywtMTEzMjk4NTU0NSw5OTg4MDgwNDIsMTE1NzIz
+NTYyNSwxNjY0NDYyNTAwLC02NTg0Nzk5MCwtMjA1ODE3MzY3Ni
+wtMTE0NDY1OTY3OSwtNjMxMjQwOTMwLDkzMjQ5NTkzNCwtMTg1
+NDUxMjkyNV19
 -->
