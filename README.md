@@ -280,13 +280,18 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	2. None
 		- This is the default behavior. Only styles directly associated with components will affect said component.
 
-You need 
+> You need to import `ViewEncapsulation` with 
+	```typescript
+	import { ViewEncapsulation } from '@angular/core'
+	```
+> The encapsul
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDc3MjQ5ODIsLTE0NDQwMzIxMCw4MT
-YyMDExNzgsLTgzMjg5NTE4MywxNDIxODk2MjkwLDg3MTIzNDI2
-MiwtMjQyNzczMTk1LDIwMTEwNjExMTAsLTEyODg1MTEwNTEsMT
-YwNzU0MTEzMSwtMTQzMjI1MjY2MywtMTEzMjk4NTU0NSw5OTg4
-MDgwNDIsMTE1NzIzNTYyNSwxNjY0NDYyNTAwLC02NTg0Nzk5MC
-wtMjA1ODE3MzY3NiwtMTE0NDY1OTY3OSwtNjMxMjQwOTMwLDkz
-MjQ5NTkzNF19
+eyJoaXN0b3J5IjpbMjA1MjQ4OTU2MCwtMTQ0NDAzMjEwLDgxNj
+IwMTE3OCwtODMyODk1MTgzLDE0MjE4OTYyOTAsODcxMjM0MjYy
+LC0yNDI3NzMxOTUsMjAxMTA2MTExMCwtMTI4ODUxMTA1MSwxNj
+A3NTQxMTMxLC0xNDMyMjUyNjYzLC0xMTMyOTg1NTQ1LDk5ODgw
+ODA0MiwxMTU3MjM1NjI1LDE2NjQ0NjI1MDAsLTY1ODQ3OTkwLC
+0yMDU4MTczNjc2LC0xMTQ0NjU5Njc5LC02MzEyNDA5MzAsOTMy
+NDk1OTM0XX0=
 -->
