@@ -280,14 +280,22 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	2. None
 		- This is the default behavior. Only styles directly associated with components will affect said component.
 
-> You need to import `ViewEncapsulation` with 
+- You need to import `ViewEncapsulation` with 
 	```typescript
 	import { ViewEncapsulation } from '@angular/core'
 	```
-> The encapsul
+- The encapsulation tags go inside `@Component({ })`
+```typescript
+@Component({
+	selector: 'my-app',
+	templateUrl: './app.component.html',
+	styleUrls: ['./app.component.css'],
+	encapsulation: ViewEncapsulation.None
+})
+```
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjQ4OTU2MCwtMTQ0NDAzMjEwLDgxNj
+eyJoaXN0b3J5IjpbLTY2MjA0MzAxNSwtMTQ0NDAzMjEwLDgxNj
 IwMTE3OCwtODMyODk1MTgzLDE0MjE4OTYyOTAsODcxMjM0MjYy
 LC0yNDI3NzMxOTUsMjAxMTA2MTExMCwtMTI4ODUxMTA1MSwxNj
 A3NTQxMTMxLC0xNDMyMjUyNjYzLC0xMTMyOTg1NTQ1LDk5ODgw
