@@ -295,9 +295,9 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 			```
 			Why is this? Because we have chosen the `Emulated` option, all of the styles are contained with their respective component. Since "Hello, my name is John Doe" is a part of the `Person` component and **not** the `App` component it does not respond because we have specified in `app.component.ts` that we want to encapsulate our view via the line `encapsulation:  ViewEncapsulation.Emulated`
 	2. ShadowDom
-		- Uses Shadow DOM to encapsulate styles
+		- c
 	3. None
-		- "Don't provide any template or style encapsulation." This means if a component contains another component, then the child component will inherit the parent component's stylesheet; however, if the child component has already defined a style for a particular tag, it will **not** be overwritten by the parent component's style
+		- l
 
 - You need to import `ViewEncapsulation` with 
 	```typescript
@@ -314,7 +314,7 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM5NzU2NzA3LC0xNTUxOTIxMDc1LC00Nz
+eyJoaXN0b3J5IjpbMzQ4ODIyNDk5LC0xNTUxOTIxMDc1LC00Nz
 Y5MTA3NDcsLTEwNzA3MTA5MzMsMTE0NzMwOTI3NCwtMTkwNDI5
 NTA1MSwxOTMzOTEyOTc0LC0xNDQ0MDMyMTAsODE2MjAxMTc4LC
 04MzI4OTUxODMsMTQyMTg5NjI5MCw4NzEyMzQyNjIsLTI0Mjc3
