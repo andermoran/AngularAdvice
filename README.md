@@ -282,7 +282,7 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	3. None
 		- ...
  	3. ShadowDom
-		- Uses Shadow DOM to encapsulate
+		- Uses Shadow DOM to encapsulate styles
 
 - You need to import `ViewEncapsulation` with 
 	```typescript
@@ -299,7 +299,7 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAzODA4MzMyLDExNDczMDkyNzQsLTE5MD
+eyJoaXN0b3J5IjpbLTk0MTUzMzA0LDExNDczMDkyNzQsLTE5MD
 QyOTUwNTEsMTkzMzkxMjk3NCwtMTQ0NDAzMjEwLDgxNjIwMTE3
 OCwtODMyODk1MTgzLDE0MjE4OTYyOTAsODcxMjM0MjYyLC0yND
 I3NzMxOTUsMjAxMTA2MTExMCwtMTI4ODUxMTA1MSwxNjA3NTQx
