@@ -297,7 +297,7 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	2. ShadowDom
 		- c
 	3. None
-		- l
+		- "Hello, my name is John Doe" is now red because we decided **not** to encapsulate the `App` co 
 
 - You need to import `ViewEncapsulation` with 
 	```typescript
@@ -314,11 +314,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4ODIyNDk5LC0xNTUxOTIxMDc1LC00Nz
-Y5MTA3NDcsLTEwNzA3MTA5MzMsMTE0NzMwOTI3NCwtMTkwNDI5
-NTA1MSwxOTMzOTEyOTc0LC0xNDQ0MDMyMTAsODE2MjAxMTc4LC
-04MzI4OTUxODMsMTQyMTg5NjI5MCw4NzEyMzQyNjIsLTI0Mjc3
-MzE5NSwyMDExMDYxMTEwLC0xMjg4NTExMDUxLDE2MDc1NDExMz
-EsLTE0MzIyNTI2NjMsLTExMzI5ODU1NDUsOTk4ODA4MDQyLDEx
-NTcyMzU2MjVdfQ==
+eyJoaXN0b3J5IjpbLTE3ODQzMzI3NSwtMTU1MTkyMTA3NSwtND
+c2OTEwNzQ3LC0xMDcwNzEwOTMzLDExNDczMDkyNzQsLTE5MDQy
+OTUwNTEsMTkzMzkxMjk3NCwtMTQ0NDAzMjEwLDgxNjIwMTE3OC
+wtODMyODk1MTgzLDE0MjE4OTYyOTAsODcxMjM0MjYyLC0yNDI3
+NzMxOTUsMjAxMTA2MTExMCwtMTI4ODUxMTA1MSwxNjA3NTQxMT
+MxLC0xNDMyMjUyNjYzLC0xMTMyOTg1NTQ1LDk5ODgwODA0Miwx
+MTU3MjM1NjI1XX0=
 -->
