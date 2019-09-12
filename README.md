@@ -269,12 +269,15 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 - [Example](https://stackblitz.com/edit/angular-mnkems)
 
 #### [Example using ngIf, ngFor, ngClass, and ngStyle](https://stackblitz.com/edit/angular-nxsnso)
+
+## View Encapsulation
+- CSS styles for a given component only effect the host component, not the children it creates
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMTg5NjI5MCw4NzEyMzQyNjIsLTI0Mj
-c3MzE5NSwyMDExMDYxMTEwLC0xMjg4NTExMDUxLDE2MDc1NDEx
-MzEsLTE0MzIyNTI2NjMsLTExMzI5ODU1NDUsOTk4ODA4MDQyLD
-ExNTcyMzU2MjUsMTY2NDQ2MjUwMCwtNjU4NDc5OTAsLTIwNTgx
-NzM2NzYsLTExNDQ2NTk2NzksLTYzMTI0MDkzMCw5MzI0OTU5Mz
-QsLTE4NTQ1MTI5MjUsLTg5NDA5NTQyNiwtMTIyNDU0NjA5Nywt
-NzI2NzI2NDI3XX0=
+eyJoaXN0b3J5IjpbLTgzMjg5NTE4MywxNDIxODk2MjkwLDg3MT
+IzNDI2MiwtMjQyNzczMTk1LDIwMTEwNjExMTAsLTEyODg1MTEw
+NTEsMTYwNzU0MTEzMSwtMTQzMjI1MjY2MywtMTEzMjk4NTU0NS
+w5OTg4MDgwNDIsMTE1NzIzNTYyNSwxNjY0NDYyNTAwLC02NTg0
+Nzk5MCwtMjA1ODE3MzY3NiwtMTE0NDY1OTY3OSwtNjMxMjQwOT
+MwLDkzMjQ5NTkzNCwtMTg1NDUxMjkyNSwtODk0MDk1NDI2LC0x
+MjI0NTQ2MDk3XX0=
 -->
