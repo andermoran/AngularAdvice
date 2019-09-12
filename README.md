@@ -274,9 +274,9 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 - CSS styles for a given component only effect the host component, not the children it creates
 - Let's say the `App` component contains a `Person` component in `app.component.html`. If `app.component.css` changes the style of `p` tags and the `Person` component contains `p` tags, the `p` tags in `Person` will not be affected. Only `p` tags directly in `app.component.html` will be altered.
 - [Example](https://stackblitz.com/edit/angular-g3bfc4)
-- Different vierw encapsulation behaviors
+- Different view encapsulation behaviors
 	1. Emulated
-		- This is the default behavior. Only styles directly associated with components will affect said component.
+		- This is the default view behavior. Only styles directly associated with components will affect said component.
 	2. None
 		- This removes view encapsulation from the component
 	3. Native
@@ -297,7 +297,7 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNDg5NjE2NywtMTkwNDI5NTA1MSwxOT
+eyJoaXN0b3J5IjpbMTE0NzMwOTI3NCwtMTkwNDI5NTA1MSwxOT
 MzOTEyOTc0LC0xNDQ0MDMyMTAsODE2MjAxMTc4LC04MzI4OTUx
 ODMsMTQyMTg5NjI5MCw4NzEyMzQyNjIsLTI0Mjc3MzE5NSwyMD
 ExMDYxMTEwLC0xMjg4NTExMDUxLDE2MDc1NDExMzEsLTE0MzIy
