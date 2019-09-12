@@ -279,8 +279,10 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 		- This is the default behavior. Only styles directly associated with components will affect said component.
 	2. None
 		- This is the default behavior. Only styles directly associated with components will affect said component.
+
+You need 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMDk1NTMyLC0xNDQ0MDMyMTAsODE2Mj
+eyJoaXN0b3J5IjpbNTU2MjY1OTg3LC0xNDQ0MDMyMTAsODE2Mj
 AxMTc4LC04MzI4OTUxODMsMTQyMTg5NjI5MCw4NzEyMzQyNjIs
 LTI0Mjc3MzE5NSwyMDExMDYxMTEwLC0xMjg4NTExMDUxLDE2MD
 c1NDExMzEsLTE0MzIyNTI2NjMsLTExMzI5ODU1NDUsOTk4ODA4
