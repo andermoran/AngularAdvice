@@ -4,7 +4,7 @@
 
 
 ## Note
-I am making this guide as I am learning Angular from [Maximilian Schwarzmüller's Angular Tutorial](https://www.udemy.com/the-complete-guide-to-angular-2/) as well as googling stuff online. Because I am writing this as I learn, there may be parts where I don't do things in the perfect manner but I think it's helpful to read through the eyes of someone who is still learning. Sometimes experts are so knowledgeable and deep into a subject to the point where they attempt to explain something and in their eyes it makes perfect sense, but to someone who is just starting out it is confusing due to the lack of a comprehensive understanding. I try my best to use words that anybody knows so that as many people as possible can understand what saying. If anything is in quotes, it means I copy and pasted something that was said by someone else. I am writing writing this tutorial using [stackedit](https://stackedit.io/) which has no spell checking so I'm sure I've misspelled a lot of things while writing this.
+I am making this guide as I am learning Angular from [Maximilian Schwarzmüller's Angular Tutorial](https://www.udemy.com/the-complete-guide-to-angular-2/) as well as googling stuff online. Because I am writing this as I learn, there may be parts where I don't do things in the perfect manner but I think it's helpful to read through the eyes of someone who is still learning. Sometimes experts are so knowledgeable and deep into a subject to the point where they attempt to explain something and in their eyes it makes perfect sense, but to someone who is just starting out it is confusing due to the lack of a comprehensive understanding. I try my best to use words that anybody knows so that as many people as possible can understand what saying. If anything is in quotes, it means I copy and pasted something that was said by someone else. Some of the wording may come from Angulars documentation but I try to write everything myself as sometimes documentation isn't worded well. I am writing writing this tutorial using [stackedit](https://stackedit.io/) which has no spell checking so I'm sure I've misspelled a lot of things while writing this.
 
 ## Table of Contents
 - Will do once finished
@@ -280,7 +280,7 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	2. Native
 		- This removes view encapsulation from the component
 	3. None
-		- ...
+		- Don't provide any template or style encapsulation
  	3. ShadowDom
 		- Uses Shadow DOM to encapsulate styles
 
@@ -299,11 +299,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MTUzMzA0LDExNDczMDkyNzQsLTE5MD
-QyOTUwNTEsMTkzMzkxMjk3NCwtMTQ0NDAzMjEwLDgxNjIwMTE3
-OCwtODMyODk1MTgzLDE0MjE4OTYyOTAsODcxMjM0MjYyLC0yND
-I3NzMxOTUsMjAxMTA2MTExMCwtMTI4ODUxMTA1MSwxNjA3NTQx
-MTMxLC0xNDMyMjUyNjYzLC0xMTMyOTg1NTQ1LDk5ODgwODA0Mi
-wxMTU3MjM1NjI1LDE2NjQ0NjI1MDAsLTY1ODQ3OTkwLC0yMDU4
-MTczNjc2XX0=
+eyJoaXN0b3J5IjpbLTEwNzA3MTA5MzMsMTE0NzMwOTI3NCwtMT
+kwNDI5NTA1MSwxOTMzOTEyOTc0LC0xNDQ0MDMyMTAsODE2MjAx
+MTc4LC04MzI4OTUxODMsMTQyMTg5NjI5MCw4NzEyMzQyNjIsLT
+I0Mjc3MzE5NSwyMDExMDYxMTEwLC0xMjg4NTExMDUxLDE2MDc1
+NDExMzEsLTE0MzIyNTI2NjMsLTExMzI5ODU1NDUsOTk4ODA4MD
+QyLDExNTcyMzU2MjUsMTY2NDQ2MjUwMCwtNjU4NDc5OTAsLTIw
+NTgxNzM2NzZdfQ==
 -->
