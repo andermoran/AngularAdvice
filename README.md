@@ -317,8 +317,8 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 				color: green;
 			}
 			```
-			This style sheet takes precedence over the parent's style sheet so "I have a pet named Fido" is green
-- To use view encapsulation, in the parent component you need to import `ViewEncapsulation` with 
+			This style sheet takes precedence over the other component's style sheet so "I have a pet named Fido" is green
+- To use view encapsulation, you need to import `ViewEncapsulation` with 
 	```typescript
 	import { ViewEncapsulation } from '@angular/core'
 	```
@@ -333,11 +333,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NTkxNTUxNywtMTM3ODg1NDM3NSwtOT
-A5NDk0NzA3LDg1ODUzMDQ4MCwtMTE5NjM5OTk2LC00ODc5OTg2
-MDUsNzU5MzM5NzAzLC0xNTUxOTIxMDc1LC00NzY5MTA3NDcsLT
-EwNzA3MTA5MzMsMTE0NzMwOTI3NCwtMTkwNDI5NTA1MSwxOTMz
-OTEyOTc0LC0xNDQ0MDMyMTAsODE2MjAxMTc4LC04MzI4OTUxOD
-MsMTQyMTg5NjI5MCw4NzEyMzQyNjIsLTI0Mjc3MzE5NSwyMDEx
-MDYxMTEwXX0=
+eyJoaXN0b3J5IjpbLTE2OTIwNDgwMTUsLTEzNzg4NTQzNzUsLT
+kwOTQ5NDcwNyw4NTg1MzA0ODAsLTExOTYzOTk5NiwtNDg3OTk4
+NjA1LDc1OTMzOTcwMywtMTU1MTkyMTA3NSwtNDc2OTEwNzQ3LC
+0xMDcwNzEwOTMzLDExNDczMDkyNzQsLTE5MDQyOTUwNTEsMTkz
+MzkxMjk3NCwtMTQ0NDAzMjEwLDgxNjIwMTE3OCwtODMyODk1MT
+gzLDE0MjE4OTYyOTAsODcxMjM0MjYyLC0yNDI3NzMxOTUsMjAx
+MTA2MTExMF19
 -->
