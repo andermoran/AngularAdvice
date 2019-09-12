@@ -274,13 +274,13 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 - CSS styles for a given component only effect the host component, not the children it creates
 - Let's say the `App` component contains a `Person` component in `app.component.html`. If `app.component.css` changes the style of `p` tags and the `Person` component contains `p` tags, the `p` tags in `Person` will not be affected. Only `p` tags directly in `app.component.html` will be altered.
 - [Example](https://stackblitz.com/edit/angular-g3bfc4)
-- Different encapsulation behaviors
+- Different vierw encapsulation behaviors
 	1. Emulated
 		- This is the default behavior. Only styles directly associated with components will affect said component.
 	2. None
 		- This removes view encapsulation from the component
 	3. Native
-		- This is the default behavior. Only styles directly associated with components will affect said component.
+		- ...
 
 - You need to import `ViewEncapsulation` with 
 	```typescript
@@ -297,11 +297,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDQyOTUwNTEsMTkzMzkxMjk3NCwtMT
-Q0NDAzMjEwLDgxNjIwMTE3OCwtODMyODk1MTgzLDE0MjE4OTYy
-OTAsODcxMjM0MjYyLC0yNDI3NzMxOTUsMjAxMTA2MTExMCwtMT
-I4ODUxMTA1MSwxNjA3NTQxMTMxLC0xNDMyMjUyNjYzLC0xMTMy
-OTg1NTQ1LDk5ODgwODA0MiwxMTU3MjM1NjI1LDE2NjQ0NjI1MD
-AsLTY1ODQ3OTkwLC0yMDU4MTczNjc2LC0xMTQ0NjU5Njc5LC02
-MzEyNDA5MzBdfQ==
+eyJoaXN0b3J5IjpbLTcxNDg5NjE2NywtMTkwNDI5NTA1MSwxOT
+MzOTEyOTc0LC0xNDQ0MDMyMTAsODE2MjAxMTc4LC04MzI4OTUx
+ODMsMTQyMTg5NjI5MCw4NzEyMzQyNjIsLTI0Mjc3MzE5NSwyMD
+ExMDYxMTEwLC0xMjg4NTExMDUxLDE2MDc1NDExMzEsLTE0MzIy
+NTI2NjMsLTExMzI5ODU1NDUsOTk4ODA4MDQyLDExNTcyMzU2Mj
+UsMTY2NDQ2MjUwMCwtNjU4NDc5OTAsLTIwNTgxNzM2NzYsLTEx
+NDQ2NTk2NzldfQ==
 -->
