@@ -277,8 +277,8 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 - Different view encapsulation behaviors
 	1. Emulated
 		- This is the default view behavior. Only styles directly associated with components will affect said component.
-	2. Native
-		- This removes view encapsulation from the component
+	2. Native (deprecated)
+		- Use ShadowDom instead
 	3. None
 		- Don't provide any template or style encapsulation
  	3. ShadowDom
@@ -299,11 +299,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzA3MTA5MzMsMTE0NzMwOTI3NCwtMT
-kwNDI5NTA1MSwxOTMzOTEyOTc0LC0xNDQ0MDMyMTAsODE2MjAx
-MTc4LC04MzI4OTUxODMsMTQyMTg5NjI5MCw4NzEyMzQyNjIsLT
-I0Mjc3MzE5NSwyMDExMDYxMTEwLC0xMjg4NTExMDUxLDE2MDc1
-NDExMzEsLTE0MzIyNTI2NjMsLTExMzI5ODU1NDUsOTk4ODA4MD
-QyLDExNTcyMzU2MjUsMTY2NDQ2MjUwMCwtNjU4NDc5OTAsLTIw
-NTgxNzM2NzZdfQ==
+eyJoaXN0b3J5IjpbNTkyOTA1MDYwLC0xMDcwNzEwOTMzLDExND
+czMDkyNzQsLTE5MDQyOTUwNTEsMTkzMzkxMjk3NCwtMTQ0NDAz
+MjEwLDgxNjIwMTE3OCwtODMyODk1MTgzLDE0MjE4OTYyOTAsOD
+cxMjM0MjYyLC0yNDI3NzMxOTUsMjAxMTA2MTExMCwtMTI4ODUx
+MTA1MSwxNjA3NTQxMTMxLC0xNDMyMjUyNjYzLC0xMTMyOTg1NT
+Q1LDk5ODgwODA0MiwxMTU3MjM1NjI1LDE2NjQ0NjI1MDAsLTY1
+ODQ3OTkwXX0=
 -->
