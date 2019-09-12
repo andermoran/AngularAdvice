@@ -285,7 +285,7 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 		- Use ShadowDom instead
 
 - [Example](https://stackblitz.com/edit/angular-mwt3mm)
-- In the example above, try commenting and uncommenting lines 6, 7, and 8 in `app.component.ts`.  View the differences with each view encapsulation option.
+- In the example above, try commenting and uncommenting lines 6, 7, and 8 in `app.component.ts`. View the differences with each view encapsulation option.
 	1. Emulated
 		- Notice how "Hello, my name is John Doe" (which is an `h1` tag) is black even though in `app.component.css` we see
 			```css
@@ -293,16 +293,16 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 				color: red;
 			}
 			```
-			Why is this? Because we have chosen the `Emulated` option, all of the styles are contained with their respective component. Since "Hello, my name is John Doe" is a part of the `Person` component and **not** the `App` component it does not respond because we have specified in `app.component.ts` that we want to encapsulate our view via the line `encapsulation:  ViewEncapsulation.Emulated`
+			Why is this? Because we have chosen the `Emulated` option, all of the styles are contained with their respective component. Since "Hello, my name is John Doe" is a part of the `Person` component and **not** the `App` component it does not respond because we have specified in `app.component.ts` that we want to encapsulate our view via the line `encapsulation: ViewEncapsulation.Emulated`
 	2. ShadowDom
 		- The difference between the results using `ShadowDom` and `None` is that with `ShadowDom` you see the black box border around the elements that is specified in `app.component.css` with
 			 ```css
 			:host {
-				display:  block;
-				border:  1px  solid  black;
+				display: block;
+				border: 1px solid black;
 			}
 			```
-			This is because`None` ignores the shadow DOM. I'm not too familiar with the shadow DOM (I literally just learned about it while learning about view encapsulation) but I will update this part once I can show a bette
+			This is because `None` ignores the shadow DOM. I'm not too familiar with the shadow DOM (I literally just learned about it while learning about view encapsulation) but I will update this part once I can show a better example
 	3. None
 		- "Hello, my name is John Doe" is now red because we decided **not** to encapsulate the `App` component styles. So the styles are applied to all the components that `App` uses is `app.component.html`. Since there is an `h1` style in `app.component.css`, it is passed to the `Person` component
 		- *But wait...* there is also
@@ -333,11 +333,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDM0MzUxLDg1ODUzMDQ4MCwtMTE5Nj
-M5OTk2LC00ODc5OTg2MDUsNzU5MzM5NzAzLC0xNTUxOTIxMDc1
-LC00NzY5MTA3NDcsLTEwNzA3MTA5MzMsMTE0NzMwOTI3NCwtMT
-kwNDI5NTA1MSwxOTMzOTEyOTc0LC0xNDQ0MDMyMTAsODE2MjAx
-MTc4LC04MzI4OTUxODMsMTQyMTg5NjI5MCw4NzEyMzQyNjIsLT
-I0Mjc3MzE5NSwyMDExMDYxMTEwLC0xMjg4NTExMDUxLDE2MDc1
-NDExMzFdfQ==
+eyJoaXN0b3J5IjpbLTkwOTQ5NDcwNyw4NTg1MzA0ODAsLTExOT
+YzOTk5NiwtNDg3OTk4NjA1LDc1OTMzOTcwMywtMTU1MTkyMTA3
+NSwtNDc2OTEwNzQ3LC0xMDcwNzEwOTMzLDExNDczMDkyNzQsLT
+E5MDQyOTUwNTEsMTkzMzkxMjk3NCwtMTQ0NDAzMjEwLDgxNjIw
+MTE3OCwtODMyODk1MTgzLDE0MjE4OTYyOTAsODcxMjM0MjYyLC
+0yNDI3NzMxOTUsMjAxMTA2MTExMCwtMTI4ODUxMTA1MSwxNjA3
+NTQxMTMxXX0=
 -->
