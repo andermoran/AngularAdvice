@@ -281,7 +281,7 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 		- This removes view encapsulation from the component
 	3. None
 		- ...
- 	3. ShadowDOM
+ 	3. ShadowDom
 	- ...
 
 - You need to import `ViewEncapsulation` with 
@@ -299,7 +299,7 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODcyNjk2MiwxMTQ3MzA5Mjc0LC0xOT
+eyJoaXN0b3J5IjpbMTM5MzU0OTc3NCwxMTQ3MzA5Mjc0LC0xOT
 A0Mjk1MDUxLDE5MzM5MTI5NzQsLTE0NDQwMzIxMCw4MTYyMDEx
 NzgsLTgzMjg5NTE4MywxNDIxODk2MjkwLDg3MTIzNDI2MiwtMj
 QyNzczMTk1LDIwMTEwNjExMTAsLTEyODg1MTEwNTEsMTYwNzU0
