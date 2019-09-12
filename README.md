@@ -279,10 +279,12 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 		- This is the default view behavior. Only styles directly associated with a component will affect said component. A componenet with be affected by a style **if and only if** that component directly imports the stylesheet into its TypeScript file.
 	2. ShadowDom
 		- Uses Shadow DOM to encapsulate styles
-	4. None
+	3. None
 		- "Don't provide any template or style encapsulation." This means if a component contains another component, then the child component will inherit the parent component's stylesheet; however, if the child component has already defined a style for a particular tag, it will **not** be overwritten by the parent component's style
-	5. Native (deprecated)
+	4. Native (deprecated)
 		- Use ShadowDom instead
+[Example](https://stackblitz.com/edit/angular-mwt3mm)
+- Try commenting and uncommenting lines 6,7,
 
 
 - You need to import `ViewEncapsulation` with 
@@ -300,11 +302,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDkwNDA4NjMsLTE1NTE5MjEwNzUsLT
-Q3NjkxMDc0NywtMTA3MDcxMDkzMywxMTQ3MzA5Mjc0LC0xOTA0
-Mjk1MDUxLDE5MzM5MTI5NzQsLTE0NDQwMzIxMCw4MTYyMDExNz
-gsLTgzMjg5NTE4MywxNDIxODk2MjkwLDg3MTIzNDI2MiwtMjQy
-NzczMTk1LDIwMTEwNjExMTAsLTEyODg1MTEwNTEsMTYwNzU0MT
-EzMSwtMTQzMjI1MjY2MywtMTEzMjk4NTU0NSw5OTg4MDgwNDIs
-MTE1NzIzNTYyNV19
+eyJoaXN0b3J5IjpbNTE3ODYxMDk3LC0xNTUxOTIxMDc1LC00Nz
+Y5MTA3NDcsLTEwNzA3MTA5MzMsMTE0NzMwOTI3NCwtMTkwNDI5
+NTA1MSwxOTMzOTEyOTc0LC0xNDQ0MDMyMTAsODE2MjAxMTc4LC
+04MzI4OTUxODMsMTQyMTg5NjI5MCw4NzEyMzQyNjIsLTI0Mjc3
+MzE5NSwyMDExMDYxMTEwLC0xMjg4NTExMDUxLDE2MDc1NDExMz
+EsLTE0MzIyNTI2NjMsLTExMzI5ODU1NDUsOTk4ODA4MDQyLDEx
+NTcyMzU2MjVdfQ==
 -->
