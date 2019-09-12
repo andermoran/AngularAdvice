@@ -284,18 +284,18 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```typescript
 	import { ViewEncapsulation } from '@angular/core'
 	```
-- The encapsulation tags go inside `@Component({ })`
-```typescript
-@Component({
-	selector: 'my-app',
-	templateUrl: './app.component.html',
-	styleUrls: ['./app.component.css'],
-	encapsulation: ViewEncapsulation.None
-})
-```
+- The encapsulation tags go inside `@Component({ })` like so
+	```typescript
+	@Component({
+		selector: 'my-app',
+		templateUrl: './app.component.html',
+		styleUrls: ['./app.component.css'],
+		encapsulation: ViewEncapsulation.None
+	})
+	```
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MjA0MzAxNSwtMTQ0NDAzMjEwLDgxNj
+eyJoaXN0b3J5IjpbMTkzMzkxMjk3NCwtMTQ0NDAzMjEwLDgxNj
 IwMTE3OCwtODMyODk1MTgzLDE0MjE4OTYyOTAsODcxMjM0MjYy
 LC0yNDI3NzMxOTUsMjAxMTA2MTExMCwtMTI4ODUxMTA1MSwxNj
 A3NTQxMTMxLC0xNDMyMjUyNjYzLC0xMTMyOTg1NTQ1LDk5ODgw
