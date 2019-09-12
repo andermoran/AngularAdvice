@@ -276,11 +276,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 - [Example](https://stackblitz.com/edit/angular-g3bfc4)
 - Different view encapsulation behaviors
 	1. Emulated
-		- This is the default view behavior. Only styles directly associated with a component will affect said component.
+		- This is the default view behavior. Only styles directly associated with a component will affect said component. A componenet with be affected by a style **if and only if** that component directly imports the stylesheet into its TypeScript file.
 	2. ShadowDom
 		- Uses Shadow DOM to encapsulate styles
 	4. None
-		- Don't provide any template or style encapsulation
+		- Don't provide any template or style encapsulation. This means if a component contains another component, then the child compone
 	5. Native (deprecated)
 		- Use ShadowDom instead
 
@@ -300,11 +300,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTE5MjEwNzUsLTQ3NjkxMDc0NywtMT
-A3MDcxMDkzMywxMTQ3MzA5Mjc0LC0xOTA0Mjk1MDUxLDE5MzM5
-MTI5NzQsLTE0NDQwMzIxMCw4MTYyMDExNzgsLTgzMjg5NTE4My
-wxNDIxODk2MjkwLDg3MTIzNDI2MiwtMjQyNzczMTk1LDIwMTEw
-NjExMTAsLTEyODg1MTEwNTEsMTYwNzU0MTEzMSwtMTQzMjI1Mj
-Y2MywtMTEzMjk4NTU0NSw5OTg4MDgwNDIsMTE1NzIzNTYyNSwx
-NjY0NDYyNTAwXX0=
+eyJoaXN0b3J5IjpbLTE0NTQ0MDEyMCwtMTU1MTkyMTA3NSwtND
+c2OTEwNzQ3LC0xMDcwNzEwOTMzLDExNDczMDkyNzQsLTE5MDQy
+OTUwNTEsMTkzMzkxMjk3NCwtMTQ0NDAzMjEwLDgxNjIwMTE3OC
+wtODMyODk1MTgzLDE0MjE4OTYyOTAsODcxMjM0MjYyLC0yNDI3
+NzMxOTUsMjAxMTA2MTExMCwtMTI4ODUxMTA1MSwxNjA3NTQxMT
+MxLC0xNDMyMjUyNjYzLC0xMTMyOTg1NTQ1LDk5ODgwODA0Miwx
+MTU3MjM1NjI1XX0=
 -->
