@@ -276,11 +276,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 - [Example](https://stackblitz.com/edit/angular-g3bfc4)
 - Different view encapsulation behaviors
 	1. Emulated
-		- This is the default view behavior. Only styles directly associated with a component will affect said component. A componenet with be affected by a style **if and only if** that component directly imports the stylesheet into its TypeScript file.
+		- This is the default view behavior. Only styles directly associated with a component will affect said component. A componenet with be affected by a style **if and only if** that component directly imports the style sheet into its TypeScript file.
 	2. ShadowDom
 		- Uses Shadow DOM to encapsulate styles
 	3. None
-		- "Don't provide any template or style encapsulation." This means if a component contains another component, then the child component will inherit the parent component's stylesheet; however, if the child component has already defined a style for a particular tag, it will **not** be overwritten by the parent component's style
+		- "Don't provide any template or style encapsulation." This means if a component contains another component, then the child component will inherit the parent component's style sheet; however, if the child component has already defined a style for a particular tag, it will **not** be overwritten by the parent component's style
 	4. Native (deprecated)
 		- Use ShadowDom instead
 
@@ -304,7 +304,13 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 				color: blue;
 			}
 			```
-			In `app.component.css` so why isn't "I have a pet named Fido" blue
+			In `app.component.css` so why isn't "I have a pet named Fido" blue? This is because in `person.component.css` we have
+			 ```css
+			p {
+				color: green;
+			}
+			```
+			This style sheet takes precedence over the parent's style sheet so "I have a pet named Fido" is green
 - You need to import `ViewEncapsulation` with 
 	```typescript
 	import { ViewEncapsulation } from '@angular/core'
@@ -320,11 +326,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTc5OTc5ODAsLTE1NTE5MjEwNzUsLT
-Q3NjkxMDc0NywtMTA3MDcxMDkzMywxMTQ3MzA5Mjc0LC0xOTA0
-Mjk1MDUxLDE5MzM5MTI5NzQsLTE0NDQwMzIxMCw4MTYyMDExNz
-gsLTgzMjg5NTE4MywxNDIxODk2MjkwLDg3MTIzNDI2MiwtMjQy
-NzczMTk1LDIwMTEwNjExMTAsLTEyODg1MTEwNTEsMTYwNzU0MT
-EzMSwtMTQzMjI1MjY2MywtMTEzMjk4NTU0NSw5OTg4MDgwNDIs
-MTE1NzIzNTYyNV19
+eyJoaXN0b3J5IjpbNzU5MzM5NzAzLC0xNTUxOTIxMDc1LC00Nz
+Y5MTA3NDcsLTEwNzA3MTA5MzMsMTE0NzMwOTI3NCwtMTkwNDI5
+NTA1MSwxOTMzOTEyOTc0LC0xNDQ0MDMyMTAsODE2MjAxMTc4LC
+04MzI4OTUxODMsMTQyMTg5NjI5MCw4NzEyMzQyNjIsLTI0Mjc3
+MzE5NSwyMDExMDYxMTEwLC0xMjg4NTExMDUxLDE2MDc1NDExMz
+EsLTE0MzIyNTI2NjMsLTExMzI5ODU1NDUsOTk4ODA4MDQyLDEx
+NTcyMzU2MjVdfQ==
 -->
