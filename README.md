@@ -277,10 +277,12 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 - Different view encapsulation behaviors
 	1. Emulated
 		- This is the default view behavior. Only styles directly associated with components will affect said component.
-	2. None
+	2. Native
 		- This removes view encapsulation from the component
-	3. Native
+	3. None
 		- ...
+ 	3. ShadowDOM
+	- ...
 
 - You need to import `ViewEncapsulation` with 
 	```typescript
@@ -297,11 +299,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NzMwOTI3NCwtMTkwNDI5NTA1MSwxOT
-MzOTEyOTc0LC0xNDQ0MDMyMTAsODE2MjAxMTc4LC04MzI4OTUx
-ODMsMTQyMTg5NjI5MCw4NzEyMzQyNjIsLTI0Mjc3MzE5NSwyMD
-ExMDYxMTEwLC0xMjg4NTExMDUxLDE2MDc1NDExMzEsLTE0MzIy
-NTI2NjMsLTExMzI5ODU1NDUsOTk4ODA4MDQyLDExNTcyMzU2Mj
-UsMTY2NDQ2MjUwMCwtNjU4NDc5OTAsLTIwNTgxNzM2NzYsLTEx
-NDQ2NTk2NzldfQ==
+eyJoaXN0b3J5IjpbLTg1ODcyNjk2MiwxMTQ3MzA5Mjc0LC0xOT
+A0Mjk1MDUxLDE5MzM5MTI5NzQsLTE0NDQwMzIxMCw4MTYyMDEx
+NzgsLTgzMjg5NTE4MywxNDIxODk2MjkwLDg3MTIzNDI2MiwtMj
+QyNzczMTk1LDIwMTEwNjExMTAsLTEyODg1MTEwNTEsMTYwNzU0
+MTEzMSwtMTQzMjI1MjY2MywtMTEzMjk4NTU0NSw5OTg4MDgwND
+IsMTE1NzIzNTYyNSwxNjY0NDYyNTAwLC02NTg0Nzk5MCwtMjA1
+ODE3MzY3Nl19
 -->
