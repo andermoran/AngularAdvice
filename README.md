@@ -280,7 +280,7 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	2. ShadowDom
 		- Uses Shadow DOM to encapsulate styles
 	3. None
-		- "Don't provide any template or style encapsulation." This means if a component contains another component, then the child component will inherit the parent component's style sheet; however, if the child component has already defined a style for a particular tag, it will **not** be overwritten by the parent component's style
+		- "Don't provide any template or style encapsulation." This means if a component contains another component, then each component's style sheets will bleed into the other component; however, if either component has already defined a style for a particular tag, it will **not** be overwritten by the parent component's style
 	4. Native (deprecated)
 		- Use ShadowDom instead
 
@@ -333,11 +333,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzg4NTQzNzUsLTkwOTQ5NDcwNyw4NT
-g1MzA0ODAsLTExOTYzOTk5NiwtNDg3OTk4NjA1LDc1OTMzOTcw
-MywtMTU1MTkyMTA3NSwtNDc2OTEwNzQ3LC0xMDcwNzEwOTMzLD
-ExNDczMDkyNzQsLTE5MDQyOTUwNTEsMTkzMzkxMjk3NCwtMTQ0
-NDAzMjEwLDgxNjIwMTE3OCwtODMyODk1MTgzLDE0MjE4OTYyOT
-AsODcxMjM0MjYyLC0yNDI3NzMxOTUsMjAxMTA2MTExMCwtMTI4
-ODUxMTA1MV19
+eyJoaXN0b3J5IjpbMTYwNjU1MDA5MSwtMTM3ODg1NDM3NSwtOT
+A5NDk0NzA3LDg1ODUzMDQ4MCwtMTE5NjM5OTk2LC00ODc5OTg2
+MDUsNzU5MzM5NzAzLC0xNTUxOTIxMDc1LC00NzY5MTA3NDcsLT
+EwNzA3MTA5MzMsMTE0NzMwOTI3NCwtMTkwNDI5NTA1MSwxOTMz
+OTEyOTc0LC0xNDQ0MDMyMTAsODE2MjAxMTc4LC04MzI4OTUxOD
+MsMTQyMTg5NjI5MCw4NzEyMzQyNjIsLTI0Mjc3MzE5NSwyMDEx
+MDYxMTEwXX0=
 -->
