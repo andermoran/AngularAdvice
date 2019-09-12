@@ -283,6 +283,7 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 		- "Don't provide any template or style encapsulation." This means if a component contains another component, then the child component will inherit the parent component's stylesheet; however, if the child component has already defined a style for a particular tag, it will **not** be overwritten by the parent component's style
 	4. Native (deprecated)
 		- Use ShadowDom instead
+		- 
 [Example](https://stackblitz.com/edit/angular-mwt3mm)
 - In the example above, try commenting and uncommenting lines 6, 7, and 8 in `app.component.ts`.  View the differences with each view encapsulation option.
 	1. Emulated
@@ -292,7 +293,7 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 				color: red;
 			}
 			```
-			Why is this? Because we have chosen the `Emulated` option, all of the styles are contained with their respective component. Since "Hello, my name is John Doe" is a part of the `Person` component and **not** the `App` component it does not respond because we have specified in `app.component.ts` that we want to encapsulate our view.
+			Why is this? Because we have chosen the `Emulated` option, all of the styles are contained with their respective component. Since "Hello, my name is John Doe" is a part of the `Person` component and **not** the `App` component it does not respond because we have specified in `app.component.ts` that we want to encapsulate our view via the line `encapsulation:  ViewEncapsulation.Emulated`
 	2. ShadowDom
 		- Uses Shadow DOM to encapsulate styles
 	3. None
@@ -315,7 +316,7 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTA5MDUwMSwtMTU1MTkyMTA3NSwtND
+eyJoaXN0b3J5IjpbMTI2MzI3MTA1NSwtMTU1MTkyMTA3NSwtND
 c2OTEwNzQ3LC0xMDcwNzEwOTMzLDExNDczMDkyNzQsLTE5MDQy
 OTUwNTEsMTkzMzkxMjk3NCwtMTQ0NDAzMjEwLDgxNjIwMTE3OC
 wtODMyODk1MTgzLDE0MjE4OTYyOTAsODcxMjM0MjYyLC0yNDI3
