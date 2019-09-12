@@ -295,7 +295,12 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 			```
 			Why is this? Because we have chosen the `Emulated` option, all of the styles are contained with their respective component. Since "Hello, my name is John Doe" is a part of the `Person` component and **not** the `App` component it does not respond because we have specified in `app.component.ts` that we want to encapsulate our view via the line `encapsulation:  ViewEncapsulation.Emulated`
 	2. ShadowDom
-		- Hon
+		- The difference between the results using `ShadowDom` and `None` is that you see the black box border around the elements that is specified in `app.component.css` with
+			 ```css
+			:host {
+				color: blue;
+			}
+			```
 	3. None
 		- "Hello, my name is John Doe" is now red because we decided **not** to encapsulate the `App` component styles. So the styles are applied to all the components that `App` uses is `app.component.html`. Since there is an `h1` style in `app.component.css`, it is passed to the `Person` component
 		- *But wait...* there is also
@@ -326,11 +331,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMjEwMjQxNywtMTE5NjM5OTk2LC00OD
-c5OTg2MDUsNzU5MzM5NzAzLC0xNTUxOTIxMDc1LC00NzY5MTA3
-NDcsLTEwNzA3MTA5MzMsMTE0NzMwOTI3NCwtMTkwNDI5NTA1MS
-wxOTMzOTEyOTc0LC0xNDQ0MDMyMTAsODE2MjAxMTc4LC04MzI4
-OTUxODMsMTQyMTg5NjI5MCw4NzEyMzQyNjIsLTI0Mjc3MzE5NS
-wyMDExMDYxMTEwLC0xMjg4NTExMDUxLDE2MDc1NDExMzEsLTE0
-MzIyNTI2NjNdfQ==
+eyJoaXN0b3J5IjpbODIzOTA2OSwtMTE5NjM5OTk2LC00ODc5OT
+g2MDUsNzU5MzM5NzAzLC0xNTUxOTIxMDc1LC00NzY5MTA3NDcs
+LTEwNzA3MTA5MzMsMTE0NzMwOTI3NCwtMTkwNDI5NTA1MSwxOT
+MzOTEyOTc0LC0xNDQ0MDMyMTAsODE2MjAxMTc4LC04MzI4OTUx
+ODMsMTQyMTg5NjI5MCw4NzEyMzQyNjIsLTI0Mjc3MzE5NSwyMD
+ExMDYxMTEwLC0xMjg4NTExMDUxLDE2MDc1NDExMzEsLTE0MzIy
+NTI2NjNdfQ==
 -->
