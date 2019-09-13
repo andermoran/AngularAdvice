@@ -290,7 +290,7 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 		- Notice how "Hello, my name is John Doe" (which is an `h1` tag) is black even though in `app.component.css` we see
 			```css
 			h1 {
-				color: red;
+			color: red;
 			}
 			```
 			Why is this? Because we have chosen the `Emulated` option, all of the styles are contained with their respective component. Since "Hello, my name is John Doe" is a part of the `Person` component and **not** the `App` component it does not respond because we have specified in `app.component.ts` that we want to encapsulate our view via the line `encapsulation: ViewEncapsulation.Emulated`
@@ -333,11 +333,11 @@ Think about how we binded to click earlier. Whenever the person clicks the child
 	```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU4MDIzNjg1LC0xNjkyMDQ4MDE1LC0xMz
-c4ODU0Mzc1LC05MDk0OTQ3MDcsODU4NTMwNDgwLC0xMTk2Mzk5
-OTYsLTQ4Nzk5ODYwNSw3NTkzMzk3MDMsLTE1NTE5MjEwNzUsLT
-Q3NjkxMDc0NywtMTA3MDcxMDkzMywxMTQ3MzA5Mjc0LC0xOTA0
-Mjk1MDUxLDE5MzM5MTI5NzQsLTE0NDQwMzIxMCw4MTYyMDExNz
-gsLTgzMjg5NTE4MywxNDIxODk2MjkwLDg3MTIzNDI2MiwtMjQy
-NzczMTk1XX0=
+eyJoaXN0b3J5IjpbMTY3OTA0MDA5Myw1NTgwMjM2ODUsLTE2OT
+IwNDgwMTUsLTEzNzg4NTQzNzUsLTkwOTQ5NDcwNyw4NTg1MzA0
+ODAsLTExOTYzOTk5NiwtNDg3OTk4NjA1LDc1OTMzOTcwMywtMT
+U1MTkyMTA3NSwtNDc2OTEwNzQ3LC0xMDcwNzEwOTMzLDExNDcz
+MDkyNzQsLTE5MDQyOTUwNTEsMTkzMzkxMjk3NCwtMTQ0NDAzMj
+EwLDgxNjIwMTE3OCwtODMyODk1MTgzLDE0MjE4OTYyOTAsODcx
+MjM0MjYyXX0=
 -->
